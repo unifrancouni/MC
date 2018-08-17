@@ -1,0 +1,3384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{79C50016-2C3C-4488-ADB2-4AF06AC86B26}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SMUSURA0.My.MyApplication</StartupObject>
+    <RootNamespace>SMUSURA0</RootNamespace>
+    <AssemblyName>SMUSURA0</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>\\ucero-svn\smusura0\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://ucero-svn/SMUSURA0/</InstallUrl>
+    <TargetCulture>es-NI</TargetCulture>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>index.html</WebPage>
+    <ApplicationRevision>14</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SMUSURA0.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SMUSURA0.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>96FFBF4D5DB23A873B211E63562DE1A8F37DC5F9</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>SMUSURA0_ClaveTemporal.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icono.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="ActiveReports.HtmlExport, Version=5.2.1.516, Culture=neutral, PublicKeyToken=cc4967777c49a3ff" />
+    <Reference Include="ActiveReports.PdfExport, Version=5.2.1.516, Culture=neutral, PublicKeyToken=cc4967777c49a3ff" />
+    <Reference Include="ActiveReports.RtfExport, Version=5.2.1.516, Culture=neutral, PublicKeyToken=cc4967777c49a3ff" />
+    <Reference Include="ActiveReports.Viewer3, Version=5.2.1.516, Culture=neutral, PublicKeyToken=cc4967777c49a3ff" />
+    <Reference Include="ActiveReports.XlsExport, Version=5.2.1.516, Culture=neutral, PublicKeyToken=cc4967777c49a3ff" />
+    <Reference Include="ActiveReports3, Version=5.2.1.516, Culture=neutral, PublicKeyToken=cc4967777c49a3ff" />
+    <Reference Include="BOSistema, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\BOSistema.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Command.2, Version=2.0.20061.15060, Culture=neutral, PublicKeyToken=e808566f358766d8, processorArchitecture=MSIL" />
+    <Reference Include="C1.Win.C1Input.2, Version=2.0.20061.30139, Culture=neutral, PublicKeyToken=7e7ff60f0c214f9a, processorArchitecture=MSIL" />
+    <Reference Include="C1.Win.C1List.2, Version=2.1.20061.92, Culture=neutral, PublicKeyToken=6b24f8f981dbd7bc, processorArchitecture=MSIL" />
+    <Reference Include="C1.Win.C1Sizer.2, Version=2.1.20061.14, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL" />
+    <Reference Include="C1.Win.C1TrueDBGrid.2, Version=2.0.20061.51219, Culture=neutral, PublicKeyToken=75ae3fb0e2b1e0da, processorArchitecture=MSIL" />
+    <Reference Include="ChilkatDotNet2, Version=8.4.0.0, Culture=neutral, PublicKeyToken=eb5fc1fc52ef09bd, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\ChilkatDotNet2.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=12.0.1100.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Windows\assembly\GAC_MSIL\CrystalDecisions.CrystalReports.Engine\12.0.2000.0__692fbea5521e1304\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Data.AdoDotNetInterop, Version=12.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Windows\assembly\GAC_MSIL\CrystalDecisions.Data.AdoDotNetInterop\12.0.2000.0__692fbea5521e1304\CrystalDecisions.Data.AdoDotNetInterop.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=12.0.1100.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>..\Windows\assembly\GAC\CrystalDecisions.Enterprise.Framework\12.0.1100.0__692fbea5521e1304\CrystalDecisions.Enterprise.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=12.0.1100.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>..\Windows\assembly\GAC\CrystalDecisions.Enterprise.InfoStore\12.0.1100.0__692fbea5521e1304\CrystalDecisions.Enterprise.InfoStore.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=12.0.1100.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Windows\assembly\GAC_MSIL\CrystalDecisions.ReportSource\12.0.2000.0__692fbea5521e1304\CrystalDecisions.ReportSource.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=12.0.1100.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Windows\assembly\GAC_MSIL\CrystalDecisions.Shared\12.0.2000.0__692fbea5521e1304\CrystalDecisions.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=12.0.1100.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Windows\assembly\GAC_MSIL\CrystalDecisions.Windows.Forms\12.0.2000.0__692fbea5521e1304\CrystalDecisions.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalLibrary, Version=1.0.2873.15046, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\CrystalLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="DSSistema, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DSSistema.dll</HintPath>
+    </Reference>
+    <Reference Include="DundasWinMap, Version=1.1.1.100, Culture=neutral, PublicKeyToken=3a0b4617247ab7db">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\DundasWinMap.dll</HintPath>
+    </Reference>
+    <Reference Include="GUI, Version=1.0.2572.23920, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\GUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics.Shared.v3, Version=3.0.20033.16, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
+    <Reference Include="Infragistics.Win.Misc.v3, Version=3.0.20033.16, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
+    <Reference Include="Infragistics.Win.UltraWinListBar.v3, Version=3.0.20033.16, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
+    <Reference Include="Infragistics.Win.v3, Version=3.0.20033.16, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
+    <Reference Include="Maps.Library.Dundas, Version=1.0.3211.30965, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\Maps.Library.Dundas.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Debug\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.10.0.3\lib\net40\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="OFFICE, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\OFFICE.DLL</HintPath>
+    </Reference>
+    <Reference Include="SEA, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\SEA.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Ticket, Version=1.0.3048.21897, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\Ticket.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CatalogoBasico\frmStbDatoComplementoRechazo.designer.vb">
+      <DependentUpon>frmStbDatoComplementoRechazo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbDatoComplementoRechazo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbCargo.designer.vb">
+      <DependentUpon>frmStbCargo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbCargo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbDelegacion.designer.vb">
+      <DependentUpon>frmStbDelegacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbDelegacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbEditCargo.designer.vb">
+      <DependentUpon>frmStbEditCargo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbEditCargo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbEditDelegacion.designer.vb">
+      <DependentUpon>frmStbEditDelegacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbEditDelegacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbEditParametro.designer.vb">
+      <DependentUpon>frmStbEditParametro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbEditParametro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbEditProfesion.designer.vb">
+      <DependentUpon>frmStbEditProfesion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbEditProfesion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbEditReporte.designer.vb">
+      <DependentUpon>frmStbEditReporte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbEditReporte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbEditTipoMoneda.designer.vb">
+      <DependentUpon>frmStbEditTipoMoneda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbEditTipoMoneda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbFirmaEmpleado.designer.vb">
+      <DependentUpon>frmStbFirmaEmpleado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbFirmaEmpleado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbParametro.designer.vb">
+      <DependentUpon>frmStbParametro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbParametro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbParametroListadoRpt.Designer.vb">
+      <DependentUpon>frmStbParametroListadoRpt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbParametroListadoRpt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbParametroPersona.Designer.vb">
+      <DependentUpon>frmStbParametroPersona.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbParametroPersona.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbParametroTasaCambio.designer.vb">
+      <DependentUpon>frmStbParametroTasaCambio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbParametroTasaCambio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbEditMercado.designer.vb">
+      <DependentUpon>frmStbEditMercado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbEditMercado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbMercado.designer.vb">
+      <DependentUpon>frmStbMercado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbMercado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbParametroDistrito.designer.vb">
+      <DependentUpon>frmStbParametroDistrito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbParametroDistrito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbEditDistrito.designer.vb">
+      <DependentUpon>frmStbEditDistrito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbEditDistrito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbDistrito.designer.vb">
+      <DependentUpon>frmStbDistrito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbDistrito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbParamCatalogoValor.designer.vb">
+      <DependentUpon>frmStbParamCatalogoValor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbParamCatalogoValor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbParametroDepto.designer.vb">
+      <DependentUpon>frmStbParametroDepto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbParametroDepto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbPersona.designer.vb">
+      <DependentUpon>frmStbPersona.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbPersona.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbEditPersona.designer.vb">
+      <DependentUpon>frmStbEditPersona.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbEditPersona.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbProfesion.designer.vb">
+      <DependentUpon>frmStbProfesion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbProfesion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbReporte.designer.vb">
+      <DependentUpon>frmStbReporte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbReporte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\Reportes\rptStbCargo.designer.vb">
+      <DependentUpon>rptStbCargo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\Reportes\rptStbCargo.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\Reportes\rptStbProfesion.designer.vb">
+      <DependentUpon>rptStbProfesion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\Reportes\rptStbProfesion.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnBusquedaComprobantes.designer.vb">
+      <DependentUpon>frmScnBusquedaComprobantes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnBusquedaComprobantes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnObservacionesConsolidado.Designer.vb">
+      <DependentUpon>frmScnObservacionesConsolidado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnObservacionesConsolidado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnParametroEstadosFinancieros.designer.vb">
+      <DependentUpon>frmScnParametroEstadosFinancieros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnParametroEstadosFinancieros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\FrmScnParametrosListadoCheques.Designer.vb">
+      <DependentUpon>FrmScnParametrosListadoCheques.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\FrmScnParametrosListadoCheques.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnParametrosMinutas.Designer.vb">
+      <DependentUpon>frmScnParametrosMinutas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnParametrosMinutas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnParametrosReporteCDR.Designer.vb">
+      <DependentUpon>frmScnParametrosReporteCDR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnParametrosReporteCDR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\FrmSccCargaAplicar.Designer.vb">
+      <DependentUpon>FrmSccCargaAplicar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\FrmSccCargaAplicar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccCierreCredito.designer.vb">
+      <DependentUpon>frmSccCierreCredito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccCierreCredito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccEditSolicitudCheque_Fecha.designer.vb">
+      <DependentUpon>frmSccEditSolicitudCheque_Fecha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccEditSolicitudCheque_Fecha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccParametrosReporteCierres.Designer.vb">
+      <DependentUpon>frmSccParametrosReporteCierres.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccParametrosReporteCierres.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccInformesBancor.Designer.vb">
+      <DependentUpon>frmSccInformesBancor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccInformesBancor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccMetaCumplidaSocia.designer.vb">
+      <DependentUpon>frmSccMetaCumplidaSocia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccMetaCumplidaSocia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccParametroClasificacionCarteraSIBOIF.designer.vb">
+      <DependentUpon>frmSccParametroClasificacionCarteraSIBOIF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccParametroClasificacionCarteraSIBOIF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccParametroFichasPorSesion.designer.vb">
+      <DependentUpon>frmSccParametroFichasPorSesion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccParametroFichasPorSesion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccParametrosGSMetaProsperidad.Designer.vb">
+      <DependentUpon>frmSccParametrosGSMetaProsperidad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccParametrosGSMetaProsperidad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\FrmSccParametrosSaldoSaneamiento.designer.vb">
+      <DependentUpon>FrmSccParametrosSaldoSaneamiento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\FrmSccParametrosSaldoSaneamiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccReImpresionRecibos.designer.vb">
+      <DependentUpon>frmSccReImpresionRecibos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccReImpresionRecibos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccRempresionReciboOficialAutomatico.designer.vb">
+      <DependentUpon>frmSccRempresionReciboOficialAutomatico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccRempresionReciboOficialAutomatico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\FrmSccReporteRecibosManual.Designer.vb">
+      <DependentUpon>FrmSccReporteRecibosManual.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\FrmSccReporteRecibosManual.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccArregloPago.designer.vb">
+      <DependentUpon>frmSccArregloPago.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccArregloPago.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccBusquedaFichasDetalles.Designer.vb">
+      <DependentUpon>frmSccBusquedaFichasDetalles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccBusquedaFichasDetalles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccBusquedaNotasDebitoCredito.Designer.vb">
+      <DependentUpon>frmSccBusquedaNotasDebitoCredito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccBusquedaNotasDebitoCredito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccEditArregloPago.designer.vb">
+      <DependentUpon>frmSccEditArregloPago.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccEditArregloPago.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccEditArregloPagoCuotasAbonos.designer.vb">
+      <DependentUpon>frmSccEditArregloPagoCuotasAbonos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccEditArregloPagoCuotasAbonos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccEditCancelacionAnticipadaAutomatica.designer.vb">
+      <DependentUpon>frmSccEditCancelacionAnticipadaAutomatica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccEditCancelacionAnticipadaAutomatica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccEditCancelacionAnticipadaManual.designer.vb">
+      <DependentUpon>frmSccEditCancelacionAnticipadaManual.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccEditCancelacionAnticipadaManual.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccCancelacionAnticipadaAutomatica.designer.vb">
+      <DependentUpon>frmSccCancelacionAnticipadaAutomatica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccCancelacionAnticipadaAutomatica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccCancelacionAnticipadaManual.designer.vb">
+      <DependentUpon>frmSccCancelacionAnticipadaManual.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccCancelacionAnticipadaManual.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\FrmSccEditNotaDebitoCredito.Designer.vb">
+      <DependentUpon>FrmSccEditNotaDebitoCredito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\FrmSccEditNotaDebitoCredito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccEditReciboCajaManualAdicional.designer.vb">
+      <DependentUpon>frmSccEditReciboCajaManualAdicional.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccEditReciboCajaManualAdicional.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\FrmSccNotaDebitoCredito.Designer.vb">
+      <DependentUpon>FrmSccNotaDebitoCredito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\FrmSccNotaDebitoCredito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\FrmSccParametroNotaCredito.Designer.vb">
+      <DependentUpon>FrmSccParametroNotaCredito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\FrmSccParametroNotaCredito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccReciboCajaCancelado.designer.vb">
+      <DependentUpon>frmSccReciboCajaCancelado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccReciboCajaCancelado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccReportesDirectoAImpresora.designer.vb">
+      <DependentUpon>frmSccReportesDirectoAImpresora.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccReportesDirectoAImpresora.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSclEditFichaUnicaPersona.Designer.vb">
+      <DependentUpon>frmSclEditFichaUnicaPersona.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSclEditFichaUnicaPersona.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\FrmStbEditBarrioTrasladoCredito.Designer.vb">
+      <DependentUpon>FrmStbEditBarrioTrasladoCredito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\FrmStbEditBarrioTrasladoCredito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\Reporte\frmSclEditSupervision.Designer.vb">
+      <DependentUpon>frmSclEditSupervision.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\Reporte\frmSclEditSupervision.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\Reporte\frmSclMotivoAnulacionSupervision.Designer.vb">
+      <DependentUpon>frmSclMotivoAnulacionSupervision.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\Reporte\frmSclMotivoAnulacionSupervision.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\Reporte\frmSclSupervision.designer.vb">
+      <DependentUpon>frmSclSupervision.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\Reporte\frmSclSupervision.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditFamiliarPersona.designer.vb">
+      <DependentUpon>frmSclEditFamiliarPersona.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditFamiliarPersona.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditFichaVerificacionNueva.designer.vb">
+      <DependentUpon>frmSclEditFichaVerificacionNueva.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditFichaVerificacionNueva.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditFichaVerificacionNuevaEditNuecleoFamiliar.Designer.vb">
+      <DependentUpon>frmSclEditFichaVerificacionNuevaEditNuecleoFamiliar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditFichaVerificacionNuevaEditNuecleoFamiliar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditModuloCursoSocia.Designer.vb">
+      <DependentUpon>frmSclEditModuloCursoSocia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditModuloCursoSocia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditPromocion.Designer.vb">
+      <DependentUpon>frmSclEditPromocion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditPromocion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditReferenciaFiador.designer.vb">
+      <DependentUpon>frmSclEditReferenciaFiador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditReferenciaFiador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditFichaUnica.Designer.vb">
+      <DependentUpon>frmSclEditFichaUnica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditFichaUnica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditGarantiaPrendaria.designer.vb">
+      <DependentUpon>frmSclEditGarantiaPrendaria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditGarantiaPrendaria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditGarantiaFiduciaria.designer.vb">
+      <DependentUpon>frmSclEditGarantiaFiduciaria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditGarantiaFiduciaria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclActividadEconomica.designer.vb">
+      <DependentUpon>frmSclActividadEconomica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclActividadEconomica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclBusquedaFichasSeguimiento.designer.vb">
+      <DependentUpon>frmSclBusquedaFichasSeguimiento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclBusquedaFichasSeguimiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditActividadEconomica.designer.vb">
+      <DependentUpon>frmSclEditActividadEconomica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditActividadEconomica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditFichaSeguimiento.designer.vb">
+      <DependentUpon>frmSclEditFichaSeguimiento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditFichaSeguimiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditInformacionFinanciera.Designer.vb">
+      <DependentUpon>frmSclEditInformacionFinanciera.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditInformacionFinanciera.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditMantenimientoFiador.Designer.vb">
+      <DependentUpon>frmSclEditMantenimientoFiador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditMantenimientoFiador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditReferenciaBancaria.Designer.vb">
+      <DependentUpon>frmSclEditReferenciaBancaria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditReferenciaBancaria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditReferenciaComercial.Designer.vb">
+      <DependentUpon>frmSclEditReferenciaComercial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditReferenciaComercial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditReferenciaPersonal.Designer.vb">
+      <DependentUpon>frmSclEditReferenciaPersonal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditReferenciaPersonal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditSociaCedula.designer.vb">
+      <DependentUpon>frmSclEditSociaCedula.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditSociaCedula.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditSociaConyuge.designer.vb">
+      <DependentUpon>frmSclEditSociaConyuge.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditSociaConyuge.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditSociaCreacionGS.designer.vb">
+      <DependentUpon>frmSclEditSociaCreacionGS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditSociaCreacionGS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclFichaSeguimiento.designer.vb">
+      <DependentUpon>frmSclFichaSeguimiento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclFichaSeguimiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclMetaProsperidadCreditoSocia.designer.vb">
+      <DependentUpon>frmSclMetaProsperidadCreditoSocia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclMetaProsperidadCreditoSocia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclParametrosFichasKioscos.Designer.vb">
+      <DependentUpon>frmSclParametrosFichasKioscos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclParametrosFichasKioscos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclParametrosReportesSociasDenegadasUbicacion.designer.vb">
+      <DependentUpon>frmSclParametrosReportesSociasDenegadasUbicacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclParametrosReportesSociasDenegadasUbicacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclParametrosReportesSociaUbicacion.designer.vb">
+      <DependentUpon>frmSclParametrosReportesSociaUbicacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclParametrosReportesSociaUbicacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\FrmSclParametrosSociasFCL.designer.vb">
+      <DependentUpon>FrmSclParametrosSociasFCL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\FrmSclParametrosSociasFCL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclPromocion.Designer.vb">
+      <DependentUpon>frmSclPromocion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclPromocion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclReptFichaVerificacion.designer.vb">
+      <DependentUpon>frmSclReptFichaVerificacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclReptFichaVerificacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclSeguimientoVisitaDetalle.Designer.vb">
+      <DependentUpon>frmSclSeguimientoVisitaDetalle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclSeguimientoVisitaDetalle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclSeguimientoVisitas.Designer.vb">
+      <DependentUpon>frmSclSeguimientoVisitas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclSeguimientoVisitas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclSeguimientoVisitasParametros.Designer.vb">
+      <DependentUpon>frmSclSeguimientoVisitasParametros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclSeguimientoVisitasParametros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclSeleccionaActividadEconomica.designer.vb">
+      <DependentUpon>frmSclSeleccionaActividadEconomica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclSeleccionaActividadEconomica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\rptSclFichaNotificacionCredito_Ventana.designer.vb">
+      <DependentUpon>rptSclFichaNotificacionCredito_Ventana.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\rptSclFichaNotificacionCredito_Ventana.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\rptEncabezadoV_PD.designer.vb">
+      <DependentUpon>rptEncabezadoV_PD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\rptEncabezadoV_PD.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\rptSclFichaNotificacionCredito_FCL.designer.vb">
+      <DependentUpon>rptSclFichaNotificacionCredito_FCL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\rptSclFichaNotificacionCredito_FCL.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\rptSclReporteComiteCredito.designer.vb">
+      <DependentUpon>rptSclReporteComiteCredito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\rptSclReporteComiteCredito.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Generales\frmCRVisorReporte2.Designer.vb">
+      <DependentUpon>frmCRVisorReporte2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Generales\frmCRVisorReporte2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Generales\ReportesAImpresora.vb" />
+    <Compile Include="Generales\rptEncabezadoV_FCL.designer.vb">
+      <DependentUpon>rptEncabezadoV_FCL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Generales\rptEncabezadoV_FCL.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Seguridad\FrmSsgConsulta.designer.vb">
+      <DependentUpon>FrmSsgConsulta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\FrmSsgConsulta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\FrmSsgReporteAuditoria.designer.vb">
+      <DependentUpon>FrmSsgReporteAuditoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\FrmSsgReporteAuditoria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSrhEditProveedorTransaccionParametro.Designer.vb">
+      <DependentUpon>frmSrhEditProveedorTransaccionParametro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSrhEditProveedorTransaccionParametro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSrhProveedorTransaccionParametro.designer.vb">
+      <DependentUpon>frmSrhProveedorTransaccionParametro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSrhProveedorTransaccionParametro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteChequesAnulados.designer.vb">
+      <DependentUpon>frmSteChequesAnulados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteChequesAnulados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteCierreTrasladoValores.designer.vb">
+      <DependentUpon>frmSteCierreTrasladoValores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteCierreTrasladoValores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditArqueoEfectivo.designer.vb">
+      <DependentUpon>frmSteEditArqueoEfectivo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditArqueoEfectivo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditChequeAnulado.designer.vb">
+      <DependentUpon>frmSteEditChequeAnulado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditChequeAnulado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditImpresionChequesPorGrupo.Designer.vb">
+      <DependentUpon>frmSteEditImpresionChequesPorGrupo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditImpresionChequesPorGrupo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditMinutaBancoEnLinea.designer.vb">
+      <DependentUpon>frmSteEditMinutaBancoEnLinea.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditMinutaBancoEnLinea.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditMinutaDepositoDetalle.Designer.vb">
+      <DependentUpon>frmSteEditMinutaDepositoDetalle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditMinutaDepositoDetalle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditReciboExtraviado.Designer.vb">
+      <DependentUpon>frmSteEditReciboExtraviado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditReciboExtraviado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditReciboPagare.designer.vb">
+      <DependentUpon>frmSteEditReciboPagare.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditReciboPagare.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccBusquedaSolicitudesCheque.designer.vb">
+      <DependentUpon>frmSccBusquedaSolicitudesCheque.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccBusquedaSolicitudesCheque.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\FrmSccCarga.designer.vb">
+      <DependentUpon>FrmSccCarga.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\FrmSccCarga.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccCierreCaja.designer.vb">
+      <DependentUpon>frmSccCierreCaja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccCierreCaja.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\FrmSccDescarga.designer.vb">
+      <DependentUpon>FrmSccDescarga.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\FrmSccDescarga.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\FrmSccDescargaPorFuente.designer.vb">
+      <DependentUpon>FrmSccDescargaPorFuente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\FrmSccDescargaPorFuente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccEditEstadisticasINIDE.Designer.vb">
+      <DependentUpon>frmSccEditEstadisticasINIDE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccEditEstadisticasINIDE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccEditMetasPrograma.designer.vb">
+      <DependentUpon>frmSccEditMetasPrograma.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccEditMetasPrograma.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccEditReciboCajaAutomatico.designer.vb">
+      <DependentUpon>frmSccEditReciboCajaAutomatico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccEditReciboCajaAutomatico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccEditReciboCajaManual.designer.vb">
+      <DependentUpon>frmSccEditReciboCajaManual.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccEditReciboCajaManual.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccEditReestructuracionDeuda.designer.vb">
+      <DependentUpon>frmSccEditReestructuracionDeuda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccEditReestructuracionDeuda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccEstadisticasINIDE.Designer.vb">
+      <DependentUpon>frmSccEstadisticasINIDE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccEstadisticasINIDE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccMetasPrograma.designer.vb">
+      <DependentUpon>frmSccMetasPrograma.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccMetasPrograma.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccParametroEC.designer.vb">
+      <DependentUpon>frmSccParametroEC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccParametroEC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\FrmSccParametrosAvanceCartera.designer.vb">
+      <DependentUpon>FrmSccParametrosAvanceCartera.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\FrmSccParametrosAvanceCartera.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\FrmSccParametrosCreditosSocia.Designer.vb">
+      <DependentUpon>FrmSccParametrosCreditosSocia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\FrmSccParametrosCreditosSocia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccParametrosIndicadores.designer.vb">
+      <DependentUpon>frmSccParametrosIndicadores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccParametrosIndicadores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccParametrosMetasPrograma.Designer.vb">
+      <DependentUpon>frmSccParametrosMetasPrograma.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccParametrosMetasPrograma.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\FrmSccParametrosRecibosPorNumero.Designer.vb">
+      <DependentUpon>FrmSccParametrosRecibosPorNumero.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\FrmSccParametrosRecibosPorNumero.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccReciboCajaAutomatico.designer.vb">
+      <DependentUpon>frmSccReciboCajaAutomatico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccReciboCajaAutomatico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccReestructuracionDeuda.designer.vb">
+      <DependentUpon>frmSccReestructuracionDeuda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccReestructuracionDeuda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\FrmScnParametroListadoCreditosMercados.designer.vb">
+      <DependentUpon>FrmScnParametroListadoCreditosMercados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\FrmScnParametroListadoCreditosMercados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\Reporte\rptSccEstadoCuentaResumen.designer.vb">
+      <DependentUpon>rptSccEstadoCuentaResumen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\Reporte\rptSccEstadoCuentaResumen.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclBusquedaFichas.designer.vb">
+      <DependentUpon>frmSclBusquedaFichas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclBusquedaFichas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclBusquedaGrupos.designer.vb">
+      <DependentUpon>frmSclBusquedaGrupos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclBusquedaGrupos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclBusquedaSocias.designer.vb">
+      <DependentUpon>frmSclBusquedaSocias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclBusquedaSocias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditCedula.designer.vb">
+      <DependentUpon>frmSclEditCedula.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditCedula.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditFormatoPromocion.designer.vb">
+      <DependentUpon>frmSclEditFormatoPromocion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditFormatoPromocion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditReferenciaSocia.designer.vb">
+      <DependentUpon>frmSclEditReferenciaSocia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditReferenciaSocia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclFormatoPromocionCapacitacion.designer.vb">
+      <DependentUpon>frmSclFormatoPromocionCapacitacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclFormatoPromocionCapacitacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclParametrosPromocion.designer.vb">
+      <DependentUpon>frmSclParametrosPromocion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclParametrosPromocion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\Reporte\frmSclReferenciaSocia.designer.vb">
+      <DependentUpon>frmSclReferenciaSocia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\Reporte\frmSclReferenciaSocia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclTrasladosDelegacionSocia.designer.vb">
+      <DependentUpon>frmSclTrasladosDelegacionSocia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclTrasladosDelegacionSocia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclTrasladosLugarDePagos.designer.vb">
+      <DependentUpon>frmSclTrasladosLugarDePagos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclTrasladosLugarDePagos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\FrmMDITesoreria.designer.vb">
+      <DependentUpon>FrmMDITesoreria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\FrmMDITesoreria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\FrmMDIContabilidad.designer.vb">
+      <DependentUpon>FrmMDIContabilidad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\FrmMDIContabilidad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnCatalogoContable.designer.vb">
+      <DependentUpon>frmScnCatalogoContable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnCatalogoContable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnComprobantesCheque.designer.vb">
+      <DependentUpon>frmScnComprobantesCheque.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnComprobantesCheque.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnComprobantesDiario.designer.vb">
+      <DependentUpon>frmScnComprobantesDiario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnComprobantesDiario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnEditCatalogoContable.designer.vb">
+      <DependentUpon>frmScnEditCatalogoContable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnEditCatalogoContable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnEditCheque.designer.vb">
+      <DependentUpon>frmScnEditCheque.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnEditCheque.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnEditCodificacion.designer.vb">
+      <DependentUpon>frmScnEditCodificacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnEditCodificacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnEditComprobante.designer.vb">
+      <DependentUpon>frmScnEditComprobante.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnEditComprobante.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnEditEstructuraContable.designer.vb">
+      <DependentUpon>frmScnEditEstructuraContable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnEditEstructuraContable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnEditFuenteF.designer.vb">
+      <DependentUpon>frmScnEditFuenteF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnEditFuenteF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnEditParametrosContables.designer.vb">
+      <DependentUpon>frmScnEditParametrosContables.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnEditParametrosContables.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnEditReciboIngresoFondos.designer.vb">
+      <DependentUpon>frmScnEditReciboIngresoFondos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnEditReciboIngresoFondos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnEjerciciosContables.designer.vb">
+      <DependentUpon>frmScnEjerciciosContables.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnEjerciciosContables.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnEstructuraContable.designer.vb">
+      <DependentUpon>frmScnEstructuraContable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnEstructuraContable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnFuenteF.designer.vb">
+      <DependentUpon>frmScnFuenteF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnFuenteF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnParametroCatalogoContable.designer.vb">
+      <DependentUpon>frmScnParametroCatalogoContable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnParametroCatalogoContable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnParametroMovimientoContable.Designer.vb">
+      <DependentUpon>frmScnParametroMovimientoContable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnParametroMovimientoContable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnParametrosContables.designer.vb">
+      <DependentUpon>frmScnParametrosContables.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnParametrosContables.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnReciboIngresoFondos.designer.vb">
+      <DependentUpon>frmScnReciboIngresoFondos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\frmScnReciboIngresoFondos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\ModContabilidad.vb" />
+    <Compile Include="ControlCredito\FrmMDIControlCredito.designer.vb">
+      <DependentUpon>FrmMDIControlCredito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\FrmMDIControlCredito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccEditCierreCaja.designer.vb">
+      <DependentUpon>frmSccEditCierreCaja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccEditCierreCaja.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccEditCuentasSolicitudCheque.designer.vb">
+      <DependentUpon>frmSccEditCuentasSolicitudCheque.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccEditCuentasSolicitudCheque.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccEditDetalleCierre.designer.vb">
+      <DependentUpon>frmSccEditDetalleCierre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccEditDetalleCierre.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccEditDetalleRecibo.designer.vb">
+      <DependentUpon>frmSccEditDetalleRecibo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccEditDetalleRecibo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccEditSolicitudCheque.designer.vb">
+      <DependentUpon>frmSccEditSolicitudCheque.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccEditSolicitudCheque.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccParametroResumenCreditos.designer.vb">
+      <DependentUpon>frmSccParametroResumenCreditos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccParametroResumenCreditos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\FrmSccParametrosListadoRecibos.Designer.vb">
+      <DependentUpon>FrmSccParametrosListadoRecibos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\FrmSccParametrosListadoRecibos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccReciboCaja.designer.vb">
+      <DependentUpon>frmSccReciboCaja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccReciboCaja.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccSolicitudCheque.Designer.vb">
+      <DependentUpon>frmSccSolicitudCheque.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\frmSccSolicitudCheque.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlCredito\Reporte\rptSccSolicitudCheque.designer.vb">
+      <DependentUpon>rptSccSolicitudCheque.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlCredito\Reporte\rptSccSolicitudCheque.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclParametroGrupoPago.designer.vb">
+      <DependentUpon>frmSclParametroGrupoPago.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclParametroGrupoPago.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclParametrosListadoSocias.designer.vb">
+      <DependentUpon>frmSclParametrosListadoSocias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclParametrosListadoSocias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclSolicitudDesembolso.designer.vb">
+      <DependentUpon>frmSclSolicitudDesembolso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclSolicitudDesembolso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\rptSclLstGrupoPago.designer.vb">
+      <DependentUpon>rptSclLstGrupoPago.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\rptSclLstGrupoPago.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\rptSclSolicitudDesembolso.designer.vb">
+      <DependentUpon>rptSclSolicitudDesembolso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\rptSclSolicitudDesembolso.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\rptSclTablaAmortizacion.designer.vb">
+      <DependentUpon>rptSclTablaAmortizacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\rptSclTablaAmortizacion.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\Reportes\rptStbPersonaJuridica.designer.vb">
+      <DependentUpon>rptStbPersonaJuridica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\Reportes\rptStbPersonaJuridica.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\Reportes\rptStbPersonaNatural.designer.vb">
+      <DependentUpon>rptStbPersonaNatural.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\Reportes\rptStbPersonaNatural.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\rptSclFichaComiteCredito.designer.vb">
+      <DependentUpon>rptSclFichaComiteCredito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\rptSclFichaComiteCredito.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\rptSclFichaNotificacionCredito.designer.vb">
+      <DependentUpon>rptSclFichaNotificacionCredito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\rptSclFichaNotificacionCredito.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\rptSclLstGrupoSolidario.designer.vb">
+      <DependentUpon>rptSclLstGrupoSolidario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\rptSclLstGrupoSolidario.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\rptSclLstSocias.designer.vb">
+      <DependentUpon>rptSclLstSocias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\rptSclLstSocias.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\rptSclPagare.designer.vb">
+      <DependentUpon>rptSclPagare.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\rptSclPagare.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\srptSclCreditosDenegados.designer.vb">
+      <DependentUpon>srptSclCreditosDenegados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\srptSclCreditosDenegados.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\srptSclExpedienteSocia.designer.vb">
+      <DependentUpon>srptSclExpedienteSocia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\srptSclExpedienteSocia.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Generales\frmCRVisorReporte.designer.vb">
+      <DependentUpon>frmCRVisorReporte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Generales\frmCRVisorReporte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Reportes\rptSsgAcciones.designer.vb">
+      <DependentUpon>rptSsgAcciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Reportes\rptSsgAcciones.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\Reportes\rptStbTasaCambio.designer.vb">
+      <DependentUpon>rptStbTasaCambio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\Reportes\rptStbTasaCambio.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\Reportes\rptStbMercado.designer.vb">
+      <DependentUpon>rptStbMercado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\Reportes\rptStbMercado.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\Reportes\rptStbDistrito.designer.vb">
+      <DependentUpon>rptStbDistrito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\Reportes\rptStbDistrito.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\Reportes\rptStbMunicipio.designer.vb">
+      <DependentUpon>rptStbMunicipio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\Reportes\rptStbMunicipio.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\Reportes\rptStbDepartamento.designer.vb">
+      <DependentUpon>rptStbDepartamento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\Reportes\rptStbDepartamento.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\Reportes\rptStbCatCatalogoValor.designer.vb">
+      <DependentUpon>rptStbCatCatalogoValor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\Reportes\rptStbCatCatalogoValor.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\FrmMDIContabilidad.designer.vb">
+      <DependentUpon>FrmMDIContabilidad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\FrmMDIContabilidad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclFichaNotificacionCredito.designer.vb">
+      <DependentUpon>frmSclFichaNotificacionCredito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclFichaNotificacionCredito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclParametroFicha.designer.vb">
+      <DependentUpon>frmSclParametroFicha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclParametroFicha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbEditMunicipio.designer.vb">
+      <DependentUpon>frmStbEditMunicipio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbEditMunicipio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\Reportes\FrmMDICatalogoBasico.designer.vb">
+      <DependentUpon>FrmMDICatalogoBasico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\Reportes\FrmMDICatalogoBasico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbDepartamento.designer.vb">
+      <DependentUpon>frmStbDepartamento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbDepartamento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbEditDepartamento.designer.vb">
+      <DependentUpon>frmStbEditDepartamento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbEditDepartamento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbParametroBarrio.designer.vb">
+      <DependentUpon>frmStbParametroBarrio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbParametroBarrio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbCatalogo.designer.vb">
+      <DependentUpon>frmStbCatalogo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbCatalogo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbDatoComplemento.designer.vb">
+      <DependentUpon>frmStbDatoComplemento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbDatoComplemento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbEditCatalogo.designer.vb">
+      <DependentUpon>frmStbEditCatalogo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbEditCatalogo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbEditTasaCambio.designer.vb">
+      <DependentUpon>frmStbEditTasaCambio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbEditTasaCambio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbEditValorCatalogo.designer.vb">
+      <DependentUpon>frmStbEditValorCatalogo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbEditValorCatalogo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbTasaCambio.designer.vb">
+      <DependentUpon>frmStbTasaCambio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbTasaCambio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbTipoMoneda.designer.vb">
+      <DependentUpon>frmStbTipoMoneda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbTipoMoneda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbBarrio.designer.vb">
+      <DependentUpon>frmStbBarrio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbBarrio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbEditBarrio.designer.vb">
+      <DependentUpon>frmStbEditBarrio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbEditBarrio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbParametroMoneda.designer.vb">
+      <DependentUpon>frmStbParametroMoneda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\frmStbParametroMoneda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclCambioGrupoSolidario.Designer.vb">
+      <DependentUpon>frmSclCambioGrupoSolidario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclCambioGrupoSolidario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditCambioGS.designer.vb">
+      <DependentUpon>frmSclEditCambioGS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditCambioGS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclParametroFNC.designer.vb">
+      <DependentUpon>frmSclParametroFNC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclParametroFNC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\rptSclActaCompromiso.designer.vb">
+      <DependentUpon>rptSclActaCompromiso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\rptSclActaCompromiso.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\rptSclFichaVerificacion.designer.vb">
+      <DependentUpon>rptSclFichaVerificacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\rptSclFichaVerificacion.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\rptSclFichaInscripcion.designer.vb">
+      <DependentUpon>rptSclFichaInscripcion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\rptSclFichaInscripcion.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\Reportes\rptStbMoneda.designer.vb">
+      <DependentUpon>rptStbMoneda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\Reportes\rptStbMoneda.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditFichaVerificacion.designer.vb">
+      <DependentUpon>frmSclEditFichaVerificacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditFichaVerificacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditGS.designer.vb">
+      <DependentUpon>frmSclEditGS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditGS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditSocia.designer.vb">
+      <DependentUpon>frmSclEditSocia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditSocia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditSociaGS.designer.vb">
+      <DependentUpon>frmSclEditSociaGS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditSociaGS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclFichaVerificacion.designer.vb">
+      <DependentUpon>frmSclFichaVerificacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclFichaVerificacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditReferencia.designer.vb">
+      <DependentUpon>frmSclEditReferencia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditReferencia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\FrmMDIControlSocias.designer.vb">
+      <DependentUpon>FrmMDIControlSocias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\FrmMDIControlSocias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclFichaInscripcion.designer.vb">
+      <DependentUpon>frmSclFichaInscripcion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclFichaInscripcion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditFichaInscripcion.designer.vb">
+      <DependentUpon>frmSclEditFichaInscripcion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditFichaInscripcion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditOtroCredito.designer.vb">
+      <DependentUpon>frmSclEditOtroCredito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclEditOtroCredito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclGrupoSolidario.designer.vb">
+      <DependentUpon>frmSclGrupoSolidario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclGrupoSolidario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclSocia.designer.vb">
+      <DependentUpon>frmSclSocia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\frmSclSocia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoBasico\Reportes\rptStbBarrio.designer.vb">
+      <DependentUpon>rptStbBarrio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogoBasico\Reportes\rptStbBarrio.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\srptSclSociasGrupo.designer.vb">
+      <DependentUpon>srptSclSociasGrupo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSocias\Reportes\srptSclSociasGrupo.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Error\frmError.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Error\ModError.vb" />
+    <Compile Include="Manuales\FrmManuales.designer.vb">
+      <DependentUpon>FrmManuales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Manuales\FrmManuales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manuales\FrmPrinManuales.designer.vb">
+      <DependentUpon>FrmPrinManuales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Manuales\FrmPrinManuales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Principal\FrmLogin.designer.vb">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\FrmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\FrmPrincipal.designer.vb">
+      <DependentUpon>FrmPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\FrmPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Generales\frmVisorReporte.designer.vb">
+      <DependentUpon>frmVisorReporte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Generales\frmVisorReporte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Generales\ModSMUSURA0.vb" />
+    <Compile Include="Generales\rptEncabezadoV.designer.vb">
+      <DependentUpon>rptEncabezadoV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Generales\rptEncabezadoV.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Generales\rptEncabezadoH.designer.vb">
+      <DependentUpon>rptEncabezadoH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Generales\rptEncabezadoH.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Seguridad\FrmSsgEditAccion.designer.vb">
+      <DependentUpon>FrmSsgEditAccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\FrmSsgEditAccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\FrmSsgEditAplicacion.designer.vb">
+      <DependentUpon>FrmSsgEditAplicacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\FrmSsgEditAplicacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\FrmSsgEditCuenta.designer.vb">
+      <DependentUpon>FrmSsgEditCuenta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\FrmSsgEditCuenta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\FrmSsgEditModulo.designer.vb">
+      <DependentUpon>FrmSsgEditModulo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\FrmSsgEditModulo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\FrmSsgEditRol.designer.vb">
+      <DependentUpon>FrmSsgEditRol.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\FrmSsgEditRol.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\FrmSsgEditServUsuarios.designer.vb">
+      <DependentUpon>FrmSsgEditServUsuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\FrmSsgEditServUsuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\FrmSsgPrinSeguridad.designer.vb">
+      <DependentUpon>FrmSsgPrinSeguridad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\FrmSsgPrinSeguridad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\FrmSsgSeguridad.designer.vb">
+      <DependentUpon>FrmSsgSeguridad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\FrmSsgSeguridad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteArqueoCaja.designer.vb">
+      <DependentUpon>frmSteArqueoCaja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteArqueoCaja.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteCaja.designer.vb">
+      <DependentUpon>frmSteCaja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteCaja.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteCajeros.designer.vb">
+      <DependentUpon>frmSteCajeros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteCajeros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteCierreDiarioCaja.designer.vb">
+      <DependentUpon>frmSteCierreDiarioCaja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteCierreDiarioCaja.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteConciliacionBancaria.designer.vb">
+      <DependentUpon>frmSteConciliacionBancaria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteConciliacionBancaria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteCtaBancaria.designer.vb">
+      <DependentUpon>frmSteCtaBancaria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteCtaBancaria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteDenominaciones.designer.vb">
+      <DependentUpon>frmSteDenominaciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteDenominaciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditArqueoCaja.designer.vb">
+      <DependentUpon>frmSteEditArqueoCaja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditArqueoCaja.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditArqueoRecibo.designer.vb">
+      <DependentUpon>frmSteEditArqueoRecibo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditArqueoRecibo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditCaja.designer.vb">
+      <DependentUpon>frmSteEditCaja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditCaja.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditCajeros.designer.vb">
+      <DependentUpon>frmSteEditCajeros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditCajeros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditCierreDiarioCaja.designer.vb">
+      <DependentUpon>frmSteEditCierreDiarioCaja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditCierreDiarioCaja.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditCierreTrasladoValores.designer.vb">
+      <DependentUpon>frmSteEditCierreTrasladoValores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditCierreTrasladoValores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditConciliacion.designer.vb">
+      <DependentUpon>frmSteEditConciliacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditConciliacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditConciliacionCF.designer.vb">
+      <DependentUpon>frmSteEditConciliacionCF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditConciliacionCF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditConciliacionDocumentos.designer.vb">
+      <DependentUpon>frmSteEditConciliacionDocumentos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditConciliacionDocumentos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditConciliacionOperaciones.designer.vb">
+      <DependentUpon>frmSteEditConciliacionOperaciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditConciliacionOperaciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditCtaBancaria.designer.vb">
+      <DependentUpon>frmSteEditCtaBancaria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditCtaBancaria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditDenominaciones.designer.vb">
+      <DependentUpon>frmSteEditDenominaciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditDenominaciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditImpresionCheques.designer.vb">
+      <DependentUpon>frmSteEditImpresionCheques.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditImpresionCheques.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditMinutaDeposito.designer.vb">
+      <DependentUpon>frmSteEditMinutaDeposito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditMinutaDeposito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditReciboAnulado.designer.vb">
+      <DependentUpon>frmSteEditReciboAnulado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditReciboAnulado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditReciboEntregado.designer.vb">
+      <DependentUpon>frmSteEditReciboEntregado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditReciboEntregado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditReciboEntregadoDpto.designer.vb">
+      <DependentUpon>frmSteEditReciboEntregadoDpto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditReciboEntregadoDpto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditRendicionCheque.Designer.vb">
+      <DependentUpon>frmSteEditRendicionCheque.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditRendicionCheque.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditSolicitudCajaCHicaDetalle.designer.vb">
+      <DependentUpon>frmSteEditSolicitudCajaCHicaDetalle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditSolicitudCajaCHicaDetalle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditSolicitudProveedor.Designer.vb">
+      <DependentUpon>frmSteEditSolicitudProveedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEditSolicitudProveedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEstadoCuentaDiario.designer.vb">
+      <DependentUpon>frmSteEstadoCuentaDiario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteEstadoCuentaDiario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteImpresionCheques.designer.vb">
+      <DependentUpon>frmSteImpresionCheques.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteImpresionCheques.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteImpresionChequesPersonalizados.Designer.vb" />
+    <Compile Include="Tesoreria\frmSteImpresionChequesPersonalizados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteIncorporarArqueoRecibo.designer.vb">
+      <DependentUpon>frmSteIncorporarArqueoRecibo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteIncorporarArqueoRecibo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteMinutaBancoEnLinea.designer.vb">
+      <DependentUpon>frmSteMinutaBancoEnLinea.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteMinutaBancoEnLinea.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteMinutaDeposito.designer.vb">
+      <DependentUpon>frmSteMinutaDeposito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteMinutaDeposito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmStePagare.designer.vb">
+      <DependentUpon>frmStePagare.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmStePagare.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteParametrosCajeros.designer.vb">
+      <DependentUpon>frmSteParametrosCajeros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteParametrosCajeros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteParametrosPagare.designer.vb">
+      <DependentUpon>frmSteParametrosPagare.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteParametrosPagare.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteParametrosRecibosAnulados.designer.vb">
+      <DependentUpon>frmSteParametrosRecibosAnulados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteParametrosRecibosAnulados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteParametrosTesoreria.designer.vb">
+      <DependentUpon>frmSteParametrosTesoreria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteParametrosTesoreria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteRecibosAnulados.designer.vb">
+      <DependentUpon>frmSteRecibosAnulados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteRecibosAnulados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteRecibosEntregados.designer.vb">
+      <DependentUpon>frmSteRecibosEntregados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteRecibosEntregados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteRecibosEntregadosDpto.designer.vb">
+      <DependentUpon>frmSteRecibosEntregadosDpto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteRecibosEntregadosDpto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteRecibosExtraviados.Designer.vb">
+      <DependentUpon>frmSteRecibosExtraviados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteRecibosExtraviados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteRendicionCheque.designer.vb">
+      <DependentUpon>frmSteRendicionCheque.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteRendicionCheque.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteSolicitudCajaChicaDetalle.Designer.vb">
+      <DependentUpon>frmSteSolicitudCajaChicaDetalle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteSolicitudCajaChicaDetalle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteSolicitudProveedor.Designer.vb">
+      <DependentUpon>frmSteSolicitudProveedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tesoreria\frmSteSolicitudProveedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesoreria\MinutaDetalleDeposito.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CatalogoBasico\frmStbDatoComplementoRechazo.resx">
+      <DependentUpon>frmStbDatoComplementoRechazo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbCargo.resx">
+      <DependentUpon>frmStbCargo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbDelegacion.resx">
+      <DependentUpon>frmStbDelegacion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbEditCargo.resx">
+      <DependentUpon>frmStbEditCargo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbEditDelegacion.resx">
+      <DependentUpon>frmStbEditDelegacion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbEditParametro.resx">
+      <DependentUpon>frmStbEditParametro.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbEditProfesion.resx">
+      <DependentUpon>frmStbEditProfesion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbEditReporte.resx">
+      <DependentUpon>frmStbEditReporte.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbEditTipoMoneda.resx">
+      <DependentUpon>frmStbEditTipoMoneda.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbFirmaEmpleado.resx">
+      <DependentUpon>frmStbFirmaEmpleado.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbParametro.resx">
+      <DependentUpon>frmStbParametro.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbParametroListadoRpt.resx">
+      <DependentUpon>frmStbParametroListadoRpt.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbParametroPersona.resx">
+      <DependentUpon>frmStbParametroPersona.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbParametroTasaCambio.resx">
+      <DependentUpon>frmStbParametroTasaCambio.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbEditMercado.resx">
+      <DependentUpon>frmStbEditMercado.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbMercado.resx">
+      <DependentUpon>frmStbMercado.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbParametroDistrito.resx">
+      <DependentUpon>frmStbParametroDistrito.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbEditDistrito.resx">
+      <DependentUpon>frmStbEditDistrito.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbDistrito.resx">
+      <DependentUpon>frmStbDistrito.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbParamCatalogoValor.resx">
+      <DependentUpon>frmStbParamCatalogoValor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbParametroDepto.resx">
+      <DependentUpon>frmStbParametroDepto.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbPersona.resx">
+      <DependentUpon>frmStbPersona.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbEditPersona.resx">
+      <DependentUpon>frmStbEditPersona.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbProfesion.resx">
+      <DependentUpon>frmStbProfesion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbReporte.resx">
+      <DependentUpon>frmStbReporte.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\Reportes\rptStbCargo.resx">
+      <DependentUpon>rptStbCargo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\Reportes\rptStbProfesion.resx">
+      <DependentUpon>rptStbProfesion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\frmScnBusquedaComprobantes.resx">
+      <DependentUpon>frmScnBusquedaComprobantes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\frmScnObservacionesConsolidado.resx">
+      <DependentUpon>frmScnObservacionesConsolidado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\frmScnParametroEstadosFinancieros.resx">
+      <DependentUpon>frmScnParametroEstadosFinancieros.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\FrmScnParametrosListadoCheques.resx">
+      <DependentUpon>FrmScnParametrosListadoCheques.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\frmScnParametrosMinutas.resx">
+      <DependentUpon>frmScnParametrosMinutas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\frmScnParametrosReporteCDR.resx">
+      <DependentUpon>frmScnParametrosReporteCDR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccArregloPago.resx">
+      <DependentUpon>frmSccArregloPago.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccBusquedaFichasDetalles.resx">
+      <DependentUpon>frmSccBusquedaFichasDetalles.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccBusquedaNotasDebitoCredito.resx">
+      <DependentUpon>frmSccBusquedaNotasDebitoCredito.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\FrmSccCargaAplicar.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmSccCargaAplicar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccCierreCredito.resx">
+      <DependentUpon>frmSccCierreCredito.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccEditArregloPago.resx">
+      <DependentUpon>frmSccEditArregloPago.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccEditArregloPagoCuotasAbonos.resx">
+      <DependentUpon>frmSccEditArregloPagoCuotasAbonos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccEditCancelacionAnticipadaAutomatica.resx">
+      <DependentUpon>frmSccEditCancelacionAnticipadaAutomatica.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccEditCancelacionAnticipadaManual.resx">
+      <DependentUpon>frmSccEditCancelacionAnticipadaManual.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccCancelacionAnticipadaAutomatica.resx">
+      <DependentUpon>frmSccCancelacionAnticipadaAutomatica.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccCancelacionAnticipadaManual.resx">
+      <DependentUpon>frmSccCancelacionAnticipadaManual.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\FrmSccEditNotaDebitoCredito.resx">
+      <DependentUpon>FrmSccEditNotaDebitoCredito.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccEditReciboCajaManualAdicional.resx">
+      <DependentUpon>frmSccEditReciboCajaManualAdicional.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccEditSolicitudCheque_Fecha.resx">
+      <DependentUpon>frmSccEditSolicitudCheque_Fecha.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccParametrosReporteCierres.resx">
+      <DependentUpon>frmSccParametrosReporteCierres.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccInformesBancor.resx">
+      <DependentUpon>frmSccInformesBancor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccMetaCumplidaSocia.resx">
+      <DependentUpon>frmSccMetaCumplidaSocia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\FrmSccNotaDebitoCredito.resx">
+      <DependentUpon>FrmSccNotaDebitoCredito.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccParametroClasificacionCarteraSIBOIF.resx">
+      <DependentUpon>frmSccParametroClasificacionCarteraSIBOIF.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccParametroFichasPorSesion.resx">
+      <DependentUpon>frmSccParametroFichasPorSesion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\FrmSccParametroNotaCredito.resx">
+      <DependentUpon>FrmSccParametroNotaCredito.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccParametrosGSMetaProsperidad.resx">
+      <DependentUpon>frmSccParametrosGSMetaProsperidad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\FrmSccParametrosSaldoSaneamiento.resx">
+      <DependentUpon>FrmSccParametrosSaldoSaneamiento.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccReciboCajaCancelado.resx">
+      <DependentUpon>frmSccReciboCajaCancelado.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccReImpresionRecibos.resx">
+      <DependentUpon>frmSccReImpresionRecibos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccRempresionReciboOficialAutomatico.resx">
+      <DependentUpon>frmSccRempresionReciboOficialAutomatico.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\FrmSccReporteRecibosManual.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmSccReporteRecibosManual.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccReportesDirectoAImpresora.resx">
+      <DependentUpon>frmSccReportesDirectoAImpresora.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSclEditFichaUnicaPersona.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSclEditFichaUnicaPersona.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\FrmStbEditBarrioTrasladoCredito.resx">
+      <DependentUpon>FrmStbEditBarrioTrasladoCredito.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\Reporte\frmSclEditSupervision.resx">
+      <DependentUpon>frmSclEditSupervision.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\Reporte\frmSclMotivoAnulacionSupervision.resx">
+      <DependentUpon>frmSclMotivoAnulacionSupervision.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\Reporte\frmSclSupervision.resx">
+      <DependentUpon>frmSclSupervision.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclEditFamiliarPersona.resx">
+      <DependentUpon>frmSclEditFamiliarPersona.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclEditFichaVerificacionNueva.resx">
+      <DependentUpon>frmSclEditFichaVerificacionNueva.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclEditFichaVerificacionNuevaEditNuecleoFamiliar.resx">
+      <DependentUpon>frmSclEditFichaVerificacionNuevaEditNuecleoFamiliar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclEditModuloCursoSocia.resx">
+      <DependentUpon>frmSclEditModuloCursoSocia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclEditPromocion.resx">
+      <DependentUpon>frmSclEditPromocion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclEditReferenciaFiador.resx">
+      <DependentUpon>frmSclEditReferenciaFiador.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclEditFichaUnica.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSclEditFichaUnica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclEditGarantiaPrendaria.resx">
+      <DependentUpon>frmSclEditGarantiaPrendaria.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclEditGarantiaFiduciaria.resx">
+      <DependentUpon>frmSclEditGarantiaFiduciaria.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclActividadEconomica.resx">
+      <DependentUpon>frmSclActividadEconomica.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclBusquedaFichasSeguimiento.resx">
+      <DependentUpon>frmSclBusquedaFichasSeguimiento.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclEditActividadEconomica.resx">
+      <DependentUpon>frmSclEditActividadEconomica.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclEditFichaSeguimiento.resx">
+      <DependentUpon>frmSclEditFichaSeguimiento.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclEditInformacionFinanciera.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSclEditInformacionFinanciera.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclEditMantenimientoFiador.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSclEditMantenimientoFiador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclEditReferenciaBancaria.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSclEditReferenciaBancaria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclEditReferenciaComercial.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSclEditReferenciaComercial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclEditReferenciaPersonal.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSclEditReferenciaPersonal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclEditSociaCedula.resx">
+      <DependentUpon>frmSclEditSociaCedula.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclEditSociaConyuge.resx">
+      <DependentUpon>frmSclEditSociaConyuge.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclEditSociaCreacionGS.resx">
+      <DependentUpon>frmSclEditSociaCreacionGS.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclFichaSeguimiento.resx">
+      <DependentUpon>frmSclFichaSeguimiento.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclMetaProsperidadCreditoSocia.resx">
+      <DependentUpon>frmSclMetaProsperidadCreditoSocia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclParametrosFichasKioscos.resx">
+      <DependentUpon>frmSclParametrosFichasKioscos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclParametrosReportesSociasDenegadasUbicacion.resx">
+      <DependentUpon>frmSclParametrosReportesSociasDenegadasUbicacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclParametrosReportesSociaUbicacion.resx">
+      <DependentUpon>frmSclParametrosReportesSociaUbicacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\FrmSclParametrosSociasFCL.resx">
+      <DependentUpon>FrmSclParametrosSociasFCL.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclPromocion.resx">
+      <DependentUpon>frmSclPromocion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclReptFichaVerificacion.resx">
+      <DependentUpon>frmSclReptFichaVerificacion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclSeguimientoVisitaDetalle.resx">
+      <DependentUpon>frmSclSeguimientoVisitaDetalle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclSeguimientoVisitas.resx">
+      <DependentUpon>frmSclSeguimientoVisitas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclSeguimientoVisitasParametros.resx">
+      <DependentUpon>frmSclSeguimientoVisitasParametros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclSeleccionaActividadEconomica.resx">
+      <DependentUpon>frmSclSeleccionaActividadEconomica.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\Reportes\rptSclFichaNotificacionCredito_Ventana.resx">
+      <DependentUpon>rptSclFichaNotificacionCredito_Ventana.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\Reportes\rptEncabezadoV_PD.resx">
+      <DependentUpon>rptEncabezadoV_PD.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\Reportes\rptSclFichaNotificacionCredito_FCL.resx">
+      <DependentUpon>rptSclFichaNotificacionCredito_FCL.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\Reportes\rptSclReporteComiteCredito.resx">
+      <DependentUpon>rptSclReporteComiteCredito.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Generales\frmCRVisorReporte2.resx">
+      <DependentUpon>frmCRVisorReporte2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Generales\rptEncabezadoV_FCL.resx">
+      <DependentUpon>rptEncabezadoV_FCL.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="Seguridad\FrmSsgConsulta.resx">
+      <DependentUpon>FrmSsgConsulta.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\FrmSsgReporteAuditoria.resx">
+      <DependentUpon>FrmSsgReporteAuditoria.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSrhEditProveedorTransaccionParametro.resx">
+      <DependentUpon>frmSrhEditProveedorTransaccionParametro.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSrhProveedorTransaccionParametro.resx">
+      <DependentUpon>frmSrhProveedorTransaccionParametro.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteChequesAnulados.resx">
+      <DependentUpon>frmSteChequesAnulados.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteCierreTrasladoValores.resx">
+      <DependentUpon>frmSteCierreTrasladoValores.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteEditArqueoEfectivo.resx">
+      <DependentUpon>frmSteEditArqueoEfectivo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteEditChequeAnulado.resx">
+      <DependentUpon>frmSteEditChequeAnulado.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteEditImpresionChequesPorGrupo.resx">
+      <DependentUpon>frmSteEditImpresionChequesPorGrupo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteEditMinutaBancoEnLinea.resx">
+      <DependentUpon>frmSteEditMinutaBancoEnLinea.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteEditMinutaDepositoDetalle.resx">
+      <DependentUpon>frmSteEditMinutaDepositoDetalle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteEditReciboExtraviado.resx">
+      <DependentUpon>frmSteEditReciboExtraviado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteEditReciboPagare.resx">
+      <DependentUpon>frmSteEditReciboPagare.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccBusquedaSolicitudesCheque.resx">
+      <DependentUpon>frmSccBusquedaSolicitudesCheque.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\FrmSccCarga.resx">
+      <DependentUpon>FrmSccCarga.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccCierreCaja.resx">
+      <DependentUpon>frmSccCierreCaja.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\FrmSccDescarga.resx">
+      <DependentUpon>FrmSccDescarga.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\FrmSccDescargaPorFuente.resx">
+      <DependentUpon>FrmSccDescargaPorFuente.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccEditEstadisticasINIDE.resx">
+      <DependentUpon>frmSccEditEstadisticasINIDE.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccEditMetasPrograma.resx">
+      <DependentUpon>frmSccEditMetasPrograma.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccEditReciboCajaAutomatico.resx">
+      <DependentUpon>frmSccEditReciboCajaAutomatico.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccEditReciboCajaManual.resx">
+      <DependentUpon>frmSccEditReciboCajaManual.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccEditReestructuracionDeuda.resx">
+      <DependentUpon>frmSccEditReestructuracionDeuda.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccEstadisticasINIDE.resx">
+      <DependentUpon>frmSccEstadisticasINIDE.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccMetasPrograma.resx">
+      <DependentUpon>frmSccMetasPrograma.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccParametroEC.resx">
+      <DependentUpon>frmSccParametroEC.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\FrmSccParametrosAvanceCartera.resx">
+      <DependentUpon>FrmSccParametrosAvanceCartera.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\FrmSccParametrosCreditosSocia.resx">
+      <DependentUpon>FrmSccParametrosCreditosSocia.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccParametrosIndicadores.resx">
+      <DependentUpon>frmSccParametrosIndicadores.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccParametrosMetasPrograma.resx">
+      <DependentUpon>frmSccParametrosMetasPrograma.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\FrmSccParametrosRecibosPorNumero.resx">
+      <DependentUpon>FrmSccParametrosRecibosPorNumero.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccReciboCajaAutomatico.resx">
+      <DependentUpon>frmSccReciboCajaAutomatico.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccReestructuracionDeuda.resx">
+      <DependentUpon>frmSccReestructuracionDeuda.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\FrmScnParametroListadoCreditosMercados.resx">
+      <DependentUpon>FrmScnParametroListadoCreditosMercados.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\Reporte\rptSccEstadoCuentaResumen.resx">
+      <DependentUpon>rptSccEstadoCuentaResumen.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclBusquedaFichas.resx">
+      <DependentUpon>frmSclBusquedaFichas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclBusquedaGrupos.resx">
+      <DependentUpon>frmSclBusquedaGrupos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclBusquedaSocias.resx">
+      <DependentUpon>frmSclBusquedaSocias.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclEditCedula.resx">
+      <DependentUpon>frmSclEditCedula.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclEditFormatoPromocion.resx">
+      <DependentUpon>frmSclEditFormatoPromocion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclEditReferenciaSocia.resx">
+      <DependentUpon>frmSclEditReferenciaSocia.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclFormatoPromocionCapacitacion.resx">
+      <DependentUpon>frmSclFormatoPromocionCapacitacion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclParametrosPromocion.resx">
+      <DependentUpon>frmSclParametrosPromocion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\Reporte\frmSclReferenciaSocia.resx">
+      <DependentUpon>frmSclReferenciaSocia.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclTrasladosDelegacionSocia.resx">
+      <DependentUpon>frmSclTrasladosDelegacionSocia.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclTrasladosLugarDePagos.resx">
+      <DependentUpon>frmSclTrasladosLugarDePagos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\FrmMDITesoreria.resx">
+      <DependentUpon>FrmMDITesoreria.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\FrmMDIContabilidad.resx">
+      <DependentUpon>FrmMDIContabilidad.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\frmScnCatalogoContable.resx">
+      <DependentUpon>frmScnCatalogoContable.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\frmScnComprobantesCheque.resx">
+      <DependentUpon>frmScnComprobantesCheque.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\frmScnComprobantesDiario.resx">
+      <DependentUpon>frmScnComprobantesDiario.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\frmScnEditCatalogoContable.resx">
+      <DependentUpon>frmScnEditCatalogoContable.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\frmScnEditCheque.resx">
+      <DependentUpon>frmScnEditCheque.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\frmScnEditCodificacion.resx">
+      <DependentUpon>frmScnEditCodificacion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\frmScnEditComprobante.resx">
+      <DependentUpon>frmScnEditComprobante.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\frmScnEditEstructuraContable.resx">
+      <DependentUpon>frmScnEditEstructuraContable.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\frmScnEditFuenteF.resx">
+      <DependentUpon>frmScnEditFuenteF.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\frmScnEditParametrosContables.resx">
+      <DependentUpon>frmScnEditParametrosContables.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\frmScnEditReciboIngresoFondos.resx">
+      <DependentUpon>frmScnEditReciboIngresoFondos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\frmScnEjerciciosContables.resx">
+      <DependentUpon>frmScnEjerciciosContables.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\frmScnEstructuraContable.resx">
+      <DependentUpon>frmScnEstructuraContable.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\frmScnFuenteF.resx">
+      <DependentUpon>frmScnFuenteF.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\frmScnParametroCatalogoContable.resx">
+      <DependentUpon>frmScnParametroCatalogoContable.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\frmScnParametroMovimientoContable.resx">
+      <DependentUpon>frmScnParametroMovimientoContable.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\frmScnParametrosContables.resx">
+      <DependentUpon>frmScnParametrosContables.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\frmScnReciboIngresoFondos.resx">
+      <DependentUpon>frmScnReciboIngresoFondos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\FrmMDIControlCredito.resx">
+      <DependentUpon>FrmMDIControlCredito.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccEditCierreCaja.resx">
+      <DependentUpon>frmSccEditCierreCaja.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccEditCuentasSolicitudCheque.resx">
+      <DependentUpon>frmSccEditCuentasSolicitudCheque.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccEditDetalleCierre.resx">
+      <DependentUpon>frmSccEditDetalleCierre.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccEditDetalleRecibo.resx">
+      <DependentUpon>frmSccEditDetalleRecibo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccEditSolicitudCheque.resx">
+      <DependentUpon>frmSccEditSolicitudCheque.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccParametroResumenCreditos.resx">
+      <DependentUpon>frmSccParametroResumenCreditos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\FrmSccParametrosListadoRecibos.resx">
+      <DependentUpon>FrmSccParametrosListadoRecibos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccReciboCaja.resx">
+      <DependentUpon>frmSccReciboCaja.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\frmSccSolicitudCheque.resx">
+      <DependentUpon>frmSccSolicitudCheque.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlCredito\Reporte\rptSccSolicitudCheque.resx">
+      <DependentUpon>rptSccSolicitudCheque.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclParametroGrupoPago.resx">
+      <DependentUpon>frmSclParametroGrupoPago.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclParametrosListadoSocias.resx">
+      <DependentUpon>frmSclParametrosListadoSocias.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclSolicitudDesembolso.resx">
+      <DependentUpon>frmSclSolicitudDesembolso.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\Reportes\rptSclLstGrupoPago.resx">
+      <DependentUpon>rptSclLstGrupoPago.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\Reportes\rptSclSolicitudDesembolso.resx">
+      <DependentUpon>rptSclSolicitudDesembolso.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\Reportes\rptSclTablaAmortizacion.resx">
+      <DependentUpon>rptSclTablaAmortizacion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\Reportes\rptStbPersonaJuridica.resx">
+      <DependentUpon>rptStbPersonaJuridica.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\Reportes\rptStbPersonaNatural.resx">
+      <DependentUpon>rptStbPersonaNatural.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\Reportes\rptSclFichaComiteCredito.resx">
+      <DependentUpon>rptSclFichaComiteCredito.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\Reportes\rptSclFichaNotificacionCredito.resx">
+      <DependentUpon>rptSclFichaNotificacionCredito.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\Reportes\rptSclLstGrupoSolidario.resx">
+      <DependentUpon>rptSclLstGrupoSolidario.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\Reportes\rptSclLstSocias.resx">
+      <DependentUpon>rptSclLstSocias.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\Reportes\rptSclPagare.resx">
+      <DependentUpon>rptSclPagare.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\Reportes\srptSclCreditosDenegados.resx">
+      <DependentUpon>srptSclCreditosDenegados.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\Reportes\srptSclExpedienteSocia.resx">
+      <DependentUpon>srptSclExpedienteSocia.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Generales\frmCRVisorReporte.resx">
+      <DependentUpon>frmCRVisorReporte.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Reportes\rptSsgAcciones.resx">
+      <DependentUpon>rptSsgAcciones.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\Reportes\rptStbTasaCambio.resx">
+      <DependentUpon>rptStbTasaCambio.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\Reportes\rptStbMercado.resx">
+      <DependentUpon>rptStbMercado.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\Reportes\rptStbDistrito.resx">
+      <DependentUpon>rptStbDistrito.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\Reportes\rptStbMunicipio.resx">
+      <DependentUpon>rptStbMunicipio.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\Reportes\rptStbDepartamento.resx">
+      <DependentUpon>rptStbDepartamento.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\Reportes\rptStbCatCatalogoValor.resx">
+      <DependentUpon>rptStbCatCatalogoValor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\FrmMDIContabilidad.resx">
+      <DependentUpon>FrmMDIContabilidad.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclFichaNotificacionCredito.resx">
+      <DependentUpon>frmSclFichaNotificacionCredito.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclParametroFicha.resx">
+      <DependentUpon>frmSclParametroFicha.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbEditMunicipio.resx">
+      <DependentUpon>frmStbEditMunicipio.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\Reportes\FrmMDICatalogoBasico.resx">
+      <DependentUpon>FrmMDICatalogoBasico.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbDepartamento.resx">
+      <DependentUpon>frmStbDepartamento.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbEditDepartamento.resx">
+      <DependentUpon>frmStbEditDepartamento.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbParametroBarrio.resx">
+      <DependentUpon>frmStbParametroBarrio.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbCatalogo.resx">
+      <DependentUpon>frmStbCatalogo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbDatoComplemento.resx">
+      <DependentUpon>frmStbDatoComplemento.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbEditCatalogo.resx">
+      <DependentUpon>frmStbEditCatalogo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbEditTasaCambio.resx">
+      <DependentUpon>frmStbEditTasaCambio.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbEditValorCatalogo.resx">
+      <DependentUpon>frmStbEditValorCatalogo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbTasaCambio.resx">
+      <DependentUpon>frmStbTasaCambio.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbTipoMoneda.resx">
+      <DependentUpon>frmStbTipoMoneda.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbBarrio.resx">
+      <DependentUpon>frmStbBarrio.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbEditBarrio.resx">
+      <DependentUpon>frmStbEditBarrio.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\frmStbParametroMoneda.resx">
+      <DependentUpon>frmStbParametroMoneda.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclCambioGrupoSolidario.resx">
+      <DependentUpon>frmSclCambioGrupoSolidario.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclEditCambioGS.resx">
+      <DependentUpon>frmSclEditCambioGS.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclParametroFNC.resx">
+      <DependentUpon>frmSclParametroFNC.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\Reportes\rptSclActaCompromiso.resx">
+      <DependentUpon>rptSclActaCompromiso.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\Reportes\rptSclFichaVerificacion.resx">
+      <DependentUpon>rptSclFichaVerificacion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\Reportes\rptSclFichaInscripcion.resx">
+      <DependentUpon>rptSclFichaInscripcion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\Reportes\rptStbMoneda.resx">
+      <DependentUpon>rptStbMoneda.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclEditFichaVerificacion.resx">
+      <DependentUpon>frmSclEditFichaVerificacion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclEditGS.resx">
+      <DependentUpon>frmSclEditGS.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclEditSocia.resx">
+      <DependentUpon>frmSclEditSocia.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclEditSociaGS.resx">
+      <DependentUpon>frmSclEditSociaGS.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclFichaVerificacion.resx">
+      <DependentUpon>frmSclFichaVerificacion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclEditReferencia.resx">
+      <DependentUpon>frmSclEditReferencia.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\FrmMDIControlSocias.resx">
+      <DependentUpon>FrmMDIControlSocias.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclFichaInscripcion.resx">
+      <DependentUpon>frmSclFichaInscripcion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclEditFichaInscripcion.resx">
+      <DependentUpon>frmSclEditFichaInscripcion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclEditOtroCredito.resx">
+      <DependentUpon>frmSclEditOtroCredito.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclGrupoSolidario.resx">
+      <DependentUpon>frmSclGrupoSolidario.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\frmSclSocia.resx">
+      <DependentUpon>frmSclSocia.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatalogoBasico\Reportes\rptStbBarrio.resx">
+      <DependentUpon>rptStbBarrio.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSocias\Reportes\srptSclSociasGrupo.resx">
+      <DependentUpon>srptSclSociasGrupo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Error\frmError.resx">
+      <DependentUpon>frmError.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manuales\FrmManuales.resx">
+      <DependentUpon>FrmManuales.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manuales\FrmPrinManuales.resx">
+      <DependentUpon>FrmPrinManuales.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\FrmLogin.resx">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Generales\frmVisorReporte.resx">
+      <DependentUpon>frmVisorReporte.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Generales\rptEncabezadoV.resx">
+      <DependentUpon>rptEncabezadoV.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Generales\rptEncabezadoH.resx">
+      <DependentUpon>rptEncabezadoH.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\FrmSsgEditAccion.resx">
+      <DependentUpon>FrmSsgEditAccion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\FrmSsgEditAplicacion.resx">
+      <DependentUpon>FrmSsgEditAplicacion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\FrmSsgEditCuenta.resx">
+      <DependentUpon>FrmSsgEditCuenta.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\FrmSsgEditModulo.resx">
+      <DependentUpon>FrmSsgEditModulo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\FrmSsgEditRol.resx">
+      <DependentUpon>FrmSsgEditRol.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\FrmSsgEditServUsuarios.resx">
+      <DependentUpon>FrmSsgEditServUsuarios.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\FrmSsgPrinSeguridad.resx">
+      <DependentUpon>FrmSsgPrinSeguridad.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\FrmSsgSeguridad.resx">
+      <DependentUpon>FrmSsgSeguridad.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteArqueoCaja.resx">
+      <DependentUpon>frmSteArqueoCaja.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteCaja.resx">
+      <DependentUpon>frmSteCaja.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteCajeros.resx">
+      <DependentUpon>frmSteCajeros.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteCierreDiarioCaja.resx">
+      <DependentUpon>frmSteCierreDiarioCaja.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteConciliacionBancaria.resx">
+      <DependentUpon>frmSteConciliacionBancaria.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteCtaBancaria.resx">
+      <DependentUpon>frmSteCtaBancaria.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteDenominaciones.resx">
+      <DependentUpon>frmSteDenominaciones.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteEditArqueoCaja.resx">
+      <DependentUpon>frmSteEditArqueoCaja.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteEditArqueoRecibo.resx">
+      <DependentUpon>frmSteEditArqueoRecibo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteEditCaja.resx">
+      <DependentUpon>frmSteEditCaja.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteEditCajeros.resx">
+      <DependentUpon>frmSteEditCajeros.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteEditCierreDiarioCaja.resx">
+      <DependentUpon>frmSteEditCierreDiarioCaja.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteEditCierreTrasladoValores.resx">
+      <DependentUpon>frmSteEditCierreTrasladoValores.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteEditConciliacion.resx">
+      <DependentUpon>frmSteEditConciliacion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteEditConciliacionCF.resx">
+      <DependentUpon>frmSteEditConciliacionCF.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteEditConciliacionDocumentos.resx">
+      <DependentUpon>frmSteEditConciliacionDocumentos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteEditConciliacionOperaciones.resx">
+      <DependentUpon>frmSteEditConciliacionOperaciones.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteEditCtaBancaria.resx">
+      <DependentUpon>frmSteEditCtaBancaria.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteEditDenominaciones.resx">
+      <DependentUpon>frmSteEditDenominaciones.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteEditImpresionCheques.resx">
+      <DependentUpon>frmSteEditImpresionCheques.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteEditMinutaDeposito.resx">
+      <DependentUpon>frmSteEditMinutaDeposito.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteEditReciboAnulado.resx">
+      <DependentUpon>frmSteEditReciboAnulado.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteEditReciboEntregado.resx">
+      <DependentUpon>frmSteEditReciboEntregado.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteEditReciboEntregadoDpto.resx">
+      <DependentUpon>frmSteEditReciboEntregadoDpto.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteEditRendicionCheque.resx">
+      <DependentUpon>frmSteEditRendicionCheque.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteEditSolicitudCajaCHicaDetalle.resx">
+      <DependentUpon>frmSteEditSolicitudCajaCHicaDetalle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteEditSolicitudProveedor.resx">
+      <DependentUpon>frmSteEditSolicitudProveedor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteEstadoCuentaDiario.resx">
+      <DependentUpon>frmSteEstadoCuentaDiario.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteImpresionCheques.resx">
+      <DependentUpon>frmSteImpresionCheques.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteImpresionChequesPersonalizados.resx" />
+    <EmbeddedResource Include="Tesoreria\frmSteIncorporarArqueoRecibo.resx">
+      <DependentUpon>frmSteIncorporarArqueoRecibo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteMinutaBancoEnLinea.resx">
+      <DependentUpon>frmSteMinutaBancoEnLinea.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteMinutaDeposito.resx">
+      <DependentUpon>frmSteMinutaDeposito.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmStePagare.resx">
+      <DependentUpon>frmStePagare.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteParametrosCajeros.resx">
+      <DependentUpon>frmSteParametrosCajeros.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteParametrosPagare.resx">
+      <DependentUpon>frmSteParametrosPagare.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteParametrosRecibosAnulados.resx">
+      <DependentUpon>frmSteParametrosRecibosAnulados.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteParametrosTesoreria.resx">
+      <DependentUpon>frmSteParametrosTesoreria.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteRecibosAnulados.resx">
+      <DependentUpon>frmSteRecibosAnulados.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteRecibosEntregados.resx">
+      <DependentUpon>frmSteRecibosEntregados.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteRecibosEntregadosDpto.resx">
+      <DependentUpon>frmSteRecibosEntregadosDpto.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteRecibosExtraviados.resx">
+      <DependentUpon>frmSteRecibosExtraviados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteRendicionCheque.resx">
+      <DependentUpon>frmSteRendicionCheque.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteSolicitudCajaChicaDetalle.resx">
+      <DependentUpon>frmSteSolicitudCajaChicaDetalle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesoreria\frmSteSolicitudProveedor.resx">
+      <DependentUpon>frmSteSolicitudProveedor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+    <None Include="SMUSURA0_ClaveTemporal.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Escudo Nicaragua transparente.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Resources\Agregar16.gif" />
+    <None Include="Resources\impresora16.gif" />
+    <None Include="Resources\opcCerrarPrincipal.JPG" />
+    <None Include="Resources\Aceptar16.gif" />
+    <None Include="Resources\opcRRHH.jpg" />
+    <None Include="Resources\Contabilidad.JPG" />
+    <None Include="Resources\opcPresupuesto.jpg" />
+    <None Include="Resources\opcSeguridad.jpg" />
+    <None Include="Resources\opcManuales.JPG" />
+    <None Include="Resources\Logo1.JPG" />
+    <None Include="Resources\ayuda16.gif" />
+    <None Include="Resources\help16.gif" />
+    <None Include="Resources\Edit16.gif" />
+    <None Include="Resources\Eliminar16.gif" />
+    <None Include="Resources\Confirmacion16v2.gif" />
+    <None Include="Resources\AprobarPartida16.png" />
+    <None Include="Resources\DatosGrales16.png" />
+    <None Include="Resources\bundle_016.png" />
+    <None Include="Resources\DocSoporte16.png" />
+    <None Include="Resources\BannerPantallaPrin3.jpg" />
+    <None Include="Resources\ProgTrimestral16.gif" />
+    <None Include="Resources\logoGobTransparente.gif" />
+    <None Include="Resources\LogoGobierno.jpg" />
+    <None Include="Resources\LogoMIFIC.jpg" />
+    <None Include="Resources\HojaLapiz16.gif" />
+    <None Include="Resources\Beneficiario16.png" />
+    <None Include="Resources\AgregarPartidaPresup.gif" />
+    <None Include="Resources\appointment.png" />
+    <None Include="Resources\edit.png" />
+    <None Include="Resources\Procesar1.gif" />
+    <None Include="Resources\folder_new.png" />
+    <None Include="Resources\kspread.png" />
+    <None Include="Resources\Cerrar16.ico" />
+    <None Include="Resources\bookmark_folder.png" />
+    <None Include="Resources\bookmark.png" />
+    <None Include="Resources\configure.png" />
+    <None Include="Resources\error.png" />
+    <None Include="Resources\player_start.png" />
+    <None Include="Resources\1leftarrow.png" />
+    <None Include="Resources\1rightarrow.png" />
+    <None Include="Resources\player_end.png" />
+    <None Include="Resources\editcut.png" />
+    <None Include="Resources\kate.png" />
+    <None Include="Resources\Appearance1.Image.gif" />
+    <None Include="Resources\Appearance2.Image.gif" />
+    <None Include="Resources\Appearance8.Image.gif" />
+    <None Include="Resources\Appearance3.Image.png" />
+    <None Include="Resources\Appearance4.Image.png" />
+    <None Include="Resources\Appearance5.Image.png" />
+    <None Include="Resources\Appearance6.Image.gif" />
+    <None Include="Resources\Appearance7.Image.gif" />
+    <Content Include="GUIX.xml" />
+    <Content Include="GUIX.xsd">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="icono.ico" />
+    <None Include="Resources\back_1.png" />
+    <None Include="Resources\back_2.png" />
+    <None Include="Resources\back_hv.png" />
+    <None Include="Resources\error_g.png" />
+    <Content Include="Resources\filtro-icono-5680-64.png" />
+    <None Include="Resources\Icon1.ico" />
+    <None Include="Resources\next_1.png" />
+    <None Include="Resources\next_2.png" />
+    <None Include="Resources\next_hv.png" />
+    <Content Include="Resources\Puerta16.gif" />
+    <None Include="Resources\viewmag+.png" />
+    <None Include="Resources\yast_nis_client.png" />
+    <None Include="Resources\search.png" />
+    <None Include="Resources\xedit1.png" />
+    <None Include="Resources\xedit.png" />
+    <None Include="Resources\Rechazado16.png" />
+    <None Include="Resources\Puerta161.gif" />
+    <None Include="Resources\Refrescar16.gif" />
+    <None Include="Resources\Salir.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <PublishFile Include="GUIX.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

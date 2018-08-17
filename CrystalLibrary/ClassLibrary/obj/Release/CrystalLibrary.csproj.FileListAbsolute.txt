@@ -1,0 +1,5 @@
+C:\SMUSURA0Central\CrystalLibrary\ClassLibrary\bin\Release\CrystalLibrary.dll
+C:\SMUSURA0Central\CrystalLibrary\ClassLibrary\bin\Release\CrystalLibrary.pdb
+C:\SMUSURA0Central\CrystalLibrary\ClassLibrary\obj\Release\CrystalLibrary.csprojResolveAssemblyReference.cache
+C:\SMUSURA0Central\CrystalLibrary\ClassLibrary\obj\Release\CrystalLibrary.dll
+C:\SMUSURA0Central\CrystalLibrary\ClassLibrary\obj\Release\CrystalLibrary.pdb

@@ -1,0 +1,1705 @@
+C:\Proyectos\bin\Debug\SMUSURA0.exe.config
+C:\Proyectos\bin\Debug\SMUSURA0.exe.manifest
+C:\Proyectos\bin\Debug\SMUSURA0.application
+C:\Proyectos\bin\Debug\SMUSURA0.exe
+C:\Proyectos\bin\Debug\SMUSURA0.pdb
+C:\Proyectos\bin\Debug\SMUSURA0.xml
+C:\Proyectos\bin\Debug\ChilkatDotNet2.dll
+C:\Proyectos\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Proyectos\bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll
+C:\Proyectos\bin\Debug\CrystalDecisions.Enterprise.Framework.dll
+C:\Proyectos\bin\Debug\CrystalDecisions.Enterprise.InfoStore.dll
+C:\Proyectos\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Proyectos\bin\Debug\CrystalDecisions.Shared.dll
+C:\Proyectos\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Proyectos\bin\Debug\CrystalLibrary.dll
+C:\Proyectos\bin\Debug\DSSistema.dll
+C:\Proyectos\bin\Debug\DundasWinMap.dll
+C:\Proyectos\bin\Debug\GUI.dll
+C:\Proyectos\bin\Debug\Infragistics.Shared.v3.dll
+C:\Proyectos\bin\Debug\Infragistics.Win.Misc.v3.dll
+C:\Proyectos\bin\Debug\Infragistics.Win.UltraWinListBar.v3.dll
+C:\Proyectos\bin\Debug\Infragistics.Win.v3.dll
+C:\Proyectos\bin\Debug\Maps.Library.Dundas.dll
+C:\Proyectos\bin\Debug\SEA.dll
+C:\Proyectos\bin\Debug\System.Web.Services.dll
+C:\Proyectos\bin\Debug\Ticket.dll
+C:\Proyectos\bin\Debug\stdole.dll
+C:\Proyectos\bin\Debug\Infragistics.Shared.v3.xml
+C:\Proyectos\bin\Debug\Infragistics.Win.Misc.v3.xml
+C:\Proyectos\bin\Debug\Infragistics.Win.UltraWinListBar.v3.xml
+C:\Proyectos\bin\Debug\Infragistics.Win.v3.xml
+C:\Proyectos\obj\Debug\SMUSURA0.vbprojResolveAssemblyReference.cache
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbDatoComplementoRechazo.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbCargo.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbDelegacion.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbEditCargo.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbEditDelegacion.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbEditParametro.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbEditProfesion.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbEditReporte.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbEditTipoMoneda.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbFirmaEmpleado.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbParametro.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbParametroListadoRpt.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbParametroPersona.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbParametroTasaCambio.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbEditMercado.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbMercado.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbParametroDistrito.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbEditDistrito.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbDistrito.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbParamCatalogoValor.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbParametroDepto.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbPersona.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbEditPersona.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbProfesion.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbReporte.resources
+C:\Proyectos\obj\Debug\SMUSURA0.rptStbCargo.resources
+C:\Proyectos\obj\Debug\SMUSURA0.rptStbProfesion.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmScnBusquedaComprobantes.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmScnObservacionesConsolidado.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmScnParametroEstadosFinancieros.resources
+C:\Proyectos\obj\Debug\SMUSURA0.FrmScnParametrosListadoCheques.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmScnParametrosMinutas.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmScnParametrosReporteCDR.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccArregloPago.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccBusquedaFichasDetalles.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccBusquedaNotasDebitoCredito.resources
+C:\Proyectos\obj\Debug\SMUSURA0.FrmSccCargaAplicar.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccCierreCredito.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccEditArregloPago.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccEditArregloPagoCuotasAbonos.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccEditCancelacionAnticipadaAutomatica.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccEditCancelacionAnticipadaManual.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccCancelacionAnticipadaAutomatica.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccCancelacionAnticipadaManual.resources
+C:\Proyectos\obj\Debug\SMUSURA0.FrmSccEditNotaDebitoCredito.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccEditReciboCajaManualAdicional.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccEditSolicitudCheque_Fecha.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccMetaCumplidaSocia.resources
+C:\Proyectos\obj\Debug\SMUSURA0.FrmSccNotaDebitoCredito.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccParametrosClasificacionCarteraSIBOIF.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccParametroFichasPorSesion.resources
+C:\Proyectos\obj\Debug\SMUSURA0.FrmSccParametroNotaCredito.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccParametrosGSMetaProsperidad.resources
+C:\Proyectos\obj\Debug\SMUSURA0.FrmSccParametrosSaldoSaneamiento.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccReciboCajaCancelado.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccReImpresionRecibos.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccRempresionReciboOficialAutomatico.resources
+C:\Proyectos\obj\Debug\SMUSURA0.FrmSccReporteRecibosManual.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccReportesDirectoAImpresora.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclEditFichaUnicaPersona.resources
+C:\Proyectos\obj\Debug\SMUSURA0.FrmStbEditBarrioTrasladoCredito.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclEditSupervision.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclMotivoAnulacionSupervision.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclSupervision.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclEditFamiliarPersona.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclEditFichaVerificacionNueva.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclEditFichaVerificacionNuevaEditNuecleoFamiliar.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclEditReferenciaFiador.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclEditFichaUnica.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclEditGarantiaPrendaria.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclEditGarantiaFiduciaria.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclActividadEconomica.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclBusquedaFichasSeguimiento.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclEditActividadEconomica.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclEditFichaSeguimiento.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclEditInformacionFinanciera.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclEditMantenimientoFiador.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclEditReferenciaBancaria.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclEditReferenciaComercial.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclEditReferenciaPersonal.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclEditSociaCedula.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclEditSociaConyuge.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclEditSociaCreacionGS.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclFichaSeguimiento.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclMetaProsperidadCreditoSocia.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclParametrosReportesSociasDenegadasUbicacion.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclParametrosReportesSociaUbicacion.resources
+C:\Proyectos\obj\Debug\SMUSURA0.FrmSclParametrosSociasFCL.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclReptFichaVerificacion.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclSeleccionaActividadEconomica.resources
+C:\Proyectos\obj\Debug\SMUSURA0.rptSclFichaNotificacionCredito_Ventana.resources
+C:\Proyectos\obj\Debug\SMUSURA0.rptEncabezadoV_PD.resources
+C:\Proyectos\obj\Debug\SMUSURA0.rptSclFichaNotificacionCredito_FCL.resources
+C:\Proyectos\obj\Debug\SMUSURA0.rptSclReporteComiteCredito.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmCRVisorReporte2.resources
+C:\Proyectos\obj\Debug\SMUSURA0.rptEncabezadoV_FCL.resources
+C:\Proyectos\obj\Debug\SMUSURA0.FrmSsgConsulta.resources
+C:\Proyectos\obj\Debug\SMUSURA0.FrmSsgReporteAuditoria.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSrhEditProveedorTransaccionParametro.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSrhProveedorTransaccionParametro.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteChequesAnulados.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteCierreTrasladoValores.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteEditArqueoEfectivo.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteEditChequeAnulado.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteEditImpresionChequesPorGrupo.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteEditMinutaBancoEnLinea.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteEditReciboPagare.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccBusquedaSolicitudesCheque.resources
+C:\Proyectos\obj\Debug\SMUSURA0.FrmSccCarga.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccCierreCaja.resources
+C:\Proyectos\obj\Debug\SMUSURA0.FrmSccDescarga.resources
+C:\Proyectos\obj\Debug\SMUSURA0.FrmSccDescargaPorFuente.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccEditEstadisticasINIDE.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccEditMetasPrograma.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccEditReciboCajaAutomatico.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccEditReciboCajaManual.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccEditReestructuracionDeuda.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccEstadisticasINIDE.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccMetasPrograma.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccParametroEC.resources
+C:\Proyectos\obj\Debug\SMUSURA0.FrmSccParametrosAvanceCartera.resources
+C:\Proyectos\obj\Debug\SMUSURA0.FrmSccParametrosCreditosSocia.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccParametrosIndicadores.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccParametrosMetasPrograma.resources
+C:\Proyectos\obj\Debug\SMUSURA0.FrmSccParametrosRecibosPorNumero.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccReciboCajaAutomatico.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccReestructuracionDeuda.resources
+C:\Proyectos\obj\Debug\SMUSURA0.FrmScnParametroListadoCreditosMercados.resources
+C:\Proyectos\obj\Debug\SMUSURA0.rptSccEstadoCuentaResumen.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclBusquedaFichas.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclBusquedaGrupos.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclBusquedaSocias.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclEditCedula.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclEditFormatoPromocion.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclEditReferenciaSocia.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclFormatoPromocionCapacitacion.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclParametrosPromocion.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclReferenciaSocia.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclTrasladosDelegacionSocia.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclTrasladosLugarDePagos.resources
+C:\Proyectos\obj\Debug\SMUSURA0.FrmMDITesoreria.resources
+C:\Proyectos\obj\Debug\SMUSURA0.FrmMDIContabilidad.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmScnCatalogoContable.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmScnComprobantesCheque.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmScnComprobantesDiario.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmScnEditCatalogoContable.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmScnEditCheque.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmScnEditCodificacion.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmScnEditComprobante.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmScnEditEstructuraContable.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmScnEditFuenteF.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmScnEditParametrosContables.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmScnEditReciboIngresoFondos.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmScnEjerciciosContables.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmScnEstructuraContable.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmScnFuenteF.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmScnParametroCatalogoContable.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmScnParametroMovimientoContable.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmScnParametrosContables.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmScnReciboIngresoFondos.resources
+C:\Proyectos\obj\Debug\SMUSURA0.FrmMDIControlCredito.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccEditCierreCaja.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccEditCuentasSolicitudCheque.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccEditDetalleCierre.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccEditDetalleRecibo.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccEditSolicitudCheque.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccParametroResumenCreditos.resources
+C:\Proyectos\obj\Debug\SMUSURA0.FrmSccParametrosListadoRecibos.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccReciboCaja.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSccSolicitudCheque.resources
+C:\Proyectos\obj\Debug\SMUSURA0.rptSccSolicitudCheque.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclParametroGrupoPago.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclParametrosListadoSocias.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclSolicitudDesembolso.resources
+C:\Proyectos\obj\Debug\SMUSURA0.rptSclLstGrupoPago.resources
+C:\Proyectos\obj\Debug\SMUSURA0.rptSclSolicitudDesembolso.resources
+C:\Proyectos\obj\Debug\SMUSURA0.rptSclTablaAmortizacion.resources
+C:\Proyectos\obj\Debug\SMUSURA0.rptStbPersonaJuridica.resources
+C:\Proyectos\obj\Debug\SMUSURA0.rptStbPersonaNatural.resources
+C:\Proyectos\obj\Debug\SMUSURA0.rptSclFichaComiteCredito.resources
+C:\Proyectos\obj\Debug\SMUSURA0.rptSclFichaNotificacionCredito.resources
+C:\Proyectos\obj\Debug\SMUSURA0.rptSclLstGrupoSolidario.resources
+C:\Proyectos\obj\Debug\SMUSURA0.rptSclLstSocias.resources
+C:\Proyectos\obj\Debug\SMUSURA0.rptSclPagare.resources
+C:\Proyectos\obj\Debug\SMUSURA0.srptSclCreditosDenegados.resources
+C:\Proyectos\obj\Debug\SMUSURA0.srptSclExpedienteSocia.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmCRVisorReporte.resources
+C:\Proyectos\obj\Debug\SMUSURA0.rptSsgAcciones.resources
+C:\Proyectos\obj\Debug\SMUSURA0.rptStbTasaCambio.resources
+C:\Proyectos\obj\Debug\SMUSURA0.rptStbMercado.resources
+C:\Proyectos\obj\Debug\SMUSURA0.rptStbDistrito.resources
+C:\Proyectos\obj\Debug\SMUSURA0.rptStbMunicipio.resources
+C:\Proyectos\obj\Debug\SMUSURA0.rptStbDepartamento.resources
+C:\Proyectos\obj\Debug\SMUSURA0.rptStbCatCatalogoValor.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclEditFichaNotificacion.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclFichaNotificacionCredito.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclParametroFicha.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbEditMunicipio.resources
+C:\Proyectos\obj\Debug\SMUSURA0.FrmMDICatalogoBasico.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbDepartamento.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbEditDepartamento.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbParametroBarrio.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbCatalogo.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbDatoComplemento.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbEditCatalogo.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbEditTasaCambio.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbEditValorCatalogo.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbTasaCambio.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbTipoMoneda.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbBarrio.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbEditBarrio.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStbParametroMoneda.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclCambioGrupoSolidario.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclEditCambioGS.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclParametroFNC.resources
+C:\Proyectos\obj\Debug\SMUSURA0.rptSclActaCompromiso.resources
+C:\Proyectos\obj\Debug\SMUSURA0.rptSclFichaVerificacion.resources
+C:\Proyectos\obj\Debug\SMUSURA0.rptSclFichaInscripcion.resources
+C:\Proyectos\obj\Debug\SMUSURA0.rptStbMoneda.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclEditFichaVerificacion.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclEditGS.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclEditSocia.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclEditSociaGS.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclFichaVerificacion.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclEditReferencia.resources
+C:\Proyectos\obj\Debug\SMUSURA0.FrmMDIControlSocias.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclFichaInscripcion.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclEditFichaInscripcion.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclEditOtroCredito.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclGrupoSolidario.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSclSocia.resources
+C:\Proyectos\obj\Debug\SMUSURA0.rptStbBarrio.resources
+C:\Proyectos\obj\Debug\SMUSURA0.srptSclSociasGrupo.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmError.resources
+C:\Proyectos\obj\Debug\SMUSURA0.FrmManuales.resources
+C:\Proyectos\obj\Debug\SMUSURA0.FrmPrinManuales.resources
+C:\Proyectos\obj\Debug\SMUSURA0.Resources.resources
+C:\Proyectos\obj\Debug\SMUSURA0.FrmLogin.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmPrincipal.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmVisorReporte.resources
+C:\Proyectos\obj\Debug\SMUSURA0.rptEncabezadoV.resources
+C:\Proyectos\obj\Debug\SMUSURA0.rptEncabezadoH.resources
+C:\Proyectos\obj\Debug\SMUSURA0.FrmSsgEditAccion.resources
+C:\Proyectos\obj\Debug\SMUSURA0.FrmSsgEditAplicacion.resources
+C:\Proyectos\obj\Debug\SMUSURA0.FrmSsgEditCuenta.resources
+C:\Proyectos\obj\Debug\SMUSURA0.FrmSsgEditModulo.resources
+C:\Proyectos\obj\Debug\SMUSURA0.FrmSsgEditRol.resources
+C:\Proyectos\obj\Debug\SMUSURA0.FrmSsgEditServUsuarios.resources
+C:\Proyectos\obj\Debug\SMUSURA0.FrmSsgPrinSeguridad.resources
+C:\Proyectos\obj\Debug\SMUSURA0.FrmSsgSeguridad.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteArqueoCaja.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteCaja.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteCajeros.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteCierreDiarioCaja.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteConciliacionBancaria.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteCtaBancaria.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteDenominaciones.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteEditArqueoCaja.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteEditArqueoRecibo.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteEditCaja.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteEditCajeros.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteEditCierreDiarioCaja.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteEditCierreTrasladoValores.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteEditConciliacion.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteEditConciliacionCF.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteEditConciliacionDocumentos.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteEditConciliacionOperaciones.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteEditCtaBancaria.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteEditDenominaciones.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteEditImpresionCheques.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteEditMinutaDeposito.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteEditReciboAnulado.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteEditReciboEntregado.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteEditReciboEntregadoDpto.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteEditRendicionCheque.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteEditSolicitudCajaCHicaDetalle.resources
+C:\Proyectos\obj\Debug\SMUSURA0.cneMontoCheque.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteEstadoCuentaDiario.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteImpresionCheques.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteImpresionChequesPersonalizados.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteIncorporarArqueoRecibo.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteMinutaBancoEnLinea.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteMinutaDeposito.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmStePagare.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteParametrosCajeros.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteParametrosPagare.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteParametrosRecibosAnulados.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteParametrosTesoreria.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteRecibosAnulados.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteRecibosEntregados.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteRecibosEntregadosDpto.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteRendicionCheque.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteSolicitudCajaChicaDetalle.resources
+C:\Proyectos\obj\Debug\SMUSURA0.frmSteSolicitudProveedor.resources
+C:\Proyectos\obj\Debug\SMUSURA0.vbproj.GenerateResource.Cache
+C:\Proyectos\obj\Debug\SMUSURA0.exe.licenses
+C:\Proyectos\obj\Debug\SMUSURA0.exe.manifest
+C:\Proyectos\obj\Debug\SMUSURA0.application
+C:\Proyectos\obj\Debug\SMUSURA0.exe
+C:\Proyectos\obj\Debug\SMUSURA0.xml
+C:\Proyectos\obj\Debug\SMUSURA0.pdb
+C:\SMUSURA0_Central _ FRANCO\bin\Debug\SMUSURA0.exe.config
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.exe
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.xml
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.pdb
+C:\SMUSURA0_Central _ FRANCO\bin\Debug\SMUSURA0.exe.manifest
+C:\SMUSURA0_Central _ FRANCO\bin\Debug\SMUSURA0.application
+C:\SMUSURA0_Central _ FRANCO\bin\Debug\SMUSURA0.exe
+C:\SMUSURA0_Central _ FRANCO\bin\Debug\SMUSURA0.pdb
+C:\SMUSURA0_Central _ FRANCO\bin\Debug\SMUSURA0.xml
+C:\SMUSURA0_Central _ FRANCO\bin\Debug\ChilkatDotNet2.dll
+C:\SMUSURA0_Central _ FRANCO\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\SMUSURA0_Central _ FRANCO\bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll
+C:\SMUSURA0_Central _ FRANCO\bin\Debug\CrystalDecisions.Enterprise.Framework.dll
+C:\SMUSURA0_Central _ FRANCO\bin\Debug\CrystalDecisions.Enterprise.InfoStore.dll
+C:\SMUSURA0_Central _ FRANCO\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\SMUSURA0_Central _ FRANCO\bin\Debug\CrystalDecisions.Shared.dll
+C:\SMUSURA0_Central _ FRANCO\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\SMUSURA0_Central _ FRANCO\bin\Debug\CrystalLibrary.dll
+C:\SMUSURA0_Central _ FRANCO\bin\Debug\DSSistema.dll
+C:\SMUSURA0_Central _ FRANCO\bin\Debug\DundasWinMap.dll
+C:\SMUSURA0_Central _ FRANCO\bin\Debug\GUI.dll
+C:\SMUSURA0_Central _ FRANCO\bin\Debug\Infragistics.Shared.v3.dll
+C:\SMUSURA0_Central _ FRANCO\bin\Debug\Infragistics.Win.Misc.v3.dll
+C:\SMUSURA0_Central _ FRANCO\bin\Debug\Infragistics.Win.UltraWinListBar.v3.dll
+C:\SMUSURA0_Central _ FRANCO\bin\Debug\Infragistics.Win.v3.dll
+C:\SMUSURA0_Central _ FRANCO\bin\Debug\Maps.Library.Dundas.dll
+C:\SMUSURA0_Central _ FRANCO\bin\Debug\SEA.dll
+C:\SMUSURA0_Central _ FRANCO\bin\Debug\System.Web.Services.dll
+C:\SMUSURA0_Central _ FRANCO\bin\Debug\Ticket.dll
+C:\SMUSURA0_Central _ FRANCO\bin\Debug\stdole.dll
+C:\SMUSURA0_Central _ FRANCO\bin\Debug\Infragistics.Shared.v3.xml
+C:\SMUSURA0_Central _ FRANCO\bin\Debug\Infragistics.Win.Misc.v3.xml
+C:\SMUSURA0_Central _ FRANCO\bin\Debug\Infragistics.Win.UltraWinListBar.v3.xml
+C:\SMUSURA0_Central _ FRANCO\bin\Debug\Infragistics.Win.v3.xml
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.vbprojResolveAssemblyReference.cache
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbDatoComplementoRechazo.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbCargo.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbDelegacion.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbEditCargo.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbEditDelegacion.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbEditParametro.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbEditProfesion.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbEditReporte.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbEditTipoMoneda.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbFirmaEmpleado.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbParametro.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbParametroListadoRpt.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbParametroPersona.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbParametroTasaCambio.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbEditMercado.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbMercado.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbParametroDistrito.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbEditDistrito.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbDistrito.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbParamCatalogoValor.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbParametroDepto.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbPersona.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbEditPersona.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbProfesion.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbReporte.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.rptStbCargo.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.rptStbProfesion.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmScnBusquedaComprobantes.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmScnObservacionesConsolidado.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmScnParametroEstadosFinancieros.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.FrmScnParametrosListadoCheques.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmScnParametrosMinutas.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmScnParametrosReporteCDR.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccArregloPago.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccBusquedaFichasDetalles.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccBusquedaNotasDebitoCredito.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.FrmSccCargaAplicar.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccCierreCredito.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccEditArregloPago.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccEditArregloPagoCuotasAbonos.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccEditCancelacionAnticipadaAutomatica.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccEditCancelacionAnticipadaManual.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccCancelacionAnticipadaAutomatica.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccCancelacionAnticipadaManual.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.FrmSccEditNotaDebitoCredito.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccEditReciboCajaManualAdicional.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccEditSolicitudCheque_Fecha.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccMetaCumplidaSocia.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.FrmSccNotaDebitoCredito.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccParametrosClasificacionCarteraSIBOIF.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccParametroFichasPorSesion.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.FrmSccParametroNotaCredito.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccParametrosGSMetaProsperidad.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.FrmSccParametrosSaldoSaneamiento.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccReciboCajaCancelado.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccReImpresionRecibos.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccRempresionReciboOficialAutomatico.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.FrmSccReporteRecibosManual.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccReportesDirectoAImpresora.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclEditFichaUnicaPersona.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.FrmStbEditBarrioTrasladoCredito.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclEditSupervision.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclMotivoAnulacionSupervision.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclSupervision.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclEditFamiliarPersona.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclEditFichaVerificacionNueva.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclEditFichaVerificacionNuevaEditNuecleoFamiliar.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclEditReferenciaFiador.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclEditFichaUnica.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclEditGarantiaPrendaria.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclEditGarantiaFiduciaria.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclActividadEconomica.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclBusquedaFichasSeguimiento.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclEditActividadEconomica.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclEditFichaSeguimiento.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclEditInformacionFinanciera.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclEditMantenimientoFiador.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclEditReferenciaBancaria.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclEditReferenciaComercial.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclEditReferenciaPersonal.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclEditSociaCedula.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclEditSociaConyuge.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclEditSociaCreacionGS.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclFichaSeguimiento.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclMetaProsperidadCreditoSocia.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclParametrosReportesSociasDenegadasUbicacion.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclParametrosReportesSociaUbicacion.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.FrmSclParametrosSociasFCL.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclReptFichaVerificacion.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclSeguimientoVisitas.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclSeguimientoVisitasParametros.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclSeleccionaActividadEconomica.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.rptSclFichaNotificacionCredito_Ventana.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.rptEncabezadoV_PD.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.rptSclFichaNotificacionCredito_FCL.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.rptSclReporteComiteCredito.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmCRVisorReporte2.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.rptEncabezadoV_FCL.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.FrmSsgConsulta.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.FrmSsgReporteAuditoria.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSrhEditProveedorTransaccionParametro.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSrhProveedorTransaccionParametro.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteChequesAnulados.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteCierreTrasladoValores.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteEditArqueoEfectivo.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteEditChequeAnulado.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteEditImpresionChequesPorGrupo.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteEditMinutaBancoEnLinea.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteEditReciboPagare.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccBusquedaSolicitudesCheque.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.FrmSccCarga.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccCierreCaja.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.FrmSccDescarga.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.FrmSccDescargaPorFuente.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccEditEstadisticasINIDE.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccEditMetasPrograma.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccEditReciboCajaAutomatico.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccEditReciboCajaManual.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccEditReestructuracionDeuda.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccEstadisticasINIDE.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccMetasPrograma.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccParametroEC.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.FrmSccParametrosAvanceCartera.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.FrmSccParametrosCreditosSocia.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccParametrosIndicadores.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccParametrosMetasPrograma.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.FrmSccParametrosRecibosPorNumero.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccReciboCajaAutomatico.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccReestructuracionDeuda.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.FrmScnParametroListadoCreditosMercados.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.rptSccEstadoCuentaResumen.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclBusquedaFichas.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclBusquedaGrupos.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclBusquedaSocias.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclEditCedula.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclEditFormatoPromocion.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclEditReferenciaSocia.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclFormatoPromocionCapacitacion.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclParametrosPromocion.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclReferenciaSocia.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclTrasladosDelegacionSocia.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclTrasladosLugarDePagos.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.FrmMDITesoreria.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.FrmMDIContabilidad.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmScnCatalogoContable.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmScnComprobantesCheque.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmScnComprobantesDiario.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmScnEditCatalogoContable.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmScnEditCheque.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmScnEditCodificacion.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmScnEditComprobante.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmScnEditEstructuraContable.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmScnEditFuenteF.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmScnEditParametrosContables.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmScnEditReciboIngresoFondos.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmScnEjerciciosContables.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmScnEstructuraContable.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmScnFuenteF.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmScnParametroCatalogoContable.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmScnParametroMovimientoContable.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmScnParametrosContables.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmScnReciboIngresoFondos.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.FrmMDIControlCredito.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccEditCierreCaja.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccEditCuentasSolicitudCheque.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccEditDetalleCierre.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccEditDetalleRecibo.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccEditSolicitudCheque.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccParametroResumenCreditos.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.FrmSccParametrosListadoRecibos.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccReciboCaja.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSccSolicitudCheque.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.rptSccSolicitudCheque.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclParametroGrupoPago.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclParametrosListadoSocias.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclSolicitudDesembolso.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.rptSclLstGrupoPago.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.rptSclSolicitudDesembolso.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.rptSclTablaAmortizacion.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.rptStbPersonaJuridica.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.rptStbPersonaNatural.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.rptSclFichaComiteCredito.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.rptSclFichaNotificacionCredito.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.rptSclLstGrupoSolidario.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.rptSclLstSocias.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.rptSclPagare.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.srptSclCreditosDenegados.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.srptSclExpedienteSocia.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmCRVisorReporte.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.rptSsgAcciones.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.rptStbTasaCambio.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.rptStbMercado.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.rptStbDistrito.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.rptStbMunicipio.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.rptStbDepartamento.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.rptStbCatCatalogoValor.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclEditFichaNotificacion.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclFichaNotificacionCredito.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclParametroFicha.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbEditMunicipio.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.FrmMDICatalogoBasico.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbDepartamento.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbEditDepartamento.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbParametroBarrio.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbCatalogo.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbDatoComplemento.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbEditCatalogo.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbEditTasaCambio.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbEditValorCatalogo.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbTasaCambio.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbTipoMoneda.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbBarrio.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbEditBarrio.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStbParametroMoneda.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclCambioGrupoSolidario.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclEditCambioGS.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclParametroFNC.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.rptSclActaCompromiso.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.rptSclFichaVerificacion.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.rptSclFichaInscripcion.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.rptStbMoneda.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclEditFichaVerificacion.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclEditGS.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclEditSocia.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclEditSociaGS.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclFichaVerificacion.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclEditReferencia.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.FrmMDIControlSocias.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclFichaInscripcion.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclEditFichaInscripcion.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclEditOtroCredito.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclGrupoSolidario.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSclSocia.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.rptStbBarrio.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.srptSclSociasGrupo.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmError.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.FrmManuales.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.FrmPrinManuales.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.Resources.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.FrmLogin.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmPrincipal.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmVisorReporte.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.rptEncabezadoV.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.rptEncabezadoH.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.FrmSsgEditAccion.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.FrmSsgEditAplicacion.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.FrmSsgEditCuenta.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.FrmSsgEditModulo.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.FrmSsgEditRol.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.FrmSsgEditServUsuarios.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.FrmSsgPrinSeguridad.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.FrmSsgSeguridad.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteArqueoCaja.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteCaja.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteCajeros.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteCierreDiarioCaja.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteConciliacionBancaria.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteCtaBancaria.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteDenominaciones.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteEditArqueoCaja.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteEditArqueoRecibo.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteEditCaja.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteEditCajeros.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteEditCierreDiarioCaja.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteEditCierreTrasladoValores.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteEditConciliacion.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteEditConciliacionCF.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteEditConciliacionDocumentos.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteEditConciliacionOperaciones.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteEditCtaBancaria.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteEditDenominaciones.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteEditImpresionCheques.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteEditMinutaDeposito.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteEditReciboAnulado.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteEditReciboEntregado.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteEditReciboEntregadoDpto.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteEditRendicionCheque.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteEditSolicitudCajaCHicaDetalle.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.cneMontoCheque.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteEstadoCuentaDiario.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteImpresionCheques.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteImpresionChequesPersonalizados.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteIncorporarArqueoRecibo.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteMinutaBancoEnLinea.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteMinutaDeposito.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmStePagare.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteParametrosCajeros.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteParametrosPagare.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteParametrosRecibosAnulados.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteParametrosTesoreria.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteRecibosAnulados.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteRecibosEntregados.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteRecibosEntregadosDpto.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteRendicionCheque.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteSolicitudCajaChicaDetalle.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.frmSteSolicitudProveedor.resources
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.vbproj.GenerateResource.Cache
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.exe.licenses
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.exe.manifest
+C:\SMUSURA0_Central _ FRANCO\obj\Debug\SMUSURA0.application
+C:\SMUSURA0_Central - copia\bin\Debug\SMUSURA0.exe.config
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.exe
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.xml
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.pdb
+C:\SMUSURA0_Central - copia\bin\Debug\SMUSURA0.exe.manifest
+C:\SMUSURA0_Central - copia\bin\Debug\SMUSURA0.application
+C:\SMUSURA0_Central - copia\bin\Debug\SMUSURA0.exe
+C:\SMUSURA0_Central - copia\bin\Debug\SMUSURA0.pdb
+C:\SMUSURA0_Central - copia\bin\Debug\SMUSURA0.xml
+C:\SMUSURA0_Central - copia\bin\Debug\ChilkatDotNet2.dll
+C:\SMUSURA0_Central - copia\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\SMUSURA0_Central - copia\bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll
+C:\SMUSURA0_Central - copia\bin\Debug\CrystalDecisions.Enterprise.Framework.dll
+C:\SMUSURA0_Central - copia\bin\Debug\CrystalDecisions.Enterprise.InfoStore.dll
+C:\SMUSURA0_Central - copia\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\SMUSURA0_Central - copia\bin\Debug\CrystalDecisions.Shared.dll
+C:\SMUSURA0_Central - copia\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\SMUSURA0_Central - copia\bin\Debug\CrystalLibrary.dll
+C:\SMUSURA0_Central - copia\bin\Debug\DundasWinMap.dll
+C:\SMUSURA0_Central - copia\bin\Debug\GUI.dll
+C:\SMUSURA0_Central - copia\bin\Debug\Infragistics.Shared.v3.dll
+C:\SMUSURA0_Central - copia\bin\Debug\Infragistics.Win.Misc.v3.dll
+C:\SMUSURA0_Central - copia\bin\Debug\Infragistics.Win.UltraWinListBar.v3.dll
+C:\SMUSURA0_Central - copia\bin\Debug\Infragistics.Win.v3.dll
+C:\SMUSURA0_Central - copia\bin\Debug\Maps.Library.Dundas.dll
+C:\SMUSURA0_Central - copia\bin\Debug\Newtonsoft.Json.dll
+C:\SMUSURA0_Central - copia\bin\Debug\SEA.dll
+C:\SMUSURA0_Central - copia\bin\Debug\System.Web.Services.dll
+C:\SMUSURA0_Central - copia\bin\Debug\Ticket.dll
+C:\SMUSURA0_Central - copia\bin\Debug\stdole.dll
+C:\SMUSURA0_Central - copia\bin\Debug\FlashControlV71.dll
+C:\SMUSURA0_Central - copia\bin\Debug\ShockwaveFlashObjects.dll
+C:\SMUSURA0_Central - copia\bin\Debug\Infragistics.Shared.v3.xml
+C:\SMUSURA0_Central - copia\bin\Debug\Infragistics.Win.Misc.v3.xml
+C:\SMUSURA0_Central - copia\bin\Debug\Infragistics.Win.UltraWinListBar.v3.xml
+C:\SMUSURA0_Central - copia\bin\Debug\Infragistics.Win.v3.xml
+C:\SMUSURA0_Central - copia\bin\Debug\Newtonsoft.Json.xml
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.vbprojResolveAssemblyReference.cache
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbDatoComplementoRechazo.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbCargo.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbDelegacion.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbEditCargo.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbEditDelegacion.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbEditParametro.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbEditProfesion.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbEditReporte.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbEditTipoMoneda.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbFirmaEmpleado.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbParametro.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbParametroListadoRpt.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbParametroPersona.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbParametroTasaCambio.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbEditMercado.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbMercado.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbParametroDistrito.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbEditDistrito.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbDistrito.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbParamCatalogoValor.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbParametroDepto.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbPersona.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbEditPersona.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbProfesion.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbReporte.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.rptStbCargo.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.rptStbProfesion.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmScnBusquedaComprobantes.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmScnObservacionesConsolidado.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmScnParametroEstadosFinancieros.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.FrmScnParametrosListadoCheques.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmScnParametrosMinutas.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmScnParametrosReporteCDR.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccArregloPago.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccBusquedaFichasDetalles.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccBusquedaNotasDebitoCredito.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.FrmSccCargaAplicar.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccCierreCredito.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccEditArregloPago.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccEditArregloPagoCuotasAbonos.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccEditCancelacionAnticipadaAutomatica.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccEditCancelacionAnticipadaManual.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccCancelacionAnticipadaAutomatica.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccCancelacionAnticipadaManual.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.FrmSccEditNotaDebitoCredito.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccEditReciboCajaManualAdicional.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccEditSolicitudCheque_Fecha.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccInformesBancor.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccMetaCumplidaSocia.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.FrmSccNotaDebitoCredito.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccParametrosClasificacionCarteraSIBOIF.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccParametroFichasPorSesion.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.FrmSccParametroNotaCredito.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccParametrosGSMetaProsperidad.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.FrmSccParametrosSaldoSaneamiento.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccReciboCajaCancelado.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccReImpresionRecibos.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccRempresionReciboOficialAutomatico.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.FrmSccReporteRecibosManual.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccReportesDirectoAImpresora.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclEditFichaUnicaPersona.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.FrmStbEditBarrioTrasladoCredito.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclEditSupervision.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclMotivoAnulacionSupervision.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclSupervision.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclEditFamiliarPersona.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclEditFichaVerificacionNueva.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclEditFichaVerificacionNuevaEditNuecleoFamiliar.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclEditModuloCursoSocia.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclEditPromocion.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclEditReferenciaFiador.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclEditFichaUnica.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclEditGarantiaPrendaria.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclEditGarantiaFiduciaria.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclActividadEconomica.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclBusquedaFichasSeguimiento.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclEditActividadEconomica.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclEditFichaSeguimiento.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclEditInformacionFinanciera.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclEditMantenimientoFiador.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclEditReferenciaBancaria.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclEditReferenciaComercial.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclEditReferenciaPersonal.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclEditSociaCedula.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclEditSociaConyuge.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclEditSociaCreacionGS.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclFichaSeguimiento.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclMetaProsperidadCreditoSocia.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclParametrosReportesSociasDenegadasUbicacion.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclParametrosReportesSociaUbicacion.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.FrmSclParametrosSociasFCL.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclPromocion.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclReptFichaVerificacion.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclSeguimientoVisitaDetalle.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclSeguimientoVisitas.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclSeguimientoVisitasParametros.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclSeleccionaActividadEconomica.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.rptSclFichaNotificacionCredito_Ventana.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.rptEncabezadoV_PD.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.rptSclFichaNotificacionCredito_FCL.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.rptSclReporteComiteCredito.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmCRVisorReporte2.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.rptEncabezadoV_FCL.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.FrmSsgConsulta.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.FrmSsgReporteAuditoria.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSrhEditProveedorTransaccionParametro.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSrhProveedorTransaccionParametro.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteChequesAnulados.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteCierreTrasladoValores.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteEditArqueoEfectivo.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteEditChequeAnulado.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteEditImpresionChequesPorGrupo.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteEditMinutaBancoEnLinea.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteEditMinutaDepositoDetalle.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteEditReciboPagare.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccBusquedaSolicitudesCheque.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.FrmSccCarga.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccCierreCaja.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.FrmSccDescarga.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.FrmSccDescargaPorFuente.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccEditEstadisticasINIDE.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccEditMetasPrograma.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccEditReciboCajaAutomatico.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccEditReciboCajaManual.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccEditReestructuracionDeuda.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccEstadisticasINIDE.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccMetasPrograma.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccParametroEC.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.FrmSccParametrosAvanceCartera.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.FrmSccParametrosCreditosSocia.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccParametrosIndicadores.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccParametrosMetasPrograma.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.FrmSccParametrosRecibosPorNumero.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccReciboCajaAutomatico.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccReestructuracionDeuda.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.FrmScnParametroListadoCreditosMercados.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.rptSccEstadoCuentaResumen.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclBusquedaFichas.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclBusquedaGrupos.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclBusquedaSocias.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclEditCedula.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclEditFormatoPromocion.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclEditReferenciaSocia.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclFormatoPromocionCapacitacion.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclParametrosPromocion.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclReferenciaSocia.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclTrasladosDelegacionSocia.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclTrasladosLugarDePagos.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.FrmMDITesoreria.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.FrmMDIContabilidad.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmScnCatalogoContable.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmScnComprobantesCheque.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmScnComprobantesDiario.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmScnEditCatalogoContable.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmScnEditCheque.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmScnEditCodificacion.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmScnEditComprobante.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmScnEditEstructuraContable.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmScnEditFuenteF.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmScnEditParametrosContables.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmScnEditReciboIngresoFondos.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmScnEjerciciosContables.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmScnEstructuraContable.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmScnFuenteF.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmScnParametroCatalogoContable.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmScnParametroMovimientoContable.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmScnParametrosContables.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmScnReciboIngresoFondos.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.FrmMDIControlCredito.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccEditCierreCaja.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccEditCuentasSolicitudCheque.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccEditDetalleCierre.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccEditDetalleRecibo.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccEditSolicitudCheque.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccParametroResumenCreditos.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.FrmSccParametrosListadoRecibos.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccReciboCaja.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSccSolicitudCheque.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.rptSccSolicitudCheque.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclParametroGrupoPago.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclParametrosListadoSocias.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclSolicitudDesembolso.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.rptSclLstGrupoPago.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.rptSclSolicitudDesembolso.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.rptSclTablaAmortizacion.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.rptStbPersonaJuridica.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.rptStbPersonaNatural.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.rptSclFichaComiteCredito.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.rptSclFichaNotificacionCredito.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.rptSclLstGrupoSolidario.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.rptSclLstSocias.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.rptSclPagare.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.srptSclCreditosDenegados.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.srptSclExpedienteSocia.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmCRVisorReporte.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.rptSsgAcciones.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.rptStbTasaCambio.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.rptStbMercado.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.rptStbDistrito.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.rptStbMunicipio.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.rptStbDepartamento.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.rptStbCatCatalogoValor.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclEditFichaNotificacion.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclFichaNotificacionCredito.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclParametroFicha.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbEditMunicipio.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.FrmMDICatalogoBasico.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbDepartamento.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbEditDepartamento.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbParametroBarrio.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbCatalogo.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbDatoComplemento.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbEditCatalogo.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbEditTasaCambio.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbEditValorCatalogo.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbTasaCambio.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbTipoMoneda.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbBarrio.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbEditBarrio.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStbParametroMoneda.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclCambioGrupoSolidario.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclEditCambioGS.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclParametroFNC.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.rptSclActaCompromiso.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.rptSclFichaVerificacion.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.rptSclFichaInscripcion.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.rptStbMoneda.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclEditFichaVerificacion.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclEditGS.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclEditSocia.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclEditSociaGS.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclFichaVerificacion.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclEditReferencia.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.FrmMDIControlSocias.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclFichaInscripcion.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclEditFichaInscripcion.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclEditOtroCredito.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclGrupoSolidario.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSclSocia.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.rptStbBarrio.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.srptSclSociasGrupo.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmError.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.FrmManuales.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.FrmPrinManuales.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.Resources.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.FrmLogin.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmPrincipal.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmVisorReporte.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.rptEncabezadoV.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.rptEncabezadoH.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.FrmSsgEditAccion.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.FrmSsgEditAplicacion.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.FrmSsgEditCuenta.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.FrmSsgEditModulo.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.FrmSsgEditRol.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.FrmSsgEditServUsuarios.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.FrmSsgPrinSeguridad.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.FrmSsgSeguridad.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteArqueoCaja.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteCaja.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteCajeros.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteCierreDiarioCaja.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteConciliacionBancaria.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteCtaBancaria.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteDenominaciones.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteEditArqueoCaja.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteEditArqueoRecibo.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteEditCaja.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteEditCajeros.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteEditCierreDiarioCaja.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteEditCierreTrasladoValores.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteEditConciliacion.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteEditConciliacionCF.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteEditConciliacionDocumentos.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteEditConciliacionOperaciones.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteEditCtaBancaria.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteEditDenominaciones.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteEditImpresionCheques.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteEditMinutaDeposito.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteEditReciboAnulado.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteEditReciboEntregado.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteEditReciboEntregadoDpto.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteEditRendicionCheque.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteEditSolicitudCajaCHicaDetalle.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.cneMontoCheque.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteEstadoCuentaDiario.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteImpresionCheques.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteImpresionChequesPersonalizados.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteIncorporarArqueoRecibo.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteMinutaBancoEnLinea.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteMinutaDeposito.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmStePagare.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteParametrosCajeros.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteParametrosPagare.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteParametrosRecibosAnulados.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteParametrosTesoreria.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteRecibosAnulados.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteRecibosEntregados.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteRecibosEntregadosDpto.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteRendicionCheque.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteSolicitudCajaChicaDetalle.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.frmSteSolicitudProveedor.resources
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.vbproj.GenerateResource.Cache
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.exe.licenses
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.exe.manifest
+C:\SMUSURA0_Central - copia\obj\Debug\SMUSURA0.application
+C:\SMUSURA0_Central\bin\Debug\SMUSURA0.exe.config
+C:\SMUSURA0_Central\bin\Debug\SMUSURA0.exe.manifest
+C:\SMUSURA0_Central\bin\Debug\SMUSURA0.application
+C:\SMUSURA0_Central\bin\Debug\SMUSURA0.exe
+C:\SMUSURA0_Central\bin\Debug\SMUSURA0.pdb
+C:\SMUSURA0_Central\bin\Debug\SMUSURA0.xml
+C:\SMUSURA0_Central\bin\Debug\ChilkatDotNet2.dll
+C:\SMUSURA0_Central\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\SMUSURA0_Central\bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll
+C:\SMUSURA0_Central\bin\Debug\CrystalDecisions.Enterprise.Framework.dll
+C:\SMUSURA0_Central\bin\Debug\CrystalDecisions.Enterprise.InfoStore.dll
+C:\SMUSURA0_Central\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\SMUSURA0_Central\bin\Debug\CrystalDecisions.Shared.dll
+C:\SMUSURA0_Central\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\SMUSURA0_Central\bin\Debug\CrystalLibrary.dll
+C:\SMUSURA0_Central\bin\Debug\DundasWinMap.dll
+C:\SMUSURA0_Central\bin\Debug\GUI.dll
+C:\SMUSURA0_Central\bin\Debug\Infragistics.Shared.v3.dll
+C:\SMUSURA0_Central\bin\Debug\Infragistics.Win.Misc.v3.dll
+C:\SMUSURA0_Central\bin\Debug\Infragistics.Win.UltraWinListBar.v3.dll
+C:\SMUSURA0_Central\bin\Debug\Infragistics.Win.v3.dll
+C:\SMUSURA0_Central\bin\Debug\Maps.Library.Dundas.dll
+C:\SMUSURA0_Central\bin\Debug\Newtonsoft.Json.dll
+C:\SMUSURA0_Central\bin\Debug\SEA.dll
+C:\SMUSURA0_Central\bin\Debug\System.Web.Services.dll
+C:\SMUSURA0_Central\bin\Debug\Ticket.dll
+C:\SMUSURA0_Central\bin\Debug\stdole.dll
+C:\SMUSURA0_Central\bin\Debug\FlashControlV71.dll
+C:\SMUSURA0_Central\bin\Debug\ShockwaveFlashObjects.dll
+C:\SMUSURA0_Central\bin\Debug\Infragistics.Shared.v3.xml
+C:\SMUSURA0_Central\bin\Debug\Infragistics.Win.Misc.v3.xml
+C:\SMUSURA0_Central\bin\Debug\Infragistics.Win.UltraWinListBar.v3.xml
+C:\SMUSURA0_Central\bin\Debug\Infragistics.Win.v3.xml
+C:\SMUSURA0_Central\bin\Debug\Newtonsoft.Json.xml
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbDatoComplementoRechazo.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbCargo.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbDelegacion.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbEditCargo.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbEditDelegacion.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbEditParametro.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbEditProfesion.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbEditReporte.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbEditTipoMoneda.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbFirmaEmpleado.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbParametro.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbParametroListadoRpt.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbParametroPersona.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbParametroTasaCambio.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbEditMercado.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbMercado.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbParametroDistrito.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbEditDistrito.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbDistrito.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbParamCatalogoValor.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbParametroDepto.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbPersona.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbEditPersona.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbProfesion.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbReporte.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.rptStbCargo.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.rptStbProfesion.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmScnBusquedaComprobantes.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmScnObservacionesConsolidado.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmScnParametroEstadosFinancieros.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.FrmScnParametrosListadoCheques.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmScnParametrosMinutas.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmScnParametrosReporteCDR.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccArregloPago.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccBusquedaFichasDetalles.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccBusquedaNotasDebitoCredito.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.FrmSccCargaAplicar.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccCierreCredito.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccEditArregloPago.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccEditArregloPagoCuotasAbonos.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccEditCancelacionAnticipadaAutomatica.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccEditCancelacionAnticipadaManual.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccCancelacionAnticipadaAutomatica.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccCancelacionAnticipadaManual.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.FrmSccEditNotaDebitoCredito.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccEditReciboCajaManualAdicional.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccEditSolicitudCheque_Fecha.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccInformesBancor.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccMetaCumplidaSocia.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.FrmSccNotaDebitoCredito.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccParametrosClasificacionCarteraSIBOIF.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccParametroFichasPorSesion.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.FrmSccParametroNotaCredito.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccParametrosGSMetaProsperidad.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.FrmSccParametrosSaldoSaneamiento.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccReciboCajaCancelado.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccReImpresionRecibos.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccRempresionReciboOficialAutomatico.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.FrmSccReporteRecibosManual.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccReportesDirectoAImpresora.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclEditFichaUnicaPersona.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.FrmStbEditBarrioTrasladoCredito.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclEditSupervision.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclMotivoAnulacionSupervision.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclSupervision.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclEditFamiliarPersona.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclEditFichaVerificacionNueva.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclEditFichaVerificacionNuevaEditNuecleoFamiliar.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclEditModuloCursoSocia.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclEditPromocion.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclEditReferenciaFiador.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclEditFichaUnica.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclEditGarantiaPrendaria.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclEditGarantiaFiduciaria.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclActividadEconomica.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclBusquedaFichasSeguimiento.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclEditActividadEconomica.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclEditFichaSeguimiento.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclEditInformacionFinanciera.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclEditMantenimientoFiador.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclEditReferenciaBancaria.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclEditReferenciaComercial.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclEditReferenciaPersonal.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclEditSociaCedula.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclEditSociaConyuge.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclEditSociaCreacionGS.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclFichaSeguimiento.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclMetaProsperidadCreditoSocia.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclParametrosReportesSociasDenegadasUbicacion.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclParametrosReportesSociaUbicacion.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.FrmSclParametrosSociasFCL.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclPromocion.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclReptFichaVerificacion.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclSeguimientoVisitaDetalle.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclSeguimientoVisitas.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclSeguimientoVisitasParametros.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclSeleccionaActividadEconomica.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.rptSclFichaNotificacionCredito_Ventana.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.rptEncabezadoV_PD.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.rptSclFichaNotificacionCredito_FCL.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.rptSclReporteComiteCredito.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmCRVisorReporte2.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.rptEncabezadoV_FCL.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.FrmSsgConsulta.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.FrmSsgReporteAuditoria.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSrhEditProveedorTransaccionParametro.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSrhProveedorTransaccionParametro.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteChequesAnulados.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteCierreTrasladoValores.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteEditArqueoEfectivo.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteEditChequeAnulado.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteEditImpresionChequesPorGrupo.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteEditMinutaBancoEnLinea.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteEditMinutaDepositoDetalle.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteEditReciboExtraviado.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteEditReciboPagare.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccBusquedaSolicitudesCheque.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.FrmSccCarga.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccCierreCaja.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.FrmSccDescarga.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.FrmSccDescargaPorFuente.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccEditEstadisticasINIDE.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccEditMetasPrograma.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccEditReciboCajaAutomatico.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccEditReciboCajaManual.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccEditReestructuracionDeuda.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccEstadisticasINIDE.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccMetasPrograma.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccParametroEC.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.FrmSccParametrosAvanceCartera.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.FrmSccParametrosCreditosSocia.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccParametrosIndicadores.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccParametrosMetasPrograma.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.FrmSccParametrosRecibosPorNumero.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccReciboCajaAutomatico.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccReestructuracionDeuda.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.FrmScnParametroListadoCreditosMercados.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.rptSccEstadoCuentaResumen.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclBusquedaFichas.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclBusquedaGrupos.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclBusquedaSocias.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclEditCedula.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclEditFormatoPromocion.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclEditReferenciaSocia.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclFormatoPromocionCapacitacion.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclParametrosPromocion.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclReferenciaSocia.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclTrasladosDelegacionSocia.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclTrasladosLugarDePagos.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.FrmMDITesoreria.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.FrmMDIContabilidad.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmScnCatalogoContable.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmScnComprobantesCheque.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmScnComprobantesDiario.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmScnEditCatalogoContable.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmScnEditCheque.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmScnEditCodificacion.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmScnEditComprobante.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmScnEditEstructuraContable.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmScnEditFuenteF.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmScnEditParametrosContables.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmScnEditReciboIngresoFondos.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmScnEjerciciosContables.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmScnEstructuraContable.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmScnFuenteF.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmScnParametroCatalogoContable.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmScnParametroMovimientoContable.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmScnParametrosContables.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmScnReciboIngresoFondos.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.FrmMDIControlCredito.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccEditCierreCaja.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccEditCuentasSolicitudCheque.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccEditDetalleCierre.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccEditDetalleRecibo.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccEditSolicitudCheque.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccParametroResumenCreditos.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.FrmSccParametrosListadoRecibos.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccReciboCaja.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSccSolicitudCheque.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.rptSccSolicitudCheque.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclParametroGrupoPago.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclParametrosListadoSocias.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclSolicitudDesembolso.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.rptSclLstGrupoPago.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.rptSclSolicitudDesembolso.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.rptSclTablaAmortizacion.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.rptStbPersonaJuridica.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.rptStbPersonaNatural.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.rptSclFichaComiteCredito.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.rptSclFichaNotificacionCredito.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.rptSclLstGrupoSolidario.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.rptSclLstSocias.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.rptSclPagare.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.srptSclCreditosDenegados.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.srptSclExpedienteSocia.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmCRVisorReporte.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.rptSsgAcciones.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.rptStbTasaCambio.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.rptStbMercado.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.rptStbDistrito.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.rptStbMunicipio.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.rptStbDepartamento.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.rptStbCatCatalogoValor.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclEditFichaNotificacion.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclFichaNotificacionCredito.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclParametroFicha.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbEditMunicipio.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.FrmMDICatalogoBasico.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbDepartamento.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbEditDepartamento.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbParametroBarrio.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbCatalogo.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbDatoComplemento.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbEditCatalogo.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbEditTasaCambio.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbEditValorCatalogo.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbTasaCambio.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbTipoMoneda.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbBarrio.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbEditBarrio.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStbParametroMoneda.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclCambioGrupoSolidario.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclEditCambioGS.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclParametroFNC.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.rptSclActaCompromiso.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.rptSclFichaVerificacion.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.rptSclFichaInscripcion.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.rptStbMoneda.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclEditFichaVerificacion.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclEditGS.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclEditSocia.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclEditSociaGS.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclFichaVerificacion.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclEditReferencia.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.FrmMDIControlSocias.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclFichaInscripcion.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclEditFichaInscripcion.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclEditOtroCredito.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclGrupoSolidario.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSclSocia.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.rptStbBarrio.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.srptSclSociasGrupo.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmError.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.FrmManuales.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.FrmPrinManuales.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.Resources.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.FrmLogin.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmPrincipal.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmVisorReporte.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.rptEncabezadoV.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.rptEncabezadoH.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.FrmSsgEditAccion.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.FrmSsgEditAplicacion.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.FrmSsgEditCuenta.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.FrmSsgEditModulo.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.FrmSsgEditRol.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.FrmSsgEditServUsuarios.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.FrmSsgPrinSeguridad.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.FrmSsgSeguridad.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteArqueoCaja.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteCaja.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteCajeros.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteCierreDiarioCaja.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteConciliacionBancaria.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteCtaBancaria.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteDenominaciones.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteEditArqueoCaja.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteEditArqueoRecibo.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteEditCaja.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteEditCajeros.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteEditCierreDiarioCaja.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteEditCierreTrasladoValores.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteEditConciliacion.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteEditConciliacionCF.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteEditConciliacionDocumentos.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteEditConciliacionOperaciones.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteEditCtaBancaria.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteEditDenominaciones.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteEditImpresionCheques.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteEditMinutaDeposito.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteEditReciboAnulado.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteEditReciboEntregado.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteEditReciboEntregadoDpto.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteEditRendicionCheque.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteEditSolicitudCajaCHicaDetalle.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.cneMontoCheque.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteEstadoCuentaDiario.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteImpresionCheques.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteImpresionChequesPersonalizados.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteIncorporarArqueoRecibo.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteMinutaBancoEnLinea.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteMinutaDeposito.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmStePagare.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteParametrosCajeros.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteParametrosPagare.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteParametrosRecibosAnulados.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteParametrosTesoreria.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteRecibosAnulados.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteRecibosEntregados.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteRecibosEntregadosDpto.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteRecibosExtraviados.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteRendicionCheque.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteSolicitudCajaChicaDetalle.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.frmSteSolicitudProveedor.resources
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.vbproj.GenerateResource.Cache
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.exe.licenses
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.exe.manifest
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.application
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.exe
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.xml
+C:\SMUSURA0_Central\obj\Debug\SMUSURA0.pdb
+C:\SMUSURA0\bin\Debug\SMUSURA0.exe.config
+C:\SMUSURA0\obj\Debug\SMUSURA0.exe
+C:\SMUSURA0\obj\Debug\SMUSURA0.xml
+C:\SMUSURA0\obj\Debug\SMUSURA0.pdb
+C:\SMUSURA0\bin\Debug\SMUSURA0.exe.manifest
+C:\SMUSURA0\bin\Debug\SMUSURA0.application
+C:\SMUSURA0\bin\Debug\SMUSURA0.exe
+C:\SMUSURA0\bin\Debug\SMUSURA0.pdb
+C:\SMUSURA0\bin\Debug\SMUSURA0.xml
+C:\SMUSURA0\bin\Debug\ChilkatDotNet2.dll
+C:\SMUSURA0\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\SMUSURA0\bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll
+C:\SMUSURA0\bin\Debug\CrystalDecisions.Enterprise.Framework.dll
+C:\SMUSURA0\bin\Debug\CrystalDecisions.Enterprise.InfoStore.dll
+C:\SMUSURA0\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\SMUSURA0\bin\Debug\CrystalDecisions.Shared.dll
+C:\SMUSURA0\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\SMUSURA0\bin\Debug\CrystalLibrary.dll
+C:\SMUSURA0\bin\Debug\DundasWinMap.dll
+C:\SMUSURA0\bin\Debug\GUI.dll
+C:\SMUSURA0\bin\Debug\Infragistics.Shared.v3.dll
+C:\SMUSURA0\bin\Debug\Infragistics.Win.Misc.v3.dll
+C:\SMUSURA0\bin\Debug\Infragistics.Win.UltraWinListBar.v3.dll
+C:\SMUSURA0\bin\Debug\Infragistics.Win.v3.dll
+C:\SMUSURA0\bin\Debug\Maps.Library.Dundas.dll
+C:\SMUSURA0\bin\Debug\Newtonsoft.Json.dll
+C:\SMUSURA0\bin\Debug\SEA.dll
+C:\SMUSURA0\bin\Debug\System.Web.Services.dll
+C:\SMUSURA0\bin\Debug\Ticket.dll
+C:\SMUSURA0\bin\Debug\stdole.dll
+C:\SMUSURA0\bin\Debug\Infragistics.Shared.v3.xml
+C:\SMUSURA0\bin\Debug\Infragistics.Win.Misc.v3.xml
+C:\SMUSURA0\bin\Debug\Infragistics.Win.UltraWinListBar.v3.xml
+C:\SMUSURA0\bin\Debug\Infragistics.Win.v3.xml
+C:\SMUSURA0\bin\Debug\Newtonsoft.Json.xml
+C:\SMUSURA0\obj\Debug\SMUSURA0.vbprojResolveAssemblyReference.cache
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbDatoComplementoRechazo.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbCargo.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbDelegacion.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbEditCargo.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbEditDelegacion.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbEditParametro.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbEditProfesion.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbEditReporte.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbEditTipoMoneda.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbFirmaEmpleado.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbParametro.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbParametroListadoRpt.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbParametroPersona.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbParametroTasaCambio.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbEditMercado.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbMercado.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbParametroDistrito.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbEditDistrito.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbDistrito.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbParamCatalogoValor.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbParametroDepto.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbPersona.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbEditPersona.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbProfesion.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbReporte.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.rptStbCargo.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.rptStbProfesion.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmScnBusquedaComprobantes.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmScnObservacionesConsolidado.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmScnParametroEstadosFinancieros.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.FrmScnParametrosListadoCheques.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmScnParametrosMinutas.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmScnParametrosReporteCDR.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccArregloPago.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccBusquedaFichasDetalles.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccBusquedaNotasDebitoCredito.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.FrmSccCargaAplicar.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccCierreCredito.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccEditArregloPago.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccEditArregloPagoCuotasAbonos.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccEditCancelacionAnticipadaAutomatica.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccEditCancelacionAnticipadaManual.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccCancelacionAnticipadaAutomatica.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccCancelacionAnticipadaManual.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.FrmSccEditNotaDebitoCredito.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccEditReciboCajaManualAdicional.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccEditSolicitudCheque_Fecha.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccInformesBancor.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccMetaCumplidaSocia.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.FrmSccNotaDebitoCredito.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccParametrosClasificacionCarteraSIBOIF.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccParametroFichasPorSesion.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.FrmSccParametroNotaCredito.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccParametrosGSMetaProsperidad.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.FrmSccParametrosSaldoSaneamiento.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccReciboCajaCancelado.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccReImpresionRecibos.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccRempresionReciboOficialAutomatico.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.FrmSccReporteRecibosManual.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccReportesDirectoAImpresora.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclEditFichaUnicaPersona.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.FrmStbEditBarrioTrasladoCredito.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclEditSupervision.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclMotivoAnulacionSupervision.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclSupervision.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclEditFamiliarPersona.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclEditFichaVerificacionNueva.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclEditFichaVerificacionNuevaEditNuecleoFamiliar.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclEditModuloCursoSocia.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclEditPromocion.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclEditReferenciaFiador.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclEditFichaUnica.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclEditGarantiaPrendaria.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclEditGarantiaFiduciaria.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclActividadEconomica.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclBusquedaFichasSeguimiento.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclEditActividadEconomica.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclEditFichaSeguimiento.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclEditInformacionFinanciera.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclEditMantenimientoFiador.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclEditReferenciaBancaria.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclEditReferenciaComercial.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclEditReferenciaPersonal.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclEditSociaCedula.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclEditSociaConyuge.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclEditSociaCreacionGS.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclFichaSeguimiento.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclMetaProsperidadCreditoSocia.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclParametrosReportesSociasDenegadasUbicacion.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclParametrosReportesSociaUbicacion.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.FrmSclParametrosSociasFCL.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclPromocion.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclReptFichaVerificacion.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclSeguimientoVisitaDetalle.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclSeguimientoVisitas.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclSeguimientoVisitasParametros.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclSeleccionaActividadEconomica.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.rptSclFichaNotificacionCredito_Ventana.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.rptEncabezadoV_PD.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.rptSclFichaNotificacionCredito_FCL.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.rptSclReporteComiteCredito.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmCRVisorReporte2.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.rptEncabezadoV_FCL.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.FrmSsgConsulta.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.FrmSsgReporteAuditoria.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSrhEditProveedorTransaccionParametro.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSrhProveedorTransaccionParametro.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteChequesAnulados.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteCierreTrasladoValores.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteEditArqueoEfectivo.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteEditChequeAnulado.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteEditImpresionChequesPorGrupo.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteEditMinutaBancoEnLinea.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteEditMinutaDepositoDetalle.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteEditReciboExtraviado.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteEditReciboPagare.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccBusquedaSolicitudesCheque.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.FrmSccCarga.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccCierreCaja.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.FrmSccDescarga.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.FrmSccDescargaPorFuente.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccEditEstadisticasINIDE.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccEditMetasPrograma.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccEditReciboCajaAutomatico.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccEditReciboCajaManual.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccEditReestructuracionDeuda.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccEstadisticasINIDE.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccMetasPrograma.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccParametroEC.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.FrmSccParametrosAvanceCartera.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.FrmSccParametrosCreditosSocia.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccParametrosIndicadores.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccParametrosMetasPrograma.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.FrmSccParametrosRecibosPorNumero.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccReciboCajaAutomatico.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccReestructuracionDeuda.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.FrmScnParametroListadoCreditosMercados.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.rptSccEstadoCuentaResumen.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclBusquedaFichas.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclBusquedaGrupos.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclBusquedaSocias.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclEditCedula.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclEditFormatoPromocion.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclEditReferenciaSocia.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclFormatoPromocionCapacitacion.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclParametrosPromocion.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclReferenciaSocia.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclTrasladosDelegacionSocia.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclTrasladosLugarDePagos.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.FrmMDITesoreria.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.FrmMDIContabilidad.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmScnCatalogoContable.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmScnComprobantesCheque.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmScnComprobantesDiario.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmScnEditCatalogoContable.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmScnEditCheque.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmScnEditCodificacion.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmScnEditComprobante.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmScnEditEstructuraContable.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmScnEditFuenteF.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmScnEditParametrosContables.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmScnEditReciboIngresoFondos.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmScnEjerciciosContables.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmScnEstructuraContable.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmScnFuenteF.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmScnParametroCatalogoContable.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmScnParametroMovimientoContable.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmScnParametrosContables.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmScnReciboIngresoFondos.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.FrmMDIControlCredito.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccEditCierreCaja.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccEditCuentasSolicitudCheque.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccEditDetalleCierre.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccEditDetalleRecibo.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccEditSolicitudCheque.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccParametroResumenCreditos.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.FrmSccParametrosListadoRecibos.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccReciboCaja.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccSolicitudCheque.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.rptSccSolicitudCheque.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclParametroGrupoPago.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclParametrosListadoSocias.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclSolicitudDesembolso.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.rptSclLstGrupoPago.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.rptSclSolicitudDesembolso.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.rptSclTablaAmortizacion.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.rptStbPersonaJuridica.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.rptStbPersonaNatural.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.rptSclFichaComiteCredito.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.rptSclFichaNotificacionCredito.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.rptSclLstGrupoSolidario.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.rptSclLstSocias.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.rptSclPagare.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.srptSclCreditosDenegados.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.srptSclExpedienteSocia.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmCRVisorReporte.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.rptSsgAcciones.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.rptStbTasaCambio.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.rptStbMercado.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.rptStbDistrito.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.rptStbMunicipio.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.rptStbDepartamento.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.rptStbCatCatalogoValor.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclEditFichaNotificacion.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclFichaNotificacionCredito.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclParametroFicha.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbEditMunicipio.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.FrmMDICatalogoBasico.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbDepartamento.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbEditDepartamento.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbParametroBarrio.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbCatalogo.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbDatoComplemento.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbEditCatalogo.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbEditTasaCambio.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbEditValorCatalogo.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbTasaCambio.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbTipoMoneda.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbBarrio.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbEditBarrio.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStbParametroMoneda.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclCambioGrupoSolidario.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclEditCambioGS.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclParametroFNC.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.rptSclActaCompromiso.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.rptSclFichaVerificacion.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.rptSclFichaInscripcion.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.rptStbMoneda.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclEditFichaVerificacion.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclEditGS.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclEditSocia.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclEditSociaGS.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclFichaVerificacion.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclEditReferencia.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.FrmMDIControlSocias.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclFichaInscripcion.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclEditFichaInscripcion.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclEditOtroCredito.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclGrupoSolidario.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclSocia.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.rptStbBarrio.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.srptSclSociasGrupo.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmError.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.FrmManuales.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.FrmPrinManuales.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.Resources.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.FrmLogin.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmPrincipal.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmVisorReporte.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.rptEncabezadoV.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.rptEncabezadoH.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.FrmSsgEditAccion.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.FrmSsgEditAplicacion.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.FrmSsgEditCuenta.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.FrmSsgEditModulo.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.FrmSsgEditRol.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.FrmSsgEditServUsuarios.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.FrmSsgPrinSeguridad.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.FrmSsgSeguridad.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteArqueoCaja.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteCaja.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteCajeros.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteCierreDiarioCaja.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteConciliacionBancaria.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteCtaBancaria.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteDenominaciones.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteEditArqueoCaja.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteEditArqueoRecibo.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteEditCaja.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteEditCajeros.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteEditCierreDiarioCaja.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteEditCierreTrasladoValores.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteEditConciliacion.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteEditConciliacionCF.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteEditConciliacionDocumentos.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteEditConciliacionOperaciones.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteEditCtaBancaria.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteEditDenominaciones.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteEditImpresionCheques.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteEditMinutaDeposito.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteEditReciboAnulado.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteEditReciboEntregado.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteEditReciboEntregadoDpto.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteEditRendicionCheque.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteEditSolicitudCajaCHicaDetalle.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.cneMontoCheque.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteEstadoCuentaDiario.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteImpresionCheques.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteImpresionChequesPersonalizados.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteIncorporarArqueoRecibo.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteMinutaBancoEnLinea.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteMinutaDeposito.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmStePagare.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteParametrosCajeros.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteParametrosPagare.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteParametrosRecibosAnulados.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteParametrosTesoreria.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteRecibosAnulados.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteRecibosEntregados.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteRecibosEntregadosDpto.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteRecibosExtraviados.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteRendicionCheque.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteSolicitudCajaChicaDetalle.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSteSolicitudProveedor.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.vbproj.GenerateResource.Cache
+C:\SMUSURA0\obj\Debug\SMUSURA0.exe.licenses
+C:\SMUSURA0\obj\Debug\SMUSURA0.exe.manifest
+C:\SMUSURA0\obj\Debug\SMUSURA0.application
+C:\SMUSURA0\bin\Debug\FlashControlV71.dll
+C:\SMUSURA0\bin\Debug\ShockwaveFlashObjects.dll
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSclParametrosFichasKioscos.resources
+C:\SMUSURA0\obj\Debug\SMUSURA0.frmSccParametrosReporteCierres.resources

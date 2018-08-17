@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectView>ProjectFiles</ProjectView>
+    <PublishUrlHistory>\\ucero-svn\smusura0\|C:\SMUSURA0\|http://ucero-svn/SMUSURA0/|http://localhost/SMUSURA0/|\\Svmg02itc002\RESPALDOS SMUSURA0\PublicaSMUSURA0\</PublishUrlHistory>
+    <InstallUrlHistory>http://ucero-svn/SMUSURA0/</InstallUrlHistory>
+    <SupportUrlHistory>
+    </SupportUrlHistory>
+    <UpdateUrlHistory>
+    </UpdateUrlHistory>
+    <BootstrapperUrlHistory>
+    </BootstrapperUrlHistory>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>true</VerifyUploadedFiles>
+    <ErrorReportUrlHistory />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartArguments>-1</StartArguments>
+  </PropertyGroup>
+</Project>

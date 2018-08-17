@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<GUI>
+	<Tema >
+		<NombreTema>General</NombreTema>
+		<Flat>1</Flat>
+		<AlternatingRowStyle>0</AlternatingRowStyle>
+		<FilterBarBackColor>14737632</FilterBarBackColor>
+		<FormBackColor>-2147483633</FormBackColor>
+		<GridCaptionBold>1</GridCaptionBold>
+		<GridCaptionColor>13160660</GridCaptionColor>
+		<GridEvenColor>16777215</GridEvenColor>
+		<GridOddColor>-2147483633</GridOddColor>
+		<EditForeColor>-2147483643</EditForeColor>
+		<NombreItemBackColor>MenuItemNaranja</NombreItemBackColor>
+	</Tema>
+	<Tema >
+		<NombreTema>Naranja</NombreTema>
+		<Flat>1</Flat>
+		<AlternatingRowStyle>0</AlternatingRowStyle>
+		<FilterBarBackColor>14737632</FilterBarBackColor>
+		<FormBackColor>12443643</FormBackColor>
+		<GridCaptionBold>1</GridCaptionBold>
+		<GridCaptionColor>8963327</GridCaptionColor>
+		<GridEvenColor>14675965</GridEvenColor>
+		<GridOddColor>12443643</GridOddColor>
+		<EditForeColor>-2147483643</EditForeColor>
+		<NombreItemBackColor>MenuItemNaranja</NombreItemBackColor>
+
+	</Tema>
+	<Tema >
+		<NombreTema>CelesteLight</NombreTema>
+		<Flat>1</Flat>
+		<AlternatingRowStyle>0</AlternatingRowStyle>
+		<FilterBarBackColor>14737632</FilterBarBackColor>
+		<FormBackColor>16311512</FormBackColor>
+		<GridCaptionBold>1</GridCaptionBold>
+		<GridCaptionColor>14528123</GridCaptionColor>
+		<GridEvenColor>-2147483643</GridEvenColor>
+		<GridOddColor>16311512</GridOddColor>
+		<EditForeColor>-2147483643</EditForeColor>
+		<NombreItemBackColor>MenuItemCeleste</NombreItemBackColor>
+
+	</Tema>
+	<Tema >
+		<NombreTema>Morado</NombreTema>
+		<Flat>1</Flat>
+		<AlternatingRowStyle>0</AlternatingRowStyle>
+		<FilterBarBackColor>14737632</FilterBarBackColor>
+		<FormBackColor>15522782</FormBackColor>
+		<GridCaptionBold>1</GridCaptionBold>
+		<GridCaptionColor>14862289</GridCaptionColor>
+		<GridEvenColor>16777215</GridEvenColor>
+		<GridOddColor>15522782</GridOddColor>
+		<EditForeColor>16777215</EditForeColor>
+		<NombreItemBackColor>MenuItemMorado</NombreItemBackColor>
+
+	</Tema>
+	<Tema >
+		<NombreTema>Morado2</NombreTema>
+		<Flat>1</Flat>
+		<AlternatingRowStyle>0</AlternatingRowStyle>
+		<FilterBarBackColor>14737632</FilterBarBackColor>
+		<FormBackColor>16761024</FormBackColor>
+		<GridCaptionBold>1</GridCaptionBold>
+		<GridCaptionColor>14862289</GridCaptionColor>
+		<GridEvenColor>16777215</GridEvenColor>
+		<GridOddColor>16761024</GridOddColor>
+		<EditForeColor>16777215</EditForeColor>
+		<NombreItemBackColor>MenuItemMorado2</NombreItemBackColor>
+
+	</Tema>
+	<Tema >
+		<NombreTema>Gris</NombreTema>
+		<Flat>1</Flat>
+		<AlternatingRowStyle>0</AlternatingRowStyle>
+		<FilterBarBackColor>14215660</FilterBarBackColor>
+		<FormBackColor>14215660</FormBackColor>
+		<GridCaptionBold>1</GridCaptionBold>
+		<GridCaptionColor>14862289</GridCaptionColor>
+		<GridEvenColor>16777215</GridEvenColor>
+		<GridOddColor>14215660</GridOddColor>
+		<EditForeColor>16777215</EditForeColor>
+		<NombreItemBackColor>MenuItemGris</NombreItemBackColor>
+
+	</Tema>
+	<Tema >
+		<NombreTema>Verde</NombreTema>
+		<Flat>1</Flat>
+		<AlternatingRowStyle>0</AlternatingRowStyle>
+		<FilterBarBackColor>14737632</FilterBarBackColor>
+		<FormBackColor>12376764</FormBackColor>
+		<GridCaptionBold>1</GridCaptionBold>
+		<GridCaptionColor>7976313</GridCaptionColor>
+		<GridEvenColor>14744284</GridEvenColor>
+		<GridOddColor>12376764</GridOddColor>
+		<EditForeColor>16777215</EditForeColor>
+		<NombreItemBackColor>MenuItemVerde</NombreItemBackColor>
+
+	</Tema>
+	<Tema >
+		<NombreTema>Rojo1</NombreTema>
+		<Flat>1</Flat>
+		<AlternatingRowStyle>0</AlternatingRowStyle>
+		<FilterBarBackColor>12376764</FilterBarBackColor>
+		<FormBackColor>10003699</FormBackColor>
+		<GridCaptionBold>1</GridCaptionBold>
+		<GridCaptionColor>8228080</GridCaptionColor>
+		<GridEvenColor>10003699</GridEvenColor>
+		<GridOddColor>15461355</GridOddColor>
+		<EditForeColor>16777215</EditForeColor>
+		<NombreItemBackColor>MenuItemNaranja</NombreItemBackColor>	
+	</Tema>
+	<Tema >
+		<NombreTema>Celeste</NombreTema>
+		<Flat>1</Flat>
+		<AlternatingRowStyle>0</AlternatingRowStyle>
+		<FilterBarBackColor>14737632</FilterBarBackColor>
+		<FormBackColor>15448477</FormBackColor>
+		<GridCaptionBold>1</GridCaptionBold>
+		<GridCaptionColor>14653050</GridCaptionColor>
+		<GridEvenColor>16311512</GridEvenColor>
+		<GridOddColor>15448477</GridOddColor>
+		<EditForeColor>16777215</EditForeColor>
+		<NombreItemBackColor>MenuItemCeleste3</NombreItemBackColor>
+
+	</Tema>
+	<Tema >
+		<NombreTema>Celeste2</NombreTema>
+		<Flat>1</Flat>
+		<AlternatingRowStyle>0</AlternatingRowStyle>
+		<FilterBarBackColor>14737632</FilterBarBackColor>
+		<FormBackColor>16311512</FormBackColor>
+		<GridCaptionBold>1</GridCaptionBold>
+		<GridCaptionColor>15448477</GridCaptionColor>
+		<GridEvenColor>16118015</GridEvenColor>
+		<GridOddColor>16311512</GridOddColor>
+		<EditForeColor>16777215</EditForeColor>
+		<NombreItemBackColor>MenuItemMorado</NombreItemBackColor>
+
+	</Tema>
+	<Tema >
+		<NombreTema>Oro</NombreTema>
+		<Flat>1</Flat>
+		<AlternatingRowStyle>0</AlternatingRowStyle>
+		<FilterBarBackColor>14737632</FilterBarBackColor>
+		<FormBackColor>10279407</FormBackColor>
+		<GridCaptionBold>1</GridCaptionBold>
+		<GridCaptionColor>10279407</GridCaptionColor>
+		<GridEvenColor>10279407</GridEvenColor>
+		<GridOddColor>10279407</GridOddColor>
+		<EditForeColor>16777215</EditForeColor>
+		<NombreItemBackColor>MenuItemMorado</NombreItemBackColor>
+
+	</Tema>
+	<Tema >
+		<NombreTema>Cafe</NombreTema>
+		<Flat>1</Flat>
+		<AlternatingRowStyle>0</AlternatingRowStyle>
+		<FilterBarBackColor>14737632</FilterBarBackColor>
+		<FormBackColor>11581411</FormBackColor>
+		<GridCaptionBold>1</GridCaptionBold>
+		<GridCaptionColor>11581411</GridCaptionColor>
+		<GridEvenColor>11581411</GridEvenColor>
+		<GridOddColor>11581411</GridOddColor>
+		<EditForeColor>11581411</EditForeColor>
+		<NombreItemBackColor>MenuItemMorado</NombreItemBackColor>
+
+	</Tema>
+	<Tema >
+		<NombreTema>Cafe1</NombreTema>
+		<Flat>1</Flat>
+		<AlternatingRowStyle>0</AlternatingRowStyle>
+		<FilterBarBackColor>14737632</FilterBarBackColor>
+		<FormBackColor>16772095</FormBackColor>
+		<GridCaptionBold>1</GridCaptionBold>
+		<GridCaptionColor>16764159</GridCaptionColor>
+		<GridEvenColor>16751103</GridEvenColor>
+		<GridOddColor>16764159</GridOddColor>
+		<EditForeColor>16777215</EditForeColor>
+		<NombreItemBackColor>MenuItemMorado</NombreItemBackColor>
+
+	</Tema>
+	<Tema >
+		<NombreTema>Rojo</NombreTema>
+		<Flat>1</Flat>
+		<AlternatingRowStyle>0</AlternatingRowStyle>
+		<FilterBarBackColor>14737632</FilterBarBackColor>
+		<FormBackColor>9610456</FormBackColor>
+		<GridCaptionBold>1</GridCaptionBold>
+		<GridCaptionColor>9610456</GridCaptionColor>
+		<GridEvenColor>16777215</GridEvenColor>
+		<GridOddColor>9610456</GridOddColor>
+		<EditForeColor>-2147483643</EditForeColor>
+		<NombreItemBackColor>MenuItemMorado</NombreItemBackColor>
+
+	</Tema>
+	<Tema >
+  		<NombreTema>RojoLight</NombreTema>
+ 		<Flat>1</Flat>
+  		<AlternatingRowStyle>0</AlternatingRowStyle>
+  		<FilterBarBackColor>14737632</FilterBarBackColor>
+  		<FormBackColor>14015728</FormBackColor>
+  		<GridCaptionBold>1</GridCaptionBold>
+  		<GridCaptionColor>9610456</GridCaptionColor>
+  		<GridEvenColor>16777215</GridEvenColor>
+  		<GridOddColor>14015728</GridOddColor>
+  		<EditForeColor>-2147483643</EditForeColor>
+  		<NombreItemBackColor>MenuItemMorado</NombreItemBackColor>
+
+ 	</Tema>
+
+</GUI>
+

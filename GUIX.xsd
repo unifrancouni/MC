@@ -1,0 +1,26 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+ <xsd:element name="GUI" type="GUIType"/>
+
+<xsd:complexType name="GUIType">
+  <xsd:sequence maxOccurs="unbounded">
+   <xsd:element name="Tema"  type="TemaType"/>
+   </xsd:sequence>
+ </xsd:complexType>
+
+<xsd:complexType name="TemaType">
+  <xsd:sequence>
+   <xsd:element name="NombreTema"  		type="xsd:string"/>
+   <xsd:element name="Flat"  			type="xsd:decimal"/>
+   <xsd:element name="AlternatingRowStyle"  	type="xsd:decimal"/>
+   <xsd:element name="FormBackColor"  		type="xsd:decimal"/>
+   <xsd:element name="FilterBarBackColor"  	type="xsd:decimal"/>
+   <xsd:element name="GridCaptionBold"  	type="xsd:decimal"/>	
+   <xsd:element name="GridCaptionColor"  	type="xsd:decimal"/>
+   <xsd:element name="GridEvenColor"  		type="xsd:decimal"/>
+   <xsd:element name="GridOddColor"  		type="xsd:decimal"/>
+   <xsd:element name="EditForeColor"  		type="xsd:decimal"/>
+   <xsd:element name="NombreItemBackColor" 	type="xsd:string"/>		
+  </xsd:sequence>
+ </xsd:complexType>
+</xsd:schema>

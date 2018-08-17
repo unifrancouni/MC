@@ -1,0 +1,11 @@
+C:\SMUSURA0CentralInstalador\CrystalLibrary\ClassLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\SMUSURA0CentralCrystalLibrary\CrystalLibrary\ClassLibrary\bin\Debug\CrystalLibrary.dll
+C:\SMUSURA0CentralCrystalLibrary\CrystalLibrary\ClassLibrary\bin\Debug\CrystalLibrary.pdb
+C:\SMUSURA0CentralCrystalLibrary\CrystalLibrary\ClassLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\SMUSURA0CentralCrystalLibrary\CrystalLibrary\ClassLibrary\obj\Debug\CrystalLibrary.dll
+C:\SMUSURA0CentralCrystalLibrary\CrystalLibrary\ClassLibrary\obj\Debug\CrystalLibrary.pdb
+C:\SMUSURA0Central\CrystalLibrary\ClassLibrary\bin\Debug\CrystalLibrary.dll
+C:\SMUSURA0Central\CrystalLibrary\ClassLibrary\bin\Debug\CrystalLibrary.pdb
+C:\SMUSURA0Central\CrystalLibrary\ClassLibrary\obj\Debug\CrystalLibrary.csprojResolveAssemblyReference.cache
+C:\SMUSURA0Central\CrystalLibrary\ClassLibrary\obj\Debug\CrystalLibrary.dll
+C:\SMUSURA0Central\CrystalLibrary\ClassLibrary\obj\Debug\CrystalLibrary.pdb
