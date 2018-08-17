@@ -469,14 +469,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SMUSURA0.exe" size="14541312">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SMUSURA0.exe" size="14565376">
       <assemblyIdentity name="SMUSURA0" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>ecTrf6BNP60zohMn2ondVXNtjU4=</dsig:DigestValue>
+        <dsig:DigestValue>8qFlBJxiR3FROKLmUtBjzmOQGnY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -1246,6 +1246,43 @@ Public Class frmSclEditFichaNotificacion
             'Fin de Agregado Noviembre 2014
 
 
+
+            'Agregado en Agosto 2018
+            'CREDITOS DE SEGUNDA ETAPA
+            strSQL = "SELECT        nSclFichaNotificacionID, nSclFichaNotificacionDetalleID, nSclSociaID, CreditoNO AS TotalCreditos, CreditoSE_NO AS TotalCreditosSE, CreditoSE_NO + 1 AS ActualCreditosSE, 
+            CASE WHEN CreditoSE_NO <= 2 THEN 10000 + CreditoSE_NO * 5000 ELSE CreditoSE_NO * 10000 END AS MontoMaximo, nMontoCreditoAprobado, 
+            CASE WHEN CASE WHEN CreditoSE_NO <= 2 THEN 10000 + CreditoSE_NO * 5000 ELSE CreditoSE_NO * 10000 END >= nMontoCreditoAprobado THEN 1 ELSE 0 END AS Permisible
+            FROM            (SELECT        SclFichaNotificacionCredito_1.nSclFichaNotificacionID, dbo.SclFichaNotificacionDetalle.nSclFichaNotificacionDetalleID, dbo.SclGrupoSocia.nSclSociaID, 
+            dbo.fnNumerodelCreditoFND(dbo.SclFichaNotificacionDetalle.nSclFichaNotificacionDetalleID) AS CreditoNO, 
+            COUNT(CASE WHEN dbo.StbValorCatalogo.sCodigoInterno = '7' THEN dbo.SclFichaSegundaEtapa.nSclFichaSegundaEtapaID ELSE NULL END) AS CreditoSE_NO, 
+            dbo.SclFichaNotificacionDetalle.nMontoCreditoAprobado
+            FROM            dbo.SclFichaNotificacionDetalle AS SclFichaNotificacionDetalle_1 LEFT OUTER JOIN
+            dbo.SclFichaSocia LEFT OUTER JOIN
+            dbo.StbValorCatalogo ON dbo.SclFichaSocia.nStbEstadoFichaID = dbo.StbValorCatalogo.nStbValorCatalogoID ON 
+            SclFichaNotificacionDetalle_1.nSclFichaSociaID = dbo.SclFichaSocia.nSclFichaSociaID LEFT OUTER JOIN
+            dbo.StbValorCatalogo AS StbValorCatalogo_1 RIGHT OUTER JOIN
+            dbo.SclFichaNotificacionCredito ON StbValorCatalogo_1.nStbValorCatalogoID = dbo.SclFichaNotificacionCredito.nStbEstadoCreditoID ON 
+            SclFichaNotificacionDetalle_1.nSclFichaNotificacionID = dbo.SclFichaNotificacionCredito.nSclFichaNotificacionID RIGHT OUTER JOIN
+            dbo.SclFichaSegundaEtapa ON SclFichaNotificacionDetalle_1.nSclFichaNotificacionDetalleID = dbo.SclFichaSegundaEtapa.nSclFichaNotificacionDetalleID RIGHT OUTER JOIN
+            dbo.SclFichaNotificacionCredito AS SclFichaNotificacionCredito_1 LEFT OUTER JOIN
+            dbo.SclFichaNotificacionDetalle ON SclFichaNotificacionCredito_1.nSclFichaNotificacionID = dbo.SclFichaNotificacionDetalle.nSclFichaNotificacionID LEFT OUTER JOIN
+            dbo.SclFichaSocia AS SclFichaSocia_1 ON dbo.SclFichaNotificacionDetalle.nSclFichaSociaID = SclFichaSocia_1.nSclFichaSociaID LEFT OUTER JOIN
+            dbo.SclGrupoSocia ON SclFichaSocia_1.nSclGrupoSociaID = dbo.SclGrupoSocia.nSclGrupoSociaID ON dbo.SclFichaSegundaEtapa.nSclSociaID = dbo.SclGrupoSocia.nSclSociaID
+            WHERE        (dbo.SclFichaNotificacionDetalle.nSclFichaNotificacionDetalleID = {{0}}) AND (SclFichaNotificacionDetalle_1.nCreditoRechazado = 0 OR
+            SclFichaNotificacionDetalle_1.nCreditoRechazado IS NULL) AND (dbo.SclFichaNotificacionDetalle.nCreditoRechazado = 0)
+            GROUP BY SclFichaNotificacionCredito_1.nSclFichaNotificacionID, dbo.fnNumerodelCreditoFND(dbo.SclFichaNotificacionDetalle.nSclFichaNotificacionDetalleID), dbo.SclFichaNotificacionDetalle.nSclFichaNotificacionDetalleID, 
+            dbo.SclGrupoSocia.nSclSociaID, dbo.SclFichaNotificacionDetalle.nMontoCreditoAprobado) AS I
+            WHERE        (CASE WHEN CASE WHEN CreditoSE_NO <= 2 THEN 10000 + CreditoSE_NO * 5000 ELSE CreditoSE_NO * 10000 END >= {{1}} THEN 1 ELSE 0 END = 0)" _
+            .Replace("{{0}}", XdsDetalle("Resolucion").ValueField("nSclFichaNotificacionDetalleID")) _
+            .Replace("{{1}}", cneMontoAprobado.Value)
+
+            If RegistrosAsociados(strSQL) Then
+                MsgBox("Este monto NO es permisible para esta socia de SEGUNDA ETAPA, verifique según el número de créditos que tenga.", vbExclamation)
+                Me.cneMontoAprobado.Focus()
+                Exit Sub
+            End If
+
+
             'Confirmar Cambio:
             If MsgBox("¿Está seguro de modificar Monto y Plazo aprobado" & Chr(13) & "del Crédito para la socia seleccionada?", MsgBoxStyle.Question + MsgBoxStyle.YesNo, "SMUSURA0") = MsgBoxResult.Yes Then
                 'Actualizar montos en SclFichaNotificacionDetalle:

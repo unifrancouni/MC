@@ -1906,6 +1906,8 @@ Public Class frmSclFichaNotificacionCredito
             Dim nCreditoValida20mil As Integer  'VALIDA 20 mil cordobas
 
 
+            Dim EsSegundaEtapa As Boolean 'Marca si un credito es de segunda etapa o no
+
             nCreditoUCMercado = 0
             nCreditoPDIBA = 0
             nCreditoValida20mil = 0 'VALIDA 20 mil '
@@ -2277,137 +2279,206 @@ Public Class frmSclFichaNotificacionCredito
 
                 XdtDatos.ExecuteSql(Strsql)
                 If XdtDatos.Count > 0 Then
-
                     CreditosCanceladosMaximo = XdtDatos.ValueField("sValorParametro")
-
                 End If
 
                 Strsql = "Exec  SpSccConsultaTotalCanceladosMaximoGrupos " & XdtFicha.ValueField("nSclGrupoSolidarioID")
                 XdtDatos.ExecuteSql(Strsql)
+
                 If XdtDatos.Count > 0 Then
-                    'If Seg.HasPermission("AprobarFichaMontoDiezMil") Then
-                    '    If MsgBox("Existen Socias con Montos de 10 mil cordobas . con menos de " & CreditosCanceladosMinimo & " Créditos Cancelados. " & Chr(13) & "Esta Seguro de Aprobar.  ", MsgBoxStyle.YesNo) = MsgBoxResult.No Then
-                    '        ValidaDatosAprobacion = False
-                    '        Exit Function
-                    '    End If
-                    'Else
-                    MsgBox("Existen " & XdtDatos.Count & " socias en el grupo con " & CreditosCanceladosMaximo & " créditos cancelados. " & " No se puede aprobar revise ", MsgBoxStyle.Information)
-                    ValidaDatosAprobacion = False
-                    Exit Function
-                    'End If
+                    'Validación Agosto 2018, se permite aprobar créditos a socias con más de 10 créditos
+                    'pero al 10% de interés
+                    Dim resp = MsgBox("Existen " & XdtDatos.Count & " socias en el grupo con " & CreditosCanceladosMaximo & " o más créditos cancelados. " & vbCrLf & " ¿Desea aprobarle crédito en SEGUNDA ETAPA? ", MsgBoxStyle.Question + MsgBoxStyle.YesNo)
+
+                    If resp = MsgBoxResult.Yes Then
+                        'Validar que sólo hayan socias con 10 o más créditos
+                        Strsql = "Select dbo.SclFichaNotificacionCredito.nSclFichaNotificacionID, dbo.SclFichaNotificacionCredito.nCodigo, dbo.fnNumerodelCreditoFND(dbo.SclFichaNotificacionDetalle.nSclFichaNotificacionDetalleID) As CreditoNO
+                        From dbo.SclFichaNotificacionCredito INNER Join
+                        dbo.SclFichaNotificacionDetalle ON dbo.SclFichaNotificacionCredito.nSclFichaNotificacionID = dbo.SclFichaNotificacionDetalle.nSclFichaNotificacionID INNER Join
+                        dbo.SclFichaSocia ON dbo.SclFichaNotificacionDetalle.nSclFichaSociaID = dbo.SclFichaSocia.nSclFichaSociaID
+                        Where (dbo.SclFichaNotificacionCredito.nSclFichaNotificacionID = {{0}} ) 
+                        And (dbo.SclFichaNotificacionDetalle.nCreditoRechazado = 0) 
+                        And (dbo.fnNumerodelCreditoFND(dbo.SclFichaNotificacionDetalle.nSclFichaNotificacionDetalleID) < 10)".Replace("{{0}}", XdtFicha.ValueField("nSclFichaNotificacionID"))
+
+                        If RegistrosAsociados(Strsql) Then
+                            MsgBox("Existen Socias con menos de 10 créditos cancelados. No se pueden combinar socias de SEGUNDA ETAPA con las de primera etapa.", vbExclamation, "SMUSURA0")
+                            ValidaDatosAprobacion = False
+                            Exit Function
+                        End If
+
+                        'Validar que tengan un máximo de 4 créditos en la SEGUNDA ETAPA
+                        'Buscar en la tabla nueva a N, por cada socia
+                        Strsql = "
+                        SELECT        nSclFichaNotificacionID, nSclFichaNotificacionDetalleID, nSclSociaID, CreditoNO AS TotalCreditos, CreditoSE_NO AS TotalCreditosSE, CreditoSE_NO + 1 AS ActualCreditosSE, 
+                        CASE WHEN CreditoSE_NO <= 2 THEN 10000 + CreditoSE_NO * 5000 ELSE CreditoSE_NO * 10000 END AS MontoMaximo
+                        FROM            (SELECT        SclFichaNotificacionCredito_1.nSclFichaNotificacionID, dbo.SclFichaNotificacionDetalle.nSclFichaNotificacionDetalleID, dbo.SclGrupoSocia.nSclSociaID, 
+                        dbo.fnNumerodelCreditoFND(dbo.SclFichaNotificacionDetalle.nSclFichaNotificacionDetalleID) AS CreditoNO, 
+                        COUNT(CASE WHEN dbo.StbValorCatalogo.sCodigoInterno = '7' THEN dbo.SclFichaSegundaEtapa.nSclFichaSegundaEtapaID ELSE NULL END) AS CreditoSE_NO
+                        FROM            dbo.SclFichaNotificacionDetalle AS SclFichaNotificacionDetalle_1 LEFT OUTER JOIN
+                        dbo.SclFichaSocia LEFT OUTER JOIN
+                        dbo.StbValorCatalogo ON dbo.SclFichaSocia.nStbEstadoFichaID = dbo.StbValorCatalogo.nStbValorCatalogoID ON 
+                        SclFichaNotificacionDetalle_1.nSclFichaSociaID = dbo.SclFichaSocia.nSclFichaSociaID LEFT OUTER JOIN
+                        dbo.StbValorCatalogo AS StbValorCatalogo_1 RIGHT OUTER JOIN
+                        dbo.SclFichaNotificacionCredito ON StbValorCatalogo_1.nStbValorCatalogoID = dbo.SclFichaNotificacionCredito.nStbEstadoCreditoID ON 
+                        SclFichaNotificacionDetalle_1.nSclFichaNotificacionID = dbo.SclFichaNotificacionCredito.nSclFichaNotificacionID RIGHT OUTER JOIN
+                        dbo.SclFichaSegundaEtapa ON SclFichaNotificacionDetalle_1.nSclFichaNotificacionDetalleID = dbo.SclFichaSegundaEtapa.nSclFichaNotificacionDetalleID RIGHT OUTER JOIN
+                        dbo.SclFichaNotificacionCredito AS SclFichaNotificacionCredito_1 LEFT OUTER JOIN
+                        dbo.SclFichaNotificacionDetalle ON SclFichaNotificacionCredito_1.nSclFichaNotificacionID = dbo.SclFichaNotificacionDetalle.nSclFichaNotificacionID LEFT OUTER JOIN
+                        dbo.SclFichaSocia AS SclFichaSocia_1 ON dbo.SclFichaNotificacionDetalle.nSclFichaSociaID = SclFichaSocia_1.nSclFichaSociaID LEFT OUTER JOIN
+                        dbo.SclGrupoSocia ON SclFichaSocia_1.nSclGrupoSociaID = dbo.SclGrupoSocia.nSclGrupoSociaID ON dbo.SclFichaSegundaEtapa.nSclSociaID = dbo.SclGrupoSocia.nSclSociaID
+                        WHERE        (SclFichaNotificacionCredito_1.nSclFichaNotificacionID = {{0}}) AND (SclFichaNotificacionDetalle_1.nCreditoRechazado = 0 OR
+                        SclFichaNotificacionDetalle_1.nCreditoRechazado IS NULL) AND (dbo.SclFichaNotificacionDetalle.nCreditoRechazado = 0)
+                        GROUP BY SclFichaNotificacionCredito_1.nSclFichaNotificacionID, dbo.fnNumerodelCreditoFND(dbo.SclFichaNotificacionDetalle.nSclFichaNotificacionDetalleID), dbo.SclFichaNotificacionDetalle.nSclFichaNotificacionDetalleID, 
+                        dbo.SclGrupoSocia.nSclSociaID) AS I
+                        WHERE        (CreditoSE_NO + 1 >= 5)".Replace("{{0}}", XdtFicha.ValueField("nSclFichaNotificacionID"))
+
+                        If RegistrosAsociados(Strsql) Then
+                            MsgBox("Existen Socias que ya cumplieron su SEGUNDA ETAPA, no se puede aprobar.", vbExclamation, "SMUSURA0")
+                            ValidaDatosAprobacion = False
+                            Exit Function
+                        End If
+
+                        'Validar que los montos vayan conforme el número de crédito de la SEGUNDA ETAPA
+                        ' 1 - 10,000; 2 - 15,000; 3 - 20,000; 4 - 30,000; -- 5000+N*5000
+                        Strsql = "SELECT        nSclFichaNotificacionID, nSclFichaNotificacionDetalleID, nSclSociaID, CreditoNO AS TotalCreditos, CreditoSE_NO AS TotalCreditosSE, CreditoSE_NO + 1 AS ActualCreditosSE, 
+                        CASE WHEN CreditoSE_NO <= 2 THEN 10000 + CreditoSE_NO * 5000 ELSE CreditoSE_NO * 10000 END AS MontoMaximo, nMontoCreditoAprobado, 
+                        CASE WHEN CASE WHEN CreditoSE_NO <= 2 THEN 10000 + CreditoSE_NO * 5000 ELSE CreditoSE_NO * 10000 END >= nMontoCreditoAprobado THEN 1 ELSE 0 END AS Permisible
+                        FROM            (SELECT        SclFichaNotificacionCredito_1.nSclFichaNotificacionID, dbo.SclFichaNotificacionDetalle.nSclFichaNotificacionDetalleID, dbo.SclGrupoSocia.nSclSociaID, 
+                        dbo.fnNumerodelCreditoFND(dbo.SclFichaNotificacionDetalle.nSclFichaNotificacionDetalleID) AS CreditoNO, 
+                        COUNT(CASE WHEN dbo.StbValorCatalogo.sCodigoInterno = '7' THEN dbo.SclFichaSegundaEtapa.nSclFichaSegundaEtapaID ELSE NULL END) AS CreditoSE_NO, 
+                        dbo.SclFichaNotificacionDetalle.nMontoCreditoAprobado
+                        FROM            dbo.SclFichaNotificacionDetalle AS SclFichaNotificacionDetalle_1 LEFT OUTER JOIN
+                        dbo.SclFichaSocia LEFT OUTER JOIN
+                        dbo.StbValorCatalogo ON dbo.SclFichaSocia.nStbEstadoFichaID = dbo.StbValorCatalogo.nStbValorCatalogoID ON 
+                        SclFichaNotificacionDetalle_1.nSclFichaSociaID = dbo.SclFichaSocia.nSclFichaSociaID LEFT OUTER JOIN
+                        dbo.StbValorCatalogo AS StbValorCatalogo_1 RIGHT OUTER JOIN
+                        dbo.SclFichaNotificacionCredito ON StbValorCatalogo_1.nStbValorCatalogoID = dbo.SclFichaNotificacionCredito.nStbEstadoCreditoID ON 
+                        SclFichaNotificacionDetalle_1.nSclFichaNotificacionID = dbo.SclFichaNotificacionCredito.nSclFichaNotificacionID RIGHT OUTER JOIN
+                        dbo.SclFichaSegundaEtapa ON SclFichaNotificacionDetalle_1.nSclFichaNotificacionDetalleID = dbo.SclFichaSegundaEtapa.nSclFichaNotificacionDetalleID RIGHT OUTER JOIN
+                        dbo.SclFichaNotificacionCredito AS SclFichaNotificacionCredito_1 LEFT OUTER JOIN
+                        dbo.SclFichaNotificacionDetalle ON SclFichaNotificacionCredito_1.nSclFichaNotificacionID = dbo.SclFichaNotificacionDetalle.nSclFichaNotificacionID LEFT OUTER JOIN
+                        dbo.SclFichaSocia AS SclFichaSocia_1 ON dbo.SclFichaNotificacionDetalle.nSclFichaSociaID = SclFichaSocia_1.nSclFichaSociaID LEFT OUTER JOIN
+                        dbo.SclGrupoSocia ON SclFichaSocia_1.nSclGrupoSociaID = dbo.SclGrupoSocia.nSclGrupoSociaID ON dbo.SclFichaSegundaEtapa.nSclSociaID = dbo.SclGrupoSocia.nSclSociaID
+                        WHERE        (SclFichaNotificacionCredito_1.nSclFichaNotificacionID = {{0}}) AND (SclFichaNotificacionDetalle_1.nCreditoRechazado = 0 OR
+                        SclFichaNotificacionDetalle_1.nCreditoRechazado IS NULL) AND (dbo.SclFichaNotificacionDetalle.nCreditoRechazado = 0)
+                        GROUP BY SclFichaNotificacionCredito_1.nSclFichaNotificacionID, dbo.fnNumerodelCreditoFND(dbo.SclFichaNotificacionDetalle.nSclFichaNotificacionDetalleID), dbo.SclFichaNotificacionDetalle.nSclFichaNotificacionDetalleID, 
+                        dbo.SclGrupoSocia.nSclSociaID, dbo.SclFichaNotificacionDetalle.nMontoCreditoAprobado) AS I
+                        WHERE        (CASE WHEN CASE WHEN CreditoSE_NO <= 2 THEN 10000 + CreditoSE_NO * 5000 ELSE CreditoSE_NO * 10000 END >= nMontoCreditoAprobado THEN 1 ELSE 0 END = 0)".Replace("{{0}}", XdtFicha.ValueField("nSclFichaNotificacionID"))
+
+                        If RegistrosAsociados(Strsql) Then
+                            MsgBox("Existen Socias de SEGUNDA ETAPA con montos no permisibles.", vbExclamation, "SMUSURA0")
+                            ValidaDatosAprobacion = False
+                            Exit Function
+                        End If
+                    Else
+                        ValidaDatosAprobacion = False
+                        Exit Function
+                    End If
+
+                    'Si llega hasta este punto es que todo está validado de la SEGUNDA ETAPA
+                    'Marcar como grupo de segunda etapa para crear registro en SclFichaSegundaEtapa
+                    EsSegundaEtapa = True
+
+                    Strsql = "Exec spSclGrabarSegundaEtapa {{0}}, '{{1}}' " _
+                    .Replace("{{0}}", XdtFicha.ValueField("nSclFichaNotificacionID")) _
+                    .Replace("{{1}}", InfoSistema.LoginName)
+
+                    Dim command As New BOSistema.Win.XComando
+                    command.ExecuteNonQuery(Strsql)
+
+                    Strsql = "SELECT 1 AS A
+                    FROM SclFichaSegundaEtapa
+                    WHERE nSclFichaNotificacionID={{0}}".Replace("{{0}}", XdtFicha.ValueField("nSclFichaNotificacionID"))
+
+                    If Not RegistrosAsociados(Strsql) Then
+                        MsgBox("No se ha podido crear registro de crédito de segunda etapa.", vbExclamation, "SMUSURA0")
+                        ValidaDatosAprobacion = False
+                        Exit Function
+                    End If
 
                 End If
 
 
 
+                If Not EsSegundaEtapa Then
+
+                    '---------Aqui para 20 mil Noviembre 24 2015 
+
+                    ''Obtener si valida el flujo para 20 mil cordobas a mas a partir del 2016 poner la bandera en 1 .
+                    nCreditoValida20mil = 0
 
 
-
-
-
-                '---------Aqui para 20 mil Noviembre 24 2015 
-
-                ''Obtener si valida el flujo para 20 mil cordobas a mas a partir del 2016 poner la bandera en 1 .
-                nCreditoValida20mil = 0
-
-
-                Strsql = " SELECT     sValorParametro FROM         dbo.StbValorParametro WHERE     (nStbParametroID = 109) "
-                XdtDatos.ExecuteSql(Strsql)
-                If XdtDatos.Count > 0 Then
-
-                    nCreditoValida20mil = XdtDatos.ValueField("sValorParametro")
-
-                End If
-
-                'Si esta en el flujo ahora validar 20 mil.
-
-                If nCreditoValida20mil = 1 Then
-
-                    CreditosCanceladosMinimo = 9
-                    Strsql = " SELECT     sValorParametro FROM         dbo.StbValorParametro WHERE     (nStbParametroID = 110) "
+                    Strsql = " Select     sValorParametro FROM         dbo.StbValorParametro WHERE     (nStbParametroID = 109) "
                     XdtDatos.ExecuteSql(Strsql)
                     If XdtDatos.Count > 0 Then
 
-                        CreditosCanceladosMinimo = XdtDatos.ValueField("sValorParametro")
-
-                    End If
-                    'parecida a SpSccConsultaTotalCanceladosMinimoGrupos cambiar solo a 20 mil'
-                    Strsql = "Exec  SpSccConsultaTotalCanceladosMinimoGrupos20mil " & XdtFicha.ValueField("nSclGrupoSolidarioID")
-                    XdtDatos.ExecuteSql(Strsql)
-                    If XdtDatos.Count > 0 Then
-
-                        MsgBox("Existen   " & XdtDatos.Count & " Socias en el grupo con Monto de 20 mil cordobas . Con menos de " & CreditosCanceladosMinimo & " Créditos Cancelados. " & " No se puede aprobar revise ", MsgBoxStyle.Information)
-                        ValidaDatosAprobacion = False
-                        Exit Function
-
-
-                        'If Seg.HasPermission("AprobarFichaMontoDiezMil") Then
-                        '    If MsgBox("Existen Socias con Montos de 20 mil cordobas . con menos de " & CreditosCanceladosMinimo & " Créditos Cancelados. " & Chr(13) & "Esta Seguro de Aprobar.  ", MsgBoxStyle.YesNo) = MsgBoxResult.No Then
-                        '        ValidaDatosAprobacion = False
-                        '        Exit Function
-                        '    End If
-                        'Else
-                        '    MsgBox("Existen   " & XdtDatos.Count & " Socias en el grupo con Monto de 20 mil cordobas . Con menos de " & CreditosCanceladosMinimo & " Créditos Cancelados. " & " No se puede aprobar revise ", MsgBoxStyle.Information)
-                        '    ValidaDatosAprobacion = False
-                        '    Exit Function
-                        'End If
+                        nCreditoValida20mil = XdtDatos.ValueField("sValorParametro")
 
                     End If
 
+                    'Si esta en el flujo ahora validar 20 mil.
+
+                    If nCreditoValida20mil = 1 Then
+
+                        CreditosCanceladosMinimo = 9
+                        Strsql = " Select     sValorParametro FROM         dbo.StbValorParametro WHERE     (nStbParametroID = 110) "
+                        XdtDatos.ExecuteSql(Strsql)
+                        If XdtDatos.Count > 0 Then
+
+                            CreditosCanceladosMinimo = XdtDatos.ValueField("sValorParametro")
+
+                        End If
+                        'parecida a SpSccConsultaTotalCanceladosMinimoGrupos cambiar solo a 20 mil'
+                        Strsql = "Exec  SpSccConsultaTotalCanceladosMinimoGrupos20mil " & XdtFicha.ValueField("nSclGrupoSolidarioID")
+                        XdtDatos.ExecuteSql(Strsql)
+                        If XdtDatos.Count > 0 Then
+
+                            MsgBox("Existen   " & XdtDatos.Count & " Socias en el grupo con Monto de 20 mil cordobas . Con menos de " & CreditosCanceladosMinimo & " Créditos Cancelados. " & " No se puede aprobar revise ", MsgBoxStyle.Information)
+                            ValidaDatosAprobacion = False
+                            Exit Function
+
+                        End If
+
+                        Strsql = "Select 1 from vwSccDetalleMontosAprobadosGrupo where nSclFichaNotificacionID=" & XdtFicha.ValueField("nSclFichaNotificacionID")
+                        XdtDatos.ExecuteSql(Strsql)
+                        If XdtDatos.Count > 0 And Not Seg.HasPermission("AprobarFichaMontoVeinteMil") Then
+                            MsgBox("No tiene permiso para aprobar créditos de más de veinte mil córdobas ", MsgBoxStyle.Information)
+                            ValidaDatosAprobacion = False
+                            Exit Function
+                        End If
 
 
-                    Strsql = "select 1 from vwSccDetalleMontosAprobadosGrupo where nSclFichaNotificacionID=" & XdtFicha.ValueField("nSclFichaNotificacionID")
-                    XdtDatos.ExecuteSql(Strsql)
-                    If XdtDatos.Count > 0 And Not Seg.HasPermission("AprobarFichaMontoVeinteMil") Then
-                        MsgBox("No tiene permiso para aprobar créditos de más de veinte mil córdobas ", MsgBoxStyle.Information)
-                        ValidaDatosAprobacion = False
-                        Exit Function
+                        'Incluir  procedimiento de la condicion  al 24  de noviembre del 2015 
+                        'Condiciones(.) Para el crédito número 10 . Mora que sea 0
+                        ' Lleva registro de ventas si no.
+                        'Tiene negocio actualmente
+                        '' Monto inventario debería ser igual o mayor al préstamo dado de su ultimo crédito el noveno.
+                        'Acápite vi prosperidad del negocio 
+                        'Le ha hecho agregado al negocio si no.
+
+                        'Para obtener la mora 
+                        'nSclFichaNotificacionID filtro deberia ser el ultimo cancelado
+
+                        '                    SELECT        SUM(dbo.SccTablaAmortizacionPagos.nInteresesMoratorios) AS Expr2, dbo.SccTablaAmortizacion.nSclFichaNotificacionDetalleID, 
+                        '                         dbo.SclFichaNotificacionDetalle.nSclFichaNotificacionDetalleID AS Expr1, dbo.SclFichaNotificacionDetalle.nSclFichaNotificacionID
+                        'FROM            dbo.SclFichaNotificacionDetalle INNER JOIN
+                        '                         dbo.SccTablaAmortizacion ON dbo.SclFichaNotificacionDetalle.nSclFichaNotificacionDetalleID = dbo.SccTablaAmortizacion.nSclFichaNotificacionDetalleID INNER JOIN
+                        '                         dbo.SccTablaAmortizacionPagos ON dbo.SccTablaAmortizacion.nSccTablaAmortizacionID = dbo.SccTablaAmortizacionPagos.nSccTablaAmortizacionID INNER JOIN
+                        '                         dbo.SccReciboOficialCaja ON dbo.SccTablaAmortizacionPagos.nSccReciboOficialCajaID = dbo.SccReciboOficialCaja.nSccReciboOficialCajaID INNER JOIN
+                        '                         dbo.StbValorCatalogo ON dbo.SccReciboOficialCaja.nStbEstadoReciboID = dbo.StbValorCatalogo.nStbValorCatalogoID
+                        'WHERE        (dbo.StbValorCatalogo.sCodigoInterno <> '3')
+                        'GROUP BY dbo.SccTablaAmortizacion.nSclFichaNotificacionDetalleID, dbo.SclFichaNotificacionDetalle.nSclFichaNotificacionDetalleID, 
+                        '                         dbo.SclFichaNotificacionDetalle.nSclFichaNotificacionID
+                        'HAVING        (dbo.SclFichaNotificacionDetalle.nSclFichaNotificacionID = 100)
+
+
                     End If
 
 
 
-
-                    'Incluir  procedimiento de la condicion  al 24  de noviembre del 2015 
-                    'Condiciones(.) Para el crédito número 10 . Mora que sea 0
-                    ' Lleva registro de ventas si no.
-                    'Tiene negocio actualmente
-                    '' Monto inventario debería ser igual o mayor al préstamo dado de su ultimo crédito el noveno.
-                    'Acápite vi prosperidad del negocio 
-                    'Le ha hecho agregado al negocio si no.
-
-                    'Para obtener la mora 
-                    'nSclFichaNotificacionID filtro deberia ser el ultimo cancelado
-
-                    '                    SELECT        SUM(dbo.SccTablaAmortizacionPagos.nInteresesMoratorios) AS Expr2, dbo.SccTablaAmortizacion.nSclFichaNotificacionDetalleID, 
-                    '                         dbo.SclFichaNotificacionDetalle.nSclFichaNotificacionDetalleID AS Expr1, dbo.SclFichaNotificacionDetalle.nSclFichaNotificacionID
-                    'FROM            dbo.SclFichaNotificacionDetalle INNER JOIN
-                    '                         dbo.SccTablaAmortizacion ON dbo.SclFichaNotificacionDetalle.nSclFichaNotificacionDetalleID = dbo.SccTablaAmortizacion.nSclFichaNotificacionDetalleID INNER JOIN
-                    '                         dbo.SccTablaAmortizacionPagos ON dbo.SccTablaAmortizacion.nSccTablaAmortizacionID = dbo.SccTablaAmortizacionPagos.nSccTablaAmortizacionID INNER JOIN
-                    '                         dbo.SccReciboOficialCaja ON dbo.SccTablaAmortizacionPagos.nSccReciboOficialCajaID = dbo.SccReciboOficialCaja.nSccReciboOficialCajaID INNER JOIN
-                    '                         dbo.StbValorCatalogo ON dbo.SccReciboOficialCaja.nStbEstadoReciboID = dbo.StbValorCatalogo.nStbValorCatalogoID
-                    'WHERE        (dbo.StbValorCatalogo.sCodigoInterno <> '3')
-                    'GROUP BY dbo.SccTablaAmortizacion.nSclFichaNotificacionDetalleID, dbo.SclFichaNotificacionDetalle.nSclFichaNotificacionDetalleID, 
-                    '                         dbo.SclFichaNotificacionDetalle.nSclFichaNotificacionID
-                    'HAVING        (dbo.SclFichaNotificacionDetalle.nSclFichaNotificacionID = 100)
-
-
-
-
-
+                    ''------HASTA AQUI 20 MIL
 
                 End If
-
-
-
-
-
-
-
-                ''------HASTA AQUI 
-
-
-
-
 
 
 
@@ -2432,15 +2503,15 @@ Public Class frmSclFichaNotificacionCredito
                 Dim intNoMinimoSocias As Integer
 
 
-                Strsql = "SELECT sValorParametro FROM  StbValorParametro WHERE (nStbValorParametroID = 113)"
+                Strsql = "Select sValorParametro FROM  StbValorParametro WHERE (nStbValorParametroID = 113)"
 
                 intNoMinimoSocias = XcDatos.ExecuteScalar(Strsql)
 
 
 
-                Strsql = " SELECT COUNT(nSclFichaNotificacionDetalleID) AS NumSocias " &
+                Strsql = " Select COUNT(nSclFichaNotificacionDetalleID) As NumSocias " &
                        " FROM SclFichaNotificacionDetalle " &
-                       " WHERE  (nSclFichaNotificacionID = " & XdtFicha.ValueField("nSclFichaNotificacionID") & ") AND (nCreditoRechazado = 0)"
+                       " WHERE  (nSclFichaNotificacionID = " & XdtFicha.ValueField("nSclFichaNotificacionID") & ") And (nCreditoRechazado = 0)"
 
                 If CInt(XcDatos.ExecuteScalar(Strsql)) < intNoMinimoSocias Then
                     MsgBox("El Grupo seleccionado DEBE contener al menos" & Chr(13) & intNoMinimoSocias & " Fichas de Inscripción asociadas.", MsgBoxStyle.Critical, NombreSistema)
@@ -2461,12 +2532,12 @@ Public Class frmSclFichaNotificacionCredito
 
 
             'Advertir si existen socias con iguales apellidos (Primer vs Segundo Apellido):
-            Strsql = "SELECT Apellido FROM (SELECT  Apellido FROM  (SELECT S.sApellido1 AS Apellido " &
-                     "FROM SclFichaNotificacionDetalle AS DFNC INNER JOIN SclFichaSocia AS FS ON DFNC.nSclFichaSociaID = FS.nSclFichaSociaID INNER JOIN SclGrupoSocia AS GS ON FS.nSclGrupoSociaID = GS.nSclGrupoSociaID INNER JOIN SclSocia AS S ON GS.nSclSociaID = S.nSclSociaID " &
-                     "WHERE (DFNC.nSclFichaNotificacionID = " & XdtFicha.ValueField("nSclFichaNotificacionID") & ")) AS a UNION ALL " &
-                     "SELECT Apellido FROM (SELECT S.sApellido2 AS Apellido " &
-                     "FROM SclFichaNotificacionDetalle AS DFNC INNER JOIN SclFichaSocia AS FS ON DFNC.nSclFichaSociaID = FS.nSclFichaSociaID INNER JOIN SclGrupoSocia AS GS ON FS.nSclGrupoSociaID = GS.nSclGrupoSociaID INNER JOIN SclSocia AS S ON GS.nSclSociaID = S.nSclSociaID " &
-                     "WHERE  (DFNC.nSclFichaNotificacionID = " & XdtFicha.ValueField("nSclFichaNotificacionID") & ") AND (S.sApellido2 <> ' ')) AS b) AS c " &
+            Strsql = "Select Apellido FROM (Select  Apellido FROM  (Select S.sApellido1 As Apellido " &
+                     "FROM SclFichaNotificacionDetalle As DFNC INNER JOIN SclFichaSocia As FS On DFNC.nSclFichaSociaID = FS.nSclFichaSociaID INNER JOIN SclGrupoSocia As GS On FS.nSclGrupoSociaID = GS.nSclGrupoSociaID INNER JOIN SclSocia As S On GS.nSclSociaID = S.nSclSociaID " &
+                     "WHERE (DFNC.nSclFichaNotificacionID = " & XdtFicha.ValueField("nSclFichaNotificacionID") & ")) As a UNION ALL " &
+                     "Select Apellido FROM (Select S.sApellido2 As Apellido " &
+                     "FROM SclFichaNotificacionDetalle As DFNC INNER JOIN SclFichaSocia As FS On DFNC.nSclFichaSociaID = FS.nSclFichaSociaID INNER JOIN SclGrupoSocia As GS On FS.nSclGrupoSociaID = GS.nSclGrupoSociaID INNER JOIN SclSocia As S On GS.nSclSociaID = S.nSclSociaID " &
+                     "WHERE  (DFNC.nSclFichaNotificacionID = " & XdtFicha.ValueField("nSclFichaNotificacionID") & ") And (S.sApellido2 <> ' ')) AS b) AS c " &
                      "GROUP BY Apellido HAVING (COUNT(Apellido) > 1)"
             If RegistrosAsociados(Strsql) Then
                 If MsgBox("ADVERTENCIA: Existen socias que coinciden en el primer y/o segundo apellido." & Chr(13) &
