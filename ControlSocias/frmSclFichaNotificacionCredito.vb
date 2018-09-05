@@ -2286,6 +2286,9 @@ Public Class frmSclFichaNotificacionCredito
                 XdtDatos.ExecuteSql(Strsql)
 
                 If XdtDatos.Count > 0 Then
+
+                    'EN ESTE PUNTO ES SABIDO QUE EXISTEN SOCIAS CON 10 O MAS CREDITOS
+
                     'Validación Agosto 2018, se permite aprobar créditos a socias con más de 10 créditos
                     'pero al 10% de interés
                     Dim resp = MsgBox("Existen " & XdtDatos.Count & " socias en el grupo con " & CreditosCanceladosMaximo & " o más créditos cancelados. " & vbCrLf & " ¿Desea aprobarle crédito en SEGUNDA ETAPA? ", MsgBoxStyle.Question + MsgBoxStyle.YesNo)
@@ -2301,9 +2304,24 @@ Public Class frmSclFichaNotificacionCredito
                         And (dbo.fnNumerodelCreditoFND(dbo.SclFichaNotificacionDetalle.nSclFichaNotificacionDetalleID) < 10)".Replace("{{0}}", XdtFicha.ValueField("nSclFichaNotificacionID"))
 
                         If RegistrosAsociados(Strsql) Then
-                            MsgBox("Existen Socias con menos de 10 créditos cancelados. No se pueden combinar socias de SEGUNDA ETAPA con las de primera etapa.", vbExclamation, "SMUSURA0")
-                            ValidaDatosAprobacion = False
-                            Exit Function
+                            resp = MsgBox("Existen Socias con menos de 10 créditos cancelados. Debe tener permiso ESPECIAL para aprobar grupo son socias de noveno crédito para segunda etapa. ¿Desea Aprobarlo?", vbQuestion + vbYesNo, "SMUSURA0")
+                            If resp = vbYes And Seg.HasPermission("AprobarSegundaEtapa") Then
+                                'VALIDAR QUE NO SEAN MENORES DE 9 CRÉDITOS
+                                Strsql = "Select dbo.SclFichaNotificacionCredito.nSclFichaNotificacionID, dbo.SclFichaNotificacionCredito.nCodigo, dbo.fnNumerodelCreditoFND(dbo.SclFichaNotificacionDetalle.nSclFichaNotificacionDetalleID) As CreditoNO
+                                From dbo.SclFichaNotificacionCredito INNER Join
+                                dbo.SclFichaNotificacionDetalle ON dbo.SclFichaNotificacionCredito.nSclFichaNotificacionID = dbo.SclFichaNotificacionDetalle.nSclFichaNotificacionID INNER Join
+                                dbo.SclFichaSocia ON dbo.SclFichaNotificacionDetalle.nSclFichaSociaID = dbo.SclFichaSocia.nSclFichaSociaID
+                                Where (dbo.SclFichaNotificacionCredito.nSclFichaNotificacionID = {{0}} ) 
+                                And (dbo.SclFichaNotificacionDetalle.nCreditoRechazado = 0) 
+                                And (dbo.fnNumerodelCreditoFND(dbo.SclFichaNotificacionDetalle.nSclFichaNotificacionDetalleID) < 9)".Replace("{{0}}", XdtFicha.ValueField("nSclFichaNotificacionID"))
+                                If RegistrosAsociados(Strsql) Then
+                                    ValidaDatosAprobacion = False
+                                    Exit Function
+                                End If
+                            Else
+                                ValidaDatosAprobacion = False
+                                Exit Function
+                            End If
                         End If
 
                         'Validar que tengan un máximo de 4 créditos en la SEGUNDA ETAPA

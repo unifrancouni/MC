@@ -135,13 +135,13 @@ Public Class frmSccReciboCaja
                 End If
             Else
                 If IdFichaNotificacion <> 0 Then
-                    Strsql = " Select a.nSccSolicitudChequeID,a.sDistrito,a.nSclGrupoSolidarioID as sCodigoGrupo,a.sNombreGrupo,a.sNombreSocia,a.sEstado,a.sNumeroCedula,a.nSclFichaNotificacionDetalleID,a.sFuente,a.nSclFichaNotificacionID,a.nStbDelegacionProgramaID,a.sCodigoTipoPlanNegocio,a.CodigoPrograma,a.sCodTipoPlazoPago " & _
-                             " From vwSccGrupoSociaChequeEmitido a " & _
-                             " Where a.sEstado = 'Aprobada' And a.nSclFichaNotificacionID = " & IdFichaNotificacion & _
+                    Strsql = " Select a.nSclSociaID, a.nSccSolicitudChequeID,a.sDistrito,a.nSclGrupoSolidarioID as sCodigoGrupo,a.sNombreGrupo,a.sNombreSocia,a.sEstado,a.sNumeroCedula,a.nSclFichaNotificacionDetalleID,a.sFuente,a.nSclFichaNotificacionID,a.nStbDelegacionProgramaID,a.sCodigoTipoPlanNegocio,a.CodigoPrograma,a.sCodTipoPlazoPago " &
+                             " From vwSccGrupoSociaChequeEmitido a " &
+                             " Where a.sEstado = 'Aprobada' And a.nSclFichaNotificacionID = " & IdFichaNotificacion &
                              " Order by a.nSclGrupoSolidarioID"
                 Else
-                    Strsql = " Select a.nSccSolicitudChequeID,a.sDistrito,a.nSclGrupoSolidarioID as sCodigoGrupo,a.sNombreGrupo,a.sNombreSocia,a.sEstado,a.sNumeroCedula,a.nSclFichaNotificacionDetalleID,a.sFuente,a.nSclFichaNotificacionID,a.nStbDelegacionProgramaID,a.sCodigoTipoPlanNegocio,a.CodigoPrograma,a.sCodTipoPlazoPago " & _
-                             " From vwSccGrupoSociaChequeEmitido a " & _
+                    Strsql = " Select a.nSclSociaID, a.nSccSolicitudChequeID,a.sDistrito,a.nSclGrupoSolidarioID as sCodigoGrupo,a.sNombreGrupo,a.sNombreSocia,a.sEstado,a.sNumeroCedula,a.nSclFichaNotificacionDetalleID,a.sFuente,a.nSclFichaNotificacionID,a.nStbDelegacionProgramaID,a.sCodigoTipoPlanNegocio,a.CodigoPrograma,a.sCodTipoPlazoPago " &
+                             " From vwSccGrupoSociaChequeEmitido a " &
                              " Where a.nSclFichaNotificacionID = 0 "
 
                     'Else
@@ -2375,6 +2375,7 @@ Public Class frmSccReciboCaja
 
             ObjFrmSccParametroEC.NomRep = 1
             ObjFrmSccParametroEC.intSclFormatoID = XdsRecibo("Socia").ValueField("nSclFichaNotificacionID")
+            ObjFrmSccParametroEC.intSclSociaID = XdsRecibo("Socia").ValueField("nSclSociaID")
             ObjFrmSccParametroEC.LlamadoDesde = frmSclParametroFNC.eLlamado.Interfaz
             ObjFrmSccParametroEC.ShowDialog()
 
